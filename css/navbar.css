@@ -165,10 +165,10 @@
     flex-direction: row;
     margin: 0 3vw; }
     .nav-container .navbar-brand {
-      margin-right: 5vw;
+      margin-right: 7.5vw;
       padding: 0; }
       .nav-container .navbar-brand img {
-        width: 8.5vw;
+        width: 6.5vw;
         max-width: 150px; }
     .nav-container .navbar-text {
       display: none; }

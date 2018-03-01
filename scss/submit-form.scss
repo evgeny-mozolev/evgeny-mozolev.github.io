@@ -45,3 +45,52 @@
     }
   }
 }
+
+@media (min-width: 769px) {
+  .submit-request {
+    padding: 2.5vw;
+    text-align: center;
+    .heading {
+      font-variant: small-caps;
+      font-family: GothamProMedium;
+      color: #171616;
+      font-size: 2.5vw;
+    }
+
+    .submit-request-form {
+      width: 75vw;
+      margin: 0 auto;
+      .submit-request-input {
+        margin-top: 2vw;
+        padding: 1vw 1vw;
+        display: inline-block;
+        border: 1px solid #D5A14F;
+
+        color: #838383;
+        outline: none;
+
+        &.your-story {
+          resize: none;
+          outline: none;
+          width:100%;
+        }
+        &.email {
+          width:100%;
+        }
+
+        &.half-width {
+          float: left;
+          width:50%;
+          &:first-of-type {
+            border-right: none
+          }
+
+        }
+      }
+
+      .submit-request-form-button {
+        margin-top: 3%;
+      }
+    }
+  }
+}

@@ -219,10 +219,10 @@
     flex-direction: row;
     margin: 0 3vw;
     .navbar-brand {
-      margin-right: 5vw;
+      margin-right: 7.5vw;
       padding:0;
       img {
-        width: 8.5vw;
+        width: 6.5vw;
         max-width: 150px;
       }
     }
@@ -283,33 +283,19 @@
           display: none;
         }
         div.flex-space-btw-block {
-
-
-
           flex-grow: 1;
           border: 1px solid red;
         }
       }
     }
-
-
-
-
-
   }
-
-
-
-
   .flex-row {
     display: flex;
     flex-direction: row;
   }
-
   .mobile-version {
     display: none;
   }
-
 }
 
 
