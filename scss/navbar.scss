@@ -223,7 +223,7 @@
 
 
     .navbar-brand {
-      margin-right: 10vw;
+      margin-right: 5vw;
       padding:0;
 
       img {
@@ -259,11 +259,11 @@
           display: flex;
           flex-direction: row;
           font-family: ProximaNovaBold;
-          font-size: 1vw;
+          font-size: 1.15vw;
           letter-spacing: 0.125vw;
           &::after {
             content: "\00B7";
-            line-height: 3.25vw;
+            line-height: 3.75vw;
             color: #9FA3A7;
             font-size: 1.1vw;
           }

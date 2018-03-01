@@ -165,7 +165,7 @@
     flex-direction: row;
     margin: 0 3vw; }
     .nav-container .navbar-brand {
-      margin-right: 10vw;
+      margin-right: 5vw;
       padding: 0; }
       .nav-container .navbar-brand img {
         width: 8.5vw;
@@ -183,7 +183,7 @@
           display: flex;
           flex-direction: row;
           font-family: ProximaNovaBold;
-          font-size: 1vw;
+          font-size: 1.15vw;
           letter-spacing: 0.125vw; }
           .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-div {
             display: flex;
@@ -191,7 +191,7 @@
             justify-content: center; }
           .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item::after {
             content: "\00B7";
-            line-height: 3.25vw;
+            line-height: 3.75vw;
             color: #9FA3A7;
             font-size: 1.1vw; }
           .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item:last-of-type::after {
