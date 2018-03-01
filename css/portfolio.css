@@ -62,12 +62,10 @@
       position: relative;
       width: 80vw;
       max-width: 100%;
-      margin: 0 auto;
-      margin-top: 2.5vw; }
+      margin: 0 auto; }
       .portfolio .grid .grid-item {
-        position: absolute; }
-        .portfolio .grid .grid-item:first-of-type {
-          margin-top: -2.5vw; }
+        position: absolute;
+        margin-left: 2.5vw; }
     .portfolio .portfolio-head {
       padding: 5% 0;
       text-align: center; }
@@ -118,10 +116,10 @@
         background: transparent;
         border-radius: 9px;
         border-color: #D5A14F;
-        width: 20vw;
+        width: 22.5vw;
         margin: 0.11em 0;
-        padding: 1.5vw 0;
-        font-size: 1em;
+        padding: 1.5vw 0vw;
+        font-size: 1.5vw;
         letter-spacing: 0.1em; } }
 
 /*# sourceMappingURL=portfolio.css.map */

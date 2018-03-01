@@ -87,12 +87,9 @@
      width: 80vw;
      max-width: 100%;
      margin: 0 auto;
-     margin-top: 2.5vw;
      .grid-item {
         position: absolute;
-        &:first-of-type{
-           margin-top: -2.5vw;
-        }
+        margin-left: 2.5vw;
      }
    }
 
@@ -132,7 +129,6 @@
      margin-bottom: 10%;
      .card-body {
        padding: 3vw 0;
-
        font-family: GothamProRegular;
        .card-title {
          font-size: 2vw;
@@ -143,39 +139,30 @@
          margin-bottom: 5vw;
          font-size: 1.5vw;
        }
-
        .portfolio-link {
          font-size: 1.5vw;
-
        }
      }
    }
-
-
    .other-projects {
      background-color: #f7f6f6;
      width: 100%;
      padding: 5vh 0 10vh;
-
      .other-projects-button {
-
        font-variant: all-small-caps;
        font-family: ProximaNovaSemibold;
        color: #171616;
        background: transparent;
        border-radius: 9px;
        border-color: #D5A14F;
-       width: 20vw;
+       width: 22.5vw;
        margin: 0.11em 0;
-       padding: 1.5vw 0;
-       font-size: 1em;
+       padding: 1.5vw 0vw;
+       font-size: 1.5vw;
        letter-spacing: 0.1em;
      }
    }
-
-
  }
-
 }
 
 
