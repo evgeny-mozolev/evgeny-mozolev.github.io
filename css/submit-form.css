@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .submit-request {
+    padding: 5% 5% 7.5%;
+    text-align: center; }
+    .submit-request .heading {
+      font-variant: small-caps;
+      font-family: GothamProMedium;
+      color: #171616;
+      font-size: 2em;
+      line-height: 1.1em; }
+    .submit-request .submit-request-form {
+      margin: 8% 0 5%; }
+      .submit-request .submit-request-form .submit-request-input {
+        padding: 1em;
+        border: 1px solid #D5A14F;
+        margin: 2.5%;
+        width: 90%;
+        color: #838383;
+        outline: none; }
+        .submit-request .submit-request-form .submit-request-input.your-story {
+          resize: none;
+          outline: none; }
+      .submit-request .submit-request-form .submit-request-form-button {
+        margin-top: 3%; }
+    .submit-request .privacy-policy {
+      font-family: ProximaNovaLight;
+      padding: 0 10%; }
+      .submit-request .privacy-policy a {
+        color: #2e333d;
+        text-decoration: underline;
+        text-decoration-color: #2e333d; } }
+
+/*# sourceMappingURL=submit-form.css.map */

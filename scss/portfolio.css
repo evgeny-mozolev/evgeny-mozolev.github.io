@@ -1,0 +1,60 @@
+.portfolio {
+  background-color: #f7f6f6;
+  padding: 2.5% 10% 5%;
+  text-align: center;
+  z-index: 1; }
+  .portfolio .portfolio-head {
+    padding: 5% 0;
+    text-align: center; }
+    .portfolio .portfolio-head .h4 {
+      font-size: 6vw;
+      font-family: GothamProBold;
+      vertical-align: top; }
+    .portfolio .portfolio-head .portfolio-attire {
+      font-size: 9vw; }
+  .portfolio .other-projects {
+    margin: 1em auto;
+    width: 70%; }
+    .portfolio .other-projects .transparent-button-gradient {
+      background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+      border-radius: 10px;
+      border: none; }
+    .portfolio .other-projects .other-projects-button {
+      font-variant: all-small-caps;
+      font-family: ProximaNovaSemibold;
+      color: #171616;
+      background: #f7f6f6;
+      border-radius: 9px;
+      width: 99%;
+      margin: 0.11em 0;
+      padding: 0.7em 0;
+      font-size: 1em;
+      letter-spacing: 0.1em; }
+  .portfolio .portfolio-teaser {
+    text-align: left;
+    margin-bottom: 10%; }
+    .portfolio .portfolio-teaser .h3 {
+      color: #D5A14F;
+      font-variant: all-small-caps;
+      font-size: 1.6rem; }
+    .portfolio .portfolio-teaser p {
+      margin-top: 1.2em;
+      font-family: GothamProRegular; }
+  .portfolio .portfolio-story {
+    background-color: #fff;
+    border-radius: 0;
+    border: 0;
+    padding: 5% 5% 0;
+    margin-bottom: 10%; }
+    .portfolio .portfolio-story .card-body {
+      padding-left: 0;
+      padding-right: 0;
+      font-family: GothamProRegular; }
+      .portfolio .portfolio-story .card-body .card-title {
+        font-size: 1.1em; }
+      .portfolio .portfolio-story .card-body .card-text {
+        font-family: PlayfairDisplayRegular;
+        color: #838383;
+        margin-bottom: 10%; }
+
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,154 @@
+@media (max-width: 768px) {
+  .portfolio {
+    background-color: #f7f6f6;
+    padding: 2.5% 10% 5%;
+    text-align: center;
+    z-index: 1;
+
+    .portfolio-head {
+      padding: 5% 0;
+      text-align: center;
+      .h4 {
+        font-size: 6vw;
+        font-family: GothamProBold;
+        vertical-align: top;
+
+      }
+      .portfolio-attire {
+        font-size: 9vw;
+      }
+    }
+
+    .other-projects {
+      margin: 1em auto;
+      width: 70%;
+      .other-projects-button {
+        font-variant: all-small-caps;
+        font-family: ProximaNovaSemibold;
+        color: #171616;
+        background: transparent;
+        border-radius: 9px;
+        border-color: #D5A14F;
+        width: 99%;
+        margin: 0.11em 0;
+        padding: 0.7em 0;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+      }
+    }
+
+    .portfolio-teaser {
+      text-align: left;
+      margin-bottom: 10%;
+      .h3 {
+        color: #D5A14F;
+        font-variant: all-small-caps;
+        font-size: 1.6rem;
+      }
+      p {
+        margin-top: 1.2em;
+        font-family: GothamProRegular;
+
+      }
+    }
+
+    .portfolio-story {
+      background-color: #fff;
+      border-radius: 0;
+      border: 0;
+      padding: 5% 5% 0;
+      margin-bottom: 10%;
+
+      .card-body {
+        padding-left: 0;
+        padding-right: 0;
+        font-family: GothamProRegular;
+
+        .card-title {
+          font-size: 1.1em;
+        }
+        .card-text {
+          font-family: PlayfairDisplayRegular;
+          color: #838383;
+          margin-bottom: 10%;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 769px) {
+ .portfolio {
+   background-color: #f7f6f6;
+   text-align: center;
+
+   .row {
+     padding: 0 10%;
+   }
+
+   .portfolio-head {
+     padding: 5% 0;
+     text-align: center;
+
+     .h4 {
+       font-size: 4vw;
+       font-family: GothamProBold;
+       vertical-align: top;
+
+     }
+     .portfolio-attire {
+       font-size: 6vw;
+     }
+   }
+
+   .portfolio-teaser {
+     text-align: left;
+     padding: 0 4vw;
+
+     .h3 {
+       color: #D5A14F;
+       font-variant: all-small-caps;
+       font-size: 3vw;
+     }
+     p {
+       margin-top: 1vw;
+       font-family: GothamProRegular;
+       font-size: 2vw;
+     }
+   }
+
+
+   .portfolio-story {
+     margin-top: 5vw;
+     background-color: #fff;
+     border-radius: 0;
+     border: 0;
+     padding: 5% 5% 0;
+     margin-bottom: 10%;
+
+     .card-body {
+       padding-left: 0;
+       padding-right: 0;
+       font-family: GothamProRegular;
+
+       .card-title {
+         font-size: 1.1em;
+       }
+       .card-text {
+         font-family: PlayfairDisplayRegular;
+         color: #838383;
+         margin-bottom: 10%;
+       }
+     }
+   }
+
+
+
+ }
+
+}
+
+
+
+

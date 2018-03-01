@@ -1,0 +1,18 @@
+.footer {
+  background-color: #f7f6f6;
+  padding: 5%;
+  text-align: center;
+  font-family: ProximaNovaLight; }
+  .footer .contacts {
+    padding: 2.5% 0; }
+    .footer .contacts .company-title {
+      font-family: ProximaNovaSemibold; }
+    .footer .contacts .address {
+      font-family: ProximaNovaLight; }
+    .footer .contacts .tel {
+      font-family: GothamProRegular;
+      color: #bca05c; }
+  .footer .author a {
+    color: #bca05c; }
+
+/*# sourceMappingURL=footer.css.map */

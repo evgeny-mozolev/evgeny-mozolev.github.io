@@ -1,0 +1,39 @@
+.jumbotron-fluid {
+  background: url("../img/main-wedding-teaser.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  padding: 10% 5% 8%; }
+
+p.lead {
+  font-size: 0.8em;
+  font-family: GothamProBold;
+  color: #fff;
+  text-align: center; }
+
+h1.jumbo-heading {
+  font-family: GothamProBold;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5em;
+  color: #fff;
+  margin: 5% 0; }
+
+button.btn.how-it-happens, .submit-request-form-button {
+  border-radius: .55rem;
+  background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+  border: none;
+  color: #fff;
+  font-family: ProximaNovaSemibold;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  margin: 7% auto 0;
+  max-width: 450px;
+  min-width: 220px;
+  width: 70%;
+  padding: 4% 5%; }
+
+div.how-it-happens {
+  text-align: center; }
+
+/*# sourceMappingURL=jumbotron.css.map */

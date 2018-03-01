@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+  .jumbotron-fluid {
+    background: url("../img/main-wedding-teaser.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    padding: 10% 5% 8%; }
+
+  p.lead {
+    font-size: 0.8em;
+    font-family: GothamProBold;
+    color: #fff;
+    text-align: center; }
+
+  h1.jumbo-heading {
+    font-family: GothamProBold;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 5% 0; }
+
+  button.btn.how-it-happens, .submit-request-form-button {
+    border-radius: .55rem;
+    background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+    border: none;
+    color: #fff;
+    font-family: ProximaNovaSemibold;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+    margin: 7% auto 0;
+    max-width: 450px;
+    min-width: 220px;
+    width: 70%;
+    padding: 4% 5%; }
+
+  div.how-it-happens {
+    text-align: center; } }
+@media (min-width: 769px) {
+  .jumbotron-fluid {
+    overflow: hidden; }
+    .jumbotron-fluid video {
+      position: absolute;
+      width: 100%;
+      z-index: -1; }
+    .jumbotron-fluid .container {
+      margin: 5vw 0;
+      min-width: 100vw;
+      position: relative;
+      background: transparent;
+      z-index: 1; }
+      .jumbotron-fluid .container p.lead {
+        font-size: 1.35vw;
+        font-variant: all-small-caps;
+        font-family: GothamProBold;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 2px; }
+      .jumbotron-fluid .container h1.display-4.jumbo-heading {
+        font-family: GothamProBold;
+        font-size: 5vw;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 6.5vw;
+        color: #fff;
+        margin: 1vw 0;
+        letter-spacing: 3px; }
+      .jumbotron-fluid .container .how-it-happens {
+        text-align: center; }
+        .jumbotron-fluid .container .how-it-happens button.btn.how-it-happens {
+          border-radius: .55rem;
+          background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+          border: none;
+          color: #fff;
+          font-family: ProximaNovaSemibold;
+          font-size: 1.2vw;
+          letter-spacing: 2px;
+          margin: 2vw;
+          padding: 1vw 3vw; } }
+
+/*# sourceMappingURL=jumbotron.css.map */

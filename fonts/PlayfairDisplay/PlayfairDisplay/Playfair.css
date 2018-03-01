@@ -1,0 +1,41 @@
+/* Код для подключения шрифта в /css/stylename.css */
+/* font-family: "PlayfairDisplayRegular"; */
+@font-face {
+    font-family: "PlayfairDisplayRegular";
+    src: url("PlayfairDisplayRegular/PlayfairDisplayRegular.eot");
+    src: url("PlayfairDisplayRegular/PlayfairDisplayRegular.eot?#iefix")format("embedded-opentype"),
+    url("PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"),
+    url("PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PlayfairDisplayBold"; */
+@font-face {
+    font-family: "PlayfairDisplayBold";
+    src: url("PlayfairDisplayBold/PlayfairDisplayBold.eot");
+    src: url("PlayfairDisplayBold/PlayfairDisplayBold.eot?#iefix")format("embedded-opentype"),
+    url("PlayfairDisplayBold/PlayfairDisplayBold.woff") format("woff"),
+    url("PlayfairDisplayBold/PlayfairDisplayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PlayfairDisplayItalic"; */
+@font-face {
+    font-family: "PlayfairDisplayItalic";
+    src: url("PlayfairDisplayItalic/PlayfairDisplayItalic.eot");
+    src: url("PlayfairDisplayItalic/PlayfairDisplayItalic.eot?#iefix")format("embedded-opentype"),
+    url("PlayfairDisplayItalic/PlayfairDisplayItalic.woff") format("woff"),
+    url("PlayfairDisplayItalic/PlayfairDisplayItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PlayfairDisplayBoldItalic"; */
+@font-face {
+    font-family: "PlayfairDisplayBoldItalic";
+    src: url("PlayfairDisplayBoldItalic/PlayfairDisplayBoldItalic.eot");
+    src: url("PlayfairDisplayBoldItalic/PlayfairDisplayBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("PlayfairDisplayBoldItalic/PlayfairDisplayBoldItalic.woff") format("woff"),
+    url("PlayfairDisplayBoldItalic/PlayfairDisplayBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
