@@ -83,9 +83,26 @@
    background-color: #f7f6f6;
    text-align: center;
 
-   .row {
-     padding: 0 10%;
+   .grid {
+     position: relative;
+     width: 65vw;
+     max-width: 100%;
+     margin: 0 auto;
+     margin-top: 2.5vw;
+     .grid-item {
+        position: absolute;
+
+        &:first-of-type{
+           margin-top: -5vw;
+        }
+
+
+     }
    }
+
+
+
+
 
    .portfolio-head {
      padding: 5% 0;
@@ -104,7 +121,10 @@
 
    .portfolio-teaser {
      text-align: left;
-     padding: 0 4vw;
+     margin: 0;
+
+
+
 
      .h3 {
        color: #D5A14F;
@@ -120,7 +140,6 @@
 
 
    .portfolio-story {
-     margin-top: 5vw;
      background-color: #fff;
      border-radius: 0;
      border: 0;
@@ -143,6 +162,27 @@
      }
    }
 
+
+   .other-projects {
+     background-color: #f7f6f6;
+     width: 100%;
+     padding: 5vh 0 10vh;
+
+     .other-projects-button {
+
+       font-variant: all-small-caps;
+       font-family: ProximaNovaSemibold;
+       color: #171616;
+       background: transparent;
+       border-radius: 9px;
+       border-color: #D5A14F;
+       width: 20vw;
+       margin: 0.11em 0;
+       padding: 1.5vw 0;
+       font-size: 1em;
+       letter-spacing: 0.1em;
+     }
+   }
 
 
  }

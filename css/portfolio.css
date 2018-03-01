@@ -58,8 +58,16 @@
   .portfolio {
     background-color: #f7f6f6;
     text-align: center; }
-    .portfolio .row {
-      padding: 0 10%; }
+    .portfolio .grid {
+      position: relative;
+      width: 65vw;
+      max-width: 100%;
+      margin: 0 auto;
+      margin-top: 2.5vw; }
+      .portfolio .grid .grid-item {
+        position: absolute; }
+        .portfolio .grid .grid-item:first-of-type {
+          margin-top: -5vw; }
     .portfolio .portfolio-head {
       padding: 5% 0;
       text-align: center; }
@@ -71,7 +79,7 @@
         font-size: 6vw; }
     .portfolio .portfolio-teaser {
       text-align: left;
-      padding: 0 4vw; }
+      margin: 0; }
       .portfolio .portfolio-teaser .h3 {
         color: #D5A14F;
         font-variant: all-small-caps;
@@ -81,7 +89,6 @@
         font-family: GothamProRegular;
         font-size: 2vw; }
     .portfolio .portfolio-story {
-      margin-top: 5vw;
       background-color: #fff;
       border-radius: 0;
       border: 0;
@@ -96,6 +103,22 @@
         .portfolio .portfolio-story .card-body .card-text {
           font-family: PlayfairDisplayRegular;
           color: #838383;
-          margin-bottom: 10%; } }
+          margin-bottom: 10%; }
+    .portfolio .other-projects {
+      background-color: #f7f6f6;
+      width: 100%;
+      padding: 5vh 0 10vh; }
+      .portfolio .other-projects .other-projects-button {
+        font-variant: all-small-caps;
+        font-family: ProximaNovaSemibold;
+        color: #171616;
+        background: transparent;
+        border-radius: 9px;
+        border-color: #D5A14F;
+        width: 20vw;
+        margin: 0.11em 0;
+        padding: 1.5vw 0;
+        font-size: 1em;
+        letter-spacing: 0.1em; } }
 
 /*# sourceMappingURL=portfolio.css.map */
