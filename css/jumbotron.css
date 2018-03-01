@@ -38,7 +38,8 @@
     text-align: center; } }
 @media (min-width: 769px) {
   .jumbotron-fluid {
-    overflow: hidden; }
+    overflow: hidden;
+    background-image: url("../img/dots-hover-background.png"); }
     .jumbotron-fluid video {
       position: absolute;
       width: 100%;
@@ -47,7 +48,6 @@
       margin: 5vw 0;
       min-width: 100vw;
       position: relative;
-      background: transparent;
       z-index: 1; }
       .jumbotron-fluid .container p.lead {
         font-size: 1.35vw;

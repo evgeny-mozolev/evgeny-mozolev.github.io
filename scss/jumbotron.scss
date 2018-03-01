@@ -53,6 +53,8 @@
   .jumbotron-fluid {
     //max-height: 80vh;
     overflow: hidden;
+    background-image: url("../img/dots-hover-background.png");
+    //background-repeat: repeat repeat;
     video {
       position: absolute;
       width: 100%;
@@ -62,7 +64,7 @@
       margin: 5vw 0;
       min-width: 100vw;
       position: relative;
-      background: transparent;
+
       z-index: 1;
       p.lead {
         font-size: 1.35vw;
