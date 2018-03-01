@@ -30,3 +30,48 @@
   }
 }
 
+@media (min-width: 769px) {
+  .footer {
+    padding: 2vw;
+    background-color: #f7f6f6;
+    overflow: hidden;
+    .social-buttons-pics {
+      float: left;
+      width: 20vw;
+      font-size: 2.5vw;
+        padding-left: 2vw;
+      span {
+        padding-left: 0.5vw;
+      }
+    }
+    .contacts {
+      float: left;
+      width: 53vw;
+      text-align: center;
+      .company-title {
+        font-family: ProximaNovaSemibold;
+      }
+      .address {
+        font-family: ProximaNovaLight;
+      }
+      .tel {
+        font-family: GothamProRegular;
+        color: #bca05c;
+      }
+
+
+    }
+    .author {
+      float: right;
+      width: 20vw;
+      a {
+        color: #bca05c;
+      }
+    }
+  }
+  .footer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
