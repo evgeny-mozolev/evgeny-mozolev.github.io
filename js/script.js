@@ -17,7 +17,7 @@ $( document ).ready(function() {
         no_columns: 2,
         padding_x: 50,
         padding_y: 50,
-        margin_bottom: 75,
+        margin_bottom: 0,
         single_column_breakpoint: 700
     });
 });
@@ -28,7 +28,7 @@ $( document ).ready(function() {
             padding_x: 50,
             padding_y: 0,
             no_columns: 2,
-            margin_bottom: 50,
+            margin_bottom: 0,
             single_column_breakpoint: 700
         },
         columns,

@@ -160,16 +160,17 @@
     display: none; } }
 @media (min-width: 769px) {
   .nav-container {
+    max-height: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 0 3vw; }
+    margin: 0 2.75vw; }
     .nav-container .navbar-brand {
       margin-right: 7.5vw;
       padding: 0; }
       .nav-container .navbar-brand img {
         width: 6.5vw;
-        max-width: 150px; }
+        max-width: 80px; }
     .nav-container .navbar-text {
       display: none; }
     .nav-container .toggler-invisible {
@@ -183,15 +184,15 @@
           display: flex;
           flex-direction: row;
           font-family: ProximaNovaBold;
-          font-size: 1.15vw;
-          letter-spacing: 0.125vw; }
+          font-size: 1vw;
+          letter-spacing: 0.1vw; }
           .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-div {
             display: flex;
             flex-direction: column;
             justify-content: center; }
           .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item::after {
             content: "\00B7";
-            line-height: 3.75vw;
+            line-height: 4vw;
             color: #9FA3A7;
             font-size: 1.1vw; }
           .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item:last-of-type::after {
@@ -210,9 +211,9 @@
             border-color: #D5A14F;
             border-width: 2px;
             width: 99%;
-            margin: 0.11em 0;
-            padding: 0.8vw 2vw;
-            font-size: 1em;
+            margin: 0.5vw 0;
+            padding: 0.7vw 2vw;
+            font-size: 1vw;
             letter-spacing: 0.1em; }
         .nav-container .collapse.navbar-collapse .navbar-nav div.social-buttons {
           display: none; }
@@ -225,6 +226,9 @@
     flex-direction: row; }
 
   .mobile-version {
-    display: none; } }
+    display: none; }
+
+  nav.navbar {
+    padding: 0.35vw 2vw; } }
 
 /*# sourceMappingURL=navbar.css.map */
