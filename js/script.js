@@ -7,25 +7,30 @@ $( document ).ready(function() {
         $(".brandname").toggleClass('toggler-invisible');
         //var brandname_height = $('.brandname').height();
 
+
         $(".navbar").toggleClass('toggle-navbar');
         $(".nav-container").toggleClass('toggle-nav-container');
         $("html").toggleClass('toggle-html');
         $("body").toggleClass('toggle-body');
     });
 
-    $('.grid').pinterest_grid({
-        no_columns: 2,
-        padding_x: 50,
-        padding_y: 50,
-        margin_bottom: 0,
-        single_column_breakpoint: 700
-    });
+
+    if ( $(window).width() > 768 ) {
+        $('.grid').pinterest_grid({
+            no_columns: 2,
+            padding_x: 50,
+            padding_y: 50,
+            margin_bottom: 0,
+            single_column_breakpoint: 700
+        });
+    }
 });
 
+//function definition
 ;(function ($, window, document, undefined) {
     var pluginName = 'pinterest_grid',
         defaults = {
-            padding_x: 50,
+            padding_x: 0,
             padding_y: 0,
             no_columns: 2,
             margin_bottom: 0,

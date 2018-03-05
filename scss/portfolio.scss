@@ -79,24 +79,27 @@
    text-align: center;
    .grid {
      position: relative;
-     width: 80vw;
+     width: 70vw;
      max-width: 100%;
      margin: 0 auto;
+     margin-bottom: 75px;
+
      .grid-item {
         position: absolute;
         margin-left: 2.5vw;
+        margin-bottom: 2vw;
      }
    }
    .portfolio-head {
      padding: 3.5vw 0;
      text-align: center;
      .h4 {
-       font-size: 2.5vw;
+       font-size: 2.1vw;
        font-family: GothamProBold;
        vertical-align: top;
      }
      .portfolio-attire {
-       font-size: 4.5vw;
+       font-size: 3.5vw;
      }
    }
 
@@ -107,30 +110,30 @@
      .h3 {
        color: #D5A14F;
        font-variant: all-small-caps;
-       font-size: 2.25vw;
+       font-size: 2vw;
      }
      p {
        margin-top: 1vw;
        font-family: GothamProRegular;
-       font-size: 1.75vw;
+       font-size: 1.5vw;
      }
    }
    .portfolio-story {
      background-color: #fff;
      border-radius: 0;
      border: 0;
-     padding: 5% 5% 0;
-     margin-bottom: 10%;
+     padding: 4% 4% 0;
+     margin-bottom: 7.5%;
      .card-body {
        padding: 2.5vw 0;
        font-family: GothamProRegular;
        .card-title {
-         font-size: 1.75vw;
+         font-size: 1.6vw;
        }
        .card-text {
          font-family: PlayfairDisplayRegular;
          color: #838383;
-         margin-bottom: 5vw;
+         margin-bottom: 4vw;
          font-size: 1.5vw;
        }
        .portfolio-link {
