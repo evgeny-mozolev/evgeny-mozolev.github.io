@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/scss/portfolio.scss" line="106" />
+    <bookmark url="file://$PROJECT_DIR$/scss/portfolio.scss" line="111" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb253d95-2e3e-45e6-8ae7-607177db26de" name="Default" comment="" />
+    <list default="true" id="eb253d95-2e3e-45e6-8ae7-607177db26de" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css.map" afterPath="$PROJECT_DIR$/css/footer.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navbar.css" afterPath="$PROJECT_DIR$/css/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navbar.css.map" afterPath="$PROJECT_DIR$/css/navbar.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/portfolio.css" afterPath="$PROJECT_DIR$/css/portfolio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/portfolio.css.map" afterPath="$PROJECT_DIR$/css/portfolio.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/footer.scss" afterPath="$PROJECT_DIR$/scss/footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/navbar.scss" afterPath="$PROJECT_DIR$/scss/navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/portfolio.scss" afterPath="$PROJECT_DIR$/scss/portfolio.scss" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,38 +32,38 @@
       <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3602">
-              <caret line="299" column="0" lean-forward="true" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="269" column="15" lean-forward="false" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/portfolio.scss">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="629">
+              <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="576">
+              <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,14 +73,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>top</find>
-      <find>padding-bo</find>
-      <find>navbar-toggler</find>
       <find>collapsing</find>
       <find>navbar-collapse</find>
       <find>social</find>
       <find>navbar-to</find>
-      <find>nav-</find>
       <find>jus</find>
       <find>overlay-content</find>
       <find>z-</find>
@@ -79,7 +87,6 @@
       <find>social-butto</find>
       <find>over</find>
       <find>input</find>
-      <find>navbar</find>
       <find>invisi</find>
       <find>img</find>
       <find>tel</find>
@@ -91,6 +98,11 @@
       <find>after</find>
       <find>nav-link</find>
       <find>other</find>
+      <find>media</find>
+      <find>navbar</find>
+      <find>nav-</find>
+      <find>nav-li</find>
+      <find>h3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,11 +122,11 @@
         <option value="$PROJECT_DIR$/wedding.html" />
         <option value="$PROJECT_DIR$/scss/jumbotron.scss" />
         <option value="$PROJECT_DIR$/scss/submit-form.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/navbar.scss" />
-        <option value="$PROJECT_DIR$/scss/footer.scss" />
         <option value="$PROJECT_DIR$/scss/portfolio.scss" />
-        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/scss/footer.scss" />
       </list>
     </option>
   </component>
@@ -132,8 +144,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1353" />
-    <option name="y" value="127" />
+    <option name="x" value="294" />
+    <option name="y" value="283" />
     <option name="width" value="1097" />
     <option name="height" value="567" />
   </component>
@@ -152,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -236,19 +248,19 @@
       <workItem from="1519886300610" duration="18628000" />
       <workItem from="1519927480207" duration="2400000" />
       <workItem from="1520274390020" duration="3832000" />
+      <workItem from="1520320027121" duration="12604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166079000" />
+    <option name="totallyTimeSpent" value="178683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1040" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15527344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1548999" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -261,6 +273,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -600,42 +613,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="197" column="51" lean-forward="true" selection-start-line="197" selection-start-column="51" selection-end-line="197" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3602">
-          <caret line="299" column="0" lean-forward="true" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="269" column="15" lean-forward="false" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/portfolio.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="125">
+          <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding />
         </state>
       </provider>

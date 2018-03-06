@@ -79,15 +79,17 @@
    text-align: center;
    .grid {
      position: relative;
-     width: 70vw;
-     max-width: 100%;
+     width: 70%;
+     max-width: 1000px;
+
      margin: 0 auto;
      margin-bottom: 75px;
 
      .grid-item {
         position: absolute;
-        margin-left: 2.5vw;
-        margin-bottom: 2vw;
+        margin-left: 0;
+        margin-bottom: 25px;
+        max-width: 500px;
      }
    }
    .portfolio-head {
@@ -106,38 +108,38 @@
    .portfolio-teaser {
      text-align: left;
      margin: 0;
-     padding: 0 2.5vw;
+     padding: 0 25px;
      .h3 {
        color: #D5A14F;
        font-variant: all-small-caps;
-       font-size: 2vw;
+       font-size: 28px;
      }
      p {
        margin-top: 1vw;
        font-family: GothamProRegular;
-       font-size: 1.5vw;
+       font-size: 22px;
      }
    }
    .portfolio-story {
      background-color: #fff;
      border-radius: 0;
      border: 0;
-     padding: 4% 4% 0;
+     padding: 2% 2% 0;
      margin-bottom: 7.5%;
      .card-body {
-       padding: 2.5vw 0;
+       padding: 25px 0;
        font-family: GothamProRegular;
        .card-title {
-         font-size: 1.6vw;
+         font-size: 22px;
        }
        .card-text {
          font-family: PlayfairDisplayRegular;
          color: #838383;
-         margin-bottom: 4vw;
-         font-size: 1.5vw;
+         margin-bottom: 50px;
+         font-size: 18px;
        }
        .portfolio-link {
-         font-size: 1.25vw;
+         font-size: 16px;
        }
      }
    }
@@ -152,11 +154,10 @@
        background: transparent;
        border-radius: 9px;
        border-color: #D5A14F;
-       width: 22.5vw;
-       margin: 0.11em 0;
-       padding: 1.5vw 0vw;
-       font-size: 1.5vw;
-       letter-spacing: 0.1em;
+       width: 250px;
+       padding: 20px 20px;
+       font-size: 18px;
+       letter-spacing: 2px;
      }
    }
  }
