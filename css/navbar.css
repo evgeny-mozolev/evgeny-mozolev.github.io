@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  nav {
+    border-bottom: 1px solid #ccc; }
+
   .nav-container {
     width: 100%;
     height: 40px; }
@@ -155,7 +158,8 @@
     height: 15px;
     font-size: 14px;
     font-family: ProximaNovaSemibold;
-    color: #D5A14F; }
+    color: #D5A14F;
+    transform: translateY(-5px); }
 
   .icon-x-icon:before {
     position: relative;
