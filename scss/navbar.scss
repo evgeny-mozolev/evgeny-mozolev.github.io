@@ -113,15 +113,15 @@
   }
   button.btn.submit-request {
     margin: 5% 0;
-    padding: 3% 5%;
+    padding: 15px 30px;
     border-radius: .55rem;
     background-image: linear-gradient(to bottom, rgb(234, 195, 127), rgb(188, 160, 92));
     background-repeat: repeat-x;
     border: none;
     color: #fff;
     font-family: ProximaNovaSemibold;
-    font-size: 12px;
-    letter-spacing: 1.5px;
+    font-size: 13px;
+    letter-spacing: 2px;
   }
 
   div.social-buttons {
@@ -129,13 +129,12 @@
     display: block;
     width: 100%;
     text-align: center;
-    padding: 5% 2%;
+    padding: 20px 20px;
   }
 
   div.social-button-address {
-    margin-top: 0.5em;
     font-family: ProximaNovaLight;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   div.social-buttons-pics {

@@ -82,27 +82,26 @@
 
   button.btn.submit-request {
     margin: 5% 0;
-    padding: 3% 5%;
+    padding: 15px 30px;
     border-radius: .55rem;
     background-image: linear-gradient(to bottom, #eac37f, #bca05c);
     background-repeat: repeat-x;
     border: none;
     color: #fff;
     font-family: ProximaNovaSemibold;
-    font-size: 12px;
-    letter-spacing: 1.5px; }
+    font-size: 13px;
+    letter-spacing: 2px; }
 
   div.social-buttons {
     background-color: #f7f6f6;
     display: block;
     width: 100%;
     text-align: center;
-    padding: 5% 2%; }
+    padding: 20px 20px; }
 
   div.social-button-address {
-    margin-top: 0.5em;
     font-family: ProximaNovaLight;
-    font-size: 16px; }
+    font-size: 15px; }
 
   div.social-buttons-pics {
     margin-top: 0.4em;
