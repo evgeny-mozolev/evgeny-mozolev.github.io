@@ -1,17 +1,25 @@
 @media (max-width: 768px) {
   .nav-container {
     width: 100%;
-    height: 50px;
+    height: 40px;
     //-- navbar top panel start
     .navbar-brand {
-      position: relative;
       top: 0;
       width: 18%;
       margin: 0;
       padding: 0;
       padding-left: 10px;
+
+      img {
+        position: absolute;
+        top: 8px;
+        left: 12px;
+        width: 50px;
+
+      }
     }
     a.navbar-text {
+      height:37px;
       position: relative;
       top:0px;
       width: 63%;
@@ -23,7 +31,10 @@
       color: #2e333d;
       text-decoration: none;
       font-size: 28px;
-      line-height: 40px;
+
+      .brandname {
+        transform: translateY(-5px);
+      }
 
       .capitalized {
         font-size: 115%;
@@ -31,7 +42,7 @@
     }
     .navbar-toggler {
       position: relative;
-      top: 0;
+      bottom: 3px;
       border: none;
       margin: 0;
       padding: 0;
@@ -42,7 +53,7 @@
 
       .menu-button {
         position: relative;
-        top: 3px;
+        top: 0;
       }
 
     }
@@ -57,7 +68,7 @@
       li.nav-item {
         text-align: center;
         font-family: ProximaNovaBold;
-        font-size: 4vw;
+        font-size: 14px;
         &.active {
           .nav-link {
             color: #D5A14F;
@@ -65,21 +76,21 @@
         }
 
         &:first-child {
-          margin-top: 1.2em;
+          margin-top: 18px;
         }
         &::after {
           content: "\00B7";
           display: block;
         }
         &:last-of-type {
-          margin-bottom: 1.4em;
+          margin-bottom: 0;
         }
         &:last-of-type::after {
           display: none;
         }
-        &:nth-last-of-type(2)::after {
+        /*&:nth-last-of-type(2)::after {
           display: none;
-        }
+        }*/
         .nav-link {
           text-align: center;
           color: #9FA3A7;
@@ -200,6 +211,7 @@
   .icon-x-icon:before {
     position: relative;
     font-size: 115%;
+    top: 13px;
 
 
   }

@@ -1,15 +1,20 @@
 @media (max-width: 768px) {
   .nav-container {
     width: 100%;
-    height: 50px; }
+    height: 40px; }
     .nav-container .navbar-brand {
-      position: relative;
       top: 0;
       width: 18%;
       margin: 0;
       padding: 0;
       padding-left: 10px; }
+      .nav-container .navbar-brand img {
+        position: absolute;
+        top: 8px;
+        left: 12px;
+        width: 50px; }
     .nav-container a.navbar-text {
+      height: 37px;
       position: relative;
       top: 0px;
       width: 63%;
@@ -20,13 +25,14 @@
       letter-spacing: 1px;
       color: #2e333d;
       text-decoration: none;
-      font-size: 28px;
-      line-height: 40px; }
+      font-size: 28px; }
+      .nav-container a.navbar-text .brandname {
+        transform: translateY(-5px); }
       .nav-container a.navbar-text .capitalized {
         font-size: 115%; }
     .nav-container .navbar-toggler {
       position: relative;
-      top: 0;
+      bottom: 3px;
       border: none;
       margin: 0;
       padding: 0;
@@ -35,7 +41,7 @@
       font-size: 26px; }
       .nav-container .navbar-toggler .menu-button {
         position: relative;
-        top: 3px; }
+        top: 0; }
     .nav-container .mobile-menu {
       border-top: 2px solid #f7f6f6;
       width: 100%;
@@ -44,19 +50,20 @@
       .nav-container .mobile-menu li.nav-item {
         text-align: center;
         font-family: ProximaNovaBold;
-        font-size: 4vw; }
+        font-size: 14px;
+        /*&:nth-last-of-type(2)::after {
+          display: none;
+        }*/ }
         .nav-container .mobile-menu li.nav-item.active .nav-link {
           color: #D5A14F; }
         .nav-container .mobile-menu li.nav-item:first-child {
-          margin-top: 1.2em; }
+          margin-top: 18px; }
         .nav-container .mobile-menu li.nav-item::after {
           content: "\00B7";
           display: block; }
         .nav-container .mobile-menu li.nav-item:last-of-type {
-          margin-bottom: 1.4em; }
+          margin-bottom: 0; }
         .nav-container .mobile-menu li.nav-item:last-of-type::after {
-          display: none; }
-        .nav-container .mobile-menu li.nav-item:nth-last-of-type(2)::after {
           display: none; }
         .nav-container .mobile-menu li.nav-item .nav-link {
           text-align: center;
@@ -152,7 +159,8 @@
 
   .icon-x-icon:before {
     position: relative;
-    font-size: 115%; }
+    font-size: 115%;
+    top: 13px; }
 
   .desktop-version {
     display: none; }
