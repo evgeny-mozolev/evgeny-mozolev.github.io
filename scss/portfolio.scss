@@ -79,15 +79,14 @@
    text-align: center;
    .grid {
      position: relative;
-     width: 80%;
-     max-width: 1200px;
+     width: 1000px;
 
      margin: 0 auto;
      margin-bottom: 75px;
 
      .grid-item {
         position: absolute;
-        margin-left: 0;
+        margin-left: 25px;
         margin-bottom: 25px;
         max-width: 500px;
      }
