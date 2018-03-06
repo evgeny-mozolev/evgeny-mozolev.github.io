@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  nav {
+    border-bottom: 1px solid #ccc; }
+
   .nav-container {
     width: 100%;
     height: 40px; }
