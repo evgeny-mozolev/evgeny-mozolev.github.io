@@ -2,6 +2,7 @@
   .nav-container {
     width: 100%;
     height: 40px;
+
     //-- navbar top panel start
     .navbar-brand {
       top: 0;
@@ -81,6 +82,7 @@
         &::after {
           content: "\00B7";
           display: block;
+          color: #9FA3A7;
         }
         &:last-of-type {
           margin-bottom: 0;
@@ -118,7 +120,7 @@
     border: none;
     color: #fff;
     font-family: ProximaNovaSemibold;
-    font-size: 4vw;
+    font-size: 12px;
     letter-spacing: 1.5px;
   }
 
@@ -133,12 +135,12 @@
   div.social-button-address {
     margin-top: 0.5em;
     font-family: ProximaNovaLight;
-    font-size: 4.5vw;
+    font-size: 16px;
   }
 
   div.social-buttons-pics {
     margin-top: 0.4em;
-    font-size: 8vw;
+    font-size: 32px;
   }
 
   .social-buttons-pics > span {
