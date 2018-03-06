@@ -17,12 +17,14 @@
     <link rel="stylesheet" href="fonts/ProximaNova/css/proximanova.css">
     <link rel="stylesheet" href="fonts/PlayfairDisplay/PlayfairDisplay/Playfair.css">
     <link rel="stylesheet" href="fonts/weddingmovies/style.css">
+
+
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="nav-container">
-
             <a class="navbar-brand " href="#">
                 <img src="img/weddingmovies-logo.svg" alt="WeddingMovies logo">
             </a>
@@ -32,8 +34,9 @@
                         <span class="capitalized">W</span>edding<span class="capitalized">M</span>ovies
                     </div>
                     <div class="brandname toggler-invisible">
-                        <div class="call">Звоните:</div>
-                        <div class="tel">+7 (905) 552&ndash;37&ndash;37</div>
+                        <div style="display: flex; flex-direction: column; align-self: center">
+
+                        </div>
                     </div>
                 </a>
 
@@ -102,8 +105,8 @@
 
 
     <div class="jumbotron-fluid">
-        <video loop="loop" autoplay="" muted="" class="desktop-version">
-            <source src="./video/819981756.mp4" type="video/mp4">
+        <video loop="loop" autoplay="" muted="" class="desktop-version" id="video-jumbotron">
+            <!-- <source type="video/mp4" id="video-source" src="./video/819981756.mp4"> -->
         </video>
 
       <div class="container">
@@ -213,12 +216,17 @@
     </div>
 
 
-
-
-
-
-
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script >
+    console.log(window.innerWidth);
+    if( window.innerWidth > 768 ) {
+        var vidsrc = document.createElement('source');
+        vidsrc.type = "video/mp4";
+        vidsrc.id = "video-source";
+        vidsrc.src = "./video/819981756.mp4";
+    }
+    $('#video-jumbotron').append(vidsrc);
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 

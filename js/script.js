@@ -7,8 +7,8 @@ $( document ).ready(function() {
         $(".brandname").toggleClass('toggler-invisible');
         //var brandname_height = $('.brandname').height();
 
-
         $(".navbar").toggleClass('toggle-navbar');
+        //$(".navbar-text").toggleClass('height-50');
         $(".nav-container").toggleClass('toggle-nav-container');
         $("html").toggleClass('toggle-html');
         $("body").toggleClass('toggle-body');
@@ -23,6 +23,11 @@ $( document ).ready(function() {
             margin_bottom: 0,
             single_column_breakpoint: 700
         });
+
+
+
+
+
     }
 });
 
