@@ -1,0 +1,25 @@
+@media (min-width: 769px) {
+  .exclusive-offer {
+    background-color: #fff;
+    padding: 6.5vh 10vw;
+    text-align: center; }
+    .exclusive-offer .exclusive-offer-heading {
+      width: 75%;
+      margin: 0 auto; }
+      .exclusive-offer .exclusive-offer-heading h3 {
+        font-variant: all-small-caps;
+        font-size: 32px;
+        letter-spacing: 0.1px; }
+    .exclusive-offer #wedding-img-about {
+      width: 70vw;
+      margin: 5vh auto;
+      box-shadow: 0 20px 20px -10px #ccc; }
+    .exclusive-offer .exclusive-offer-lead {
+      font-size: 18px;
+      font-family: GothamProLight;
+      width: 42.5vw;
+      margin: 2.5vh auto; }
+      .exclusive-offer .exclusive-offer-lead .lead-bold {
+        font-family: GothamProBold; } }
+
+/*# sourceMappingURL=exclusive-offer.css.map */
