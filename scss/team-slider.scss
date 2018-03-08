@@ -1,0 +1,64 @@
+@media (min-width: 769px) {
+  .team-slider {
+    color: black;
+    background-color: #f7f6f6;
+    text-align: center;
+    padding: 7.5vh 0;
+    font-family: GothamProLight;
+
+      .h3 {
+        font-family: GothamProBold;
+        font-variant: all-small-caps;
+        font-size: 32px;
+        letter-spacing: 0.1px;
+      }
+
+
+    #carouselExampleIndicators {
+      margin: 25px 0;
+      .carousel-control-next, .carousel-control-prev {
+        color: #D5A14F;
+        font-size: 42px;
+      }
+
+      .carousel-indicators li {
+        border-radius: 8px;
+        width: 8px;
+        height: 8px;
+        background-color: #d8d8d8;
+          &.active {
+          background-color: #D5A14F;
+          }
+      }
+
+
+      .carousel-inner {
+        margin-top: 25px;
+        height: 400px;
+        .carousel-caption {
+          position: initial;
+          color: black;
+          width: 70%;
+          margin: 0 auto;
+          h5 {
+            font-family: GothamProBold;
+            letter-spacing: 0.2px;
+          }
+          .lead {
+            font-family: GothamProLight;
+            font-size: 15px;
+          }
+          .team-member-description {
+            font-family: ProximaNovaRegular;
+            font-size: 17px;
+          }
+
+
+        }
+
+
+
+      }
+    }
+  }
+}
