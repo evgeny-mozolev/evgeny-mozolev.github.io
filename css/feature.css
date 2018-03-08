@@ -1,0 +1,27 @@
+@media (min-width: 769px) {
+  .feature {
+    background-color: #f7f6f6;
+    text-align: center;
+    padding: 7.5vh 10vw;
+    font-family: GothamProRegular;
+    border: 1px solid salmon; }
+    .feature .h3 {
+      font-size: 20px; }
+    .feature .featured-text {
+      padding: 5vh 0; }
+      .feature .featured-text .h2 {
+        font-size: 54px;
+        font-family: GothamProLight; }
+    .feature .two-column-feature-text {
+      width: 72.5vw;
+      margin: 0 auto;
+      display: flex;
+      text-align: left;
+      font-family: GothamProLight;
+      font-size: 18px; }
+      .feature .two-column-feature-text .column {
+        width: 50%; }
+        .feature .two-column-feature-text .column .subcolumn {
+          width: 95%; } }
+
+/*# sourceMappingURL=feature.css.map */

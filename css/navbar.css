@@ -212,6 +212,8 @@
             color: #9FA3A7;
             margin: 0 10px;
             padding: 0; }
+            .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-link.active {
+              color: #D5A14F; }
             .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-link:hover {
               color: #bca05c; }
             .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-link::after {
