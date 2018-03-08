@@ -3,7 +3,7 @@
     color: black;
     background-color: #f7f6f6;
     text-align: center;
-    padding: 7.5vh 0;
+    padding: 50px 0;
     font-family: GothamProLight;
 
       .h3 {
@@ -15,7 +15,7 @@
 
 
     #carouselExampleIndicators {
-      margin: 25px 0;
+      padding: 45px 0;
       .carousel-control-next, .carousel-control-prev {
         color: #D5A14F;
         font-size: 42px;
@@ -33,7 +33,6 @@
 
 
       .carousel-inner {
-        margin-top: 25px;
         height: 400px;
         .carousel-caption {
           position: initial;
@@ -51,6 +50,7 @@
           .team-member-description {
             font-family: ProximaNovaRegular;
             font-size: 17px;
+            margin-bottom: 25px;
           }
 
 

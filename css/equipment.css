@@ -1,0 +1,39 @@
+@media (min-width: 769px) {
+  .equipment {
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+    font-family: GothamProLight; }
+    .equipment .h3 {
+      font-family: GothamProBold;
+      font-variant: all-small-caps;
+      font-size: 32px;
+      letter-spacing: 0.1px; }
+    .equipment .equipment-options-lead {
+      width: 45%;
+      margin: 25px auto;
+      font-size: 19px; }
+      .equipment .equipment-options-lead a {
+        color: #D5A14F; }
+    .equipment .card-deck {
+      width: 80%;
+      margin: 0 auto; }
+      .equipment .card-deck .row {
+        width: 100%;
+        margin: 25px; }
+        .equipment .card-deck .row .card {
+          border: none; }
+          .equipment .card-deck .row .card .card-img-top {
+            width: 90%;
+            margin: 0 auto; }
+            .equipment .card-deck .row .card .card-img-top .small-img {
+              width: 50% !important; }
+          .equipment .card-deck .row .card .card-block .card-title {
+            font-family: GothamProMedium;
+            font-size: 19px;
+            margin-bottom: 4px; }
+          .equipment .card-deck .row .card .card-block .card-text {
+            font-family: ProximaNovaRegular;
+            font-size: 19px; } }
+
+/*# sourceMappingURL=equipment.css.map */
