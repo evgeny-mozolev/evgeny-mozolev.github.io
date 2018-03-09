@@ -32,7 +32,8 @@
 @media (min-width: 769px) {
   .submit-request {
     padding: 55px;
-    text-align: center; }
+    text-align: center;
+    background-color: white; }
     .submit-request .heading {
       font-variant: small-caps;
       font-family: GothamProMedium;
