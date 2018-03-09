@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light ">
         <div class="nav-container">
-            <a class="navbar-brand " href="#">
+            <a class="navbar-brand " href="./index.html">
                 <img src="img/weddingmovies-logo.svg" alt="WeddingMovies logo">
             </a>
 
@@ -105,23 +105,9 @@
     </nav>
 
 
-    <div class="jumbotron-fluid">
-        <video loop="loop" autoplay="" muted="" class="desktop-version" id="video-jumbotron">
-            <!-- <source type="video/mp4" id="video-source" src="./video/819981756.mp4"> -->
-        </video>
 
-      <div class="container">
-        <p class="lead">Снимем с помощью квадрокоптеров те&nbsp;моменты,
-        которые <br class="desktop-version">обычным видеооператорам не под силу иногда даже представить</p>
-        <h1 class="display-4 jumbo-heading">Свадьба <br class="desktop-version">вашей мечты</h1>
-        <p class="lead">Событие, которое сохранится не&nbsp;только <br class="desktop-version">в ваших сердцах</p>
-        <div class="how-it-happens">
-            <button type="button" class="btn how-it-happens">КАК ВСЁ ПРОИCХОДИТ?</button>
-        </div>
-      </div>
-    </div>
 
-    <div class="portfolio">
+    <div class="portfolio portfolio-page">
         <div class="portfolio-head">
             <span class="icon-o-icon portfolio-attire"></span>
             <span class="h4">Портфолио</span>
@@ -130,10 +116,11 @@
 
             <div class="grid">
                 <div class="grid-item desktop-version"></div>
-                <div class="portfolio-teaser grid-item">
-                    <span class="h3">Счастье <br class="desktop-version">в&nbsp;каждом моменте</span>
-                    <p>Свадьба, снятая с помощью квадрокоптера,
-                    будет иметь фантастические виды и&nbsp;смотреться незабываемо</p>
+
+                <div class="portfolio-teaser grid-item" style="margin-top: 65px">
+                    <span class="h3">Качество гарантируем</span>
+                    <p>Всегда стараемся сделать работу на высшем уровне. Тому пример —&nbsp;наше портфолио.</p>
+                    <p>Рекомендуем посмотреть свадебные истории каждой завершенной работы.</p>
                 </div>
 
                 <div class="card portfolio-story grid-item">
@@ -146,6 +133,15 @@
                   </div>
                 </div>
 
+                 <div class="card portfolio-story grid-item">
+                  <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                  <div class="card-body">
+                    <h5 class="card-title">Виолетта и&nbsp;Егор</h5>
+                    <hr align="center" width="70" size="3" color="#f58e8e" />
+                    <p class="card-text">пакет «Стандарт»</p>
+                    <a href="#" class="portfolio-link" style="color: #f58e8e; text-decoration: underline">Узнать стоимость</a>
+                  </div>
+                </div>
 
                 <div class="card portfolio-story grid-item">
                   <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
@@ -167,33 +163,49 @@
                   </div>
                 </div>
 
-                <div class="portfolio-teaser grid-item desktop-version">
-                    <span class="h3">Гарантии <br class="desktop-version">и компетентность</span>
-                    <p>Мы гарантируем высокое качество результата и профессиональный творческий подход</p>
+                <div class="card portfolio-story grid-item">
+                  <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                  <div class="card-body">
+                    <h5 class="card-title">Константин и&nbsp;Маргарита</h5>
+                    <hr align="center" width="70" size="3" color="#d5a14f" />
+                    <p class="card-text">пакет «Эксклюзив»</p>
+                    <a href="#" class="portfolio-link" style="color: #d5a14f; text-decoration: underline">Узнать стоимость</a>
+                  </div>
+                </div>
+
+                <div class=" portfolio-teaser grid-item desktop-version">
+                    <span class="h3">Команда</span>
+                    <p>Над реализацией каждого из наших видео работает минимум 5 человек: 2 пилота-оператора,
+                    ваш персональный менеджер, звукорежиссёр и звукооператор.</p>
                 </div>
             </div>
 
-             <div class="other-projects">
-                <button type="button" class="btn other-projects-button" style="text-transform: uppercase">все проекты</button>
-             </div>
+            </div>
+
+
+
+
     </div>
 
-    <div class="submit-request">
-        <span class="h4 heading">оставьте заявку</span>
-        <form class="submit-request-form">
-          <input type="textarea" name="name" placeholder="*ВАШЕ ИМЯ" class="submit-request-input half-width"
-          onfocus="this.placeholder = ''" onblur="this.placeholder = '*ВАШЕ ИМЯ'">
-          <input type="textarea" name="tel" placeholder="*ТЕЛЕФОН" class="submit-request-input half-width"
-          onfocus="this.placeholder = ''" onblur="this.placeholder = '*ТЕЛЕФОН'"><br class="desktop-version">
-          <input type="email" name="email" placeholder="ЭЛЕКТРОННАЯ ПОЧТА" class="submit-request-input email"
-          onfocus="this.placeholder = ''" onblur="this.placeholder = 'ЭЛЕКТРОННАЯ ПОЧТА'">
-          <br class="desktop-version">
-          <textarea name="story" rows="4" class="submit-request-input your-story "
-          placeholder="КАКАЯ У ВАС ИСТОРИЯ?" onfocus="this.placeholder = ''"
-          onblur="this.placeholder = 'КАКАЯ У ВАС ИСТОРИЯ?'"></textarea>
-          <input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="submit-request-form-button">
-        </form>
-        <p class="privacy-policy">отправляя заявку я соглашаюсь с&nbsp;<a href="#">Политикой конфиденциальности</a></p>
+    <div class="submit-request about-us">
+        <div class="form-wrapper">
+            <span class="h4 heading">Решились? — Пишите!</span>
+            <span class="submit-request-lead">если не решились, тоже пишите — подскажем!</span>
+            <form class="submit-request-form">
+                <input type="textarea" name="name" placeholder="*ВАШЕ ИМЯ" class="submit-request-input half-width"
+                       onfocus="this.placeholder = ''" onblur="this.placeholder = '*ВАШЕ ИМЯ'">
+                <input type="textarea" name="tel" placeholder="*ТЕЛЕФОН" class="submit-request-input half-width"
+                       onfocus="this.placeholder = ''" onblur="this.placeholder = '*ТЕЛЕФОН'"><br class="desktop-version">
+                <input type="email" name="email" placeholder="ЭЛЕКТРОННАЯ ПОЧТА" class="submit-request-input email"
+                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'ЭЛЕКТРОННАЯ ПОЧТА'">
+                <br class="desktop-version">
+                <textarea name="story" rows="4" class="submit-request-input your-story "
+                          placeholder="КАКАЯ У ВАС ИСТОРИЯ?" onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = 'КАКАЯ У ВАС ИСТОРИЯ?'"></textarea>
+                <input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="submit-request-form-button">
+            </form>
+            <p class="privacy-policy">отправляя заявку я соглашаюсь с&nbsp;<a href="#">Политикой конфиденциальности</a></p>
+        </div>
     </div>
 
     <div class="footer">
@@ -211,7 +223,7 @@
         </div>
         <div class="author">
         <span class="ensodesign">Сделано руками <br class="desktop-version"><a href="#">ensodesign.ru</a> в&nbsp;2018&nbsp;году</span>
-        
+
         </div>
 
     </div>

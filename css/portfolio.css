@@ -55,6 +55,9 @@
           color: #838383;
           margin-bottom: 10%; } }
 @media (min-width: 769px) {
+  body {
+    background-color: #f7f6f6; }
+
   .portfolio {
     background-color: #f7f6f6;
     text-align: center; }
@@ -121,6 +124,27 @@
         width: 250px;
         padding: 20px 20px;
         font-size: 18px;
-        letter-spacing: 2px; } }
+        letter-spacing: 2px; }
+
+  .portfolio-page .portfolio-head {
+    padding: 40px 0 0; }
+    .portfolio-page .portfolio-head .h4 {
+      font-size: 36px;
+      line-height: 62px;
+      padding: 22px; }
+    .portfolio-page .portfolio-head .portfolio-attire {
+      font-size: 72px; }
+  .portfolio-page .portfolio-teaser {
+    margin: 0 0 25px 25px; }
+    .portfolio-page .portfolio-teaser span.h3 {
+      font-size: 36px;
+      letter-spacing: 0.5px; }
+    .portfolio-page .portfolio-teaser p {
+      font-size: 23px; }
+  .portfolio-page .grid {
+    margin-bottom: 150px; }
+    .portfolio-page .grid .grid-item {
+      margin: 25px;
+      margin-right: 0; } }
 
 /*# sourceMappingURL=portfolio.css.map */
