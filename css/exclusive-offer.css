@@ -20,6 +20,11 @@
       width: 42.5vw;
       margin: 2.5vh auto; }
       .exclusive-offer .exclusive-offer-lead .lead-bold {
-        font-family: GothamProBold; } }
+        font-family: GothamProBold; }
+
+  .portfolio-detailed .exclusive-offer {
+    background-color: #f7f6f6; }
+    .portfolio-detailed .exclusive-offer #wedding-img-about {
+      margin: 0; } }
 
 /*# sourceMappingURL=exclusive-offer.css.map */
