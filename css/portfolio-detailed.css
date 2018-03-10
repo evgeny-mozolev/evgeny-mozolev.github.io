@@ -2,16 +2,15 @@
   .portfolio-detailed .decorated-ampersand {
     color: #ecad9c;
     padding: 0 !important; }
-  .portfolio-detailed .equipment {
-    padding-bottom: 0; }
-    .portfolio-detailed .equipment .card-text {
-      font-family: PlayfairDisplayRegular;
-      color: #838383;
-      padding-top: 25px;
-      font-size: 18px; }
-    .portfolio-detailed .equipment .card-deck {
-      margin-bottom: 37.5px; }
-      .portfolio-detailed .equipment .card-deck .card {
-        background-color: #f7f6f6; } }
-
-/*# sourceMappingURL=portfolio-detailed.css.map */
+  .portfolio-detailed .equipment .card-text {
+    font-family: PlayfairDisplayRegular;
+    color: #838383;
+    padding-top: 28px;
+    font-size: 20px; }
+    .portfolio-detailed .equipment .card-text .price {
+      color: #D5A14F;
+      font-family: GothamProRegular; }
+  .portfolio-detailed .equipment .card-deck {
+    margin-bottom: 37.5px; }
+    .portfolio-detailed .equipment .card-deck .card {
+      background-color: #f7f6f6; } }

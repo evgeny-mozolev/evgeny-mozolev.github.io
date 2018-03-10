@@ -5,21 +5,23 @@
       padding: 0 !important;
     }
     .equipment {
-      padding-bottom: 0;
       .card-text {
         font-family: PlayfairDisplayRegular;
         color: #838383;
-        padding-top: 25px;
-        font-size: 18px;
+        padding-top: 28px;
+        font-size: 20px;
+        .price {
+          color:  #D5A14F;
+          font-family: GothamProRegular;
+        }
       }
       .card-deck {
         margin-bottom: 37.5px;
         .card {
           background-color: #f7f6f6;
-
-
         }
       }
+
     }
   }
 }
