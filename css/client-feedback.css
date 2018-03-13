@@ -1,11 +1,12 @@
 @media (min-width: 769px) {
   .client-feedback {
     color: black;
-    background-color: #f7f6f6;
+    background-color: #ffffff;
     text-align: center;
     padding: 50px 0;
     font-family: GothamProLight;
-    width: 65%;
+    width: 100%;
+    padding-bottom: 25px;
     margin: 25px auto; }
     .client-feedback .h3 {
       font-family: GothamProBold;
@@ -17,7 +18,7 @@
       margin: 50px auto; }
     .client-feedback .feedback-text {
       font-size: 18px;
-      margin: 0 2.5vw; }
+      margin: 0 15vw; }
     .client-feedback .names-n-dates {
       margin: 50px 0;
       line-height: 32px; }
@@ -26,4 +27,18 @@
         font-size: 24px;
         font-family: GothamProMedium; }
       .client-feedback .names-n-dates .names-n-dates {
-        font-size: 20px; } }
+        font-size: 20px; }
+    .client-feedback .other-projects-button {
+      margin: 50px 0;
+      font-variant: all-small-caps;
+      font-family: ProximaNovaSemibold;
+      color: #D5A14F;
+      background: transparent;
+      border-radius: 9px;
+      border-color: #D5A14F;
+      width: 250px;
+      padding: 15px 0;
+      font-size: 18px;
+      letter-spacing: 2px; } }
+
+/*# sourceMappingURL=client-feedback.css.map */
