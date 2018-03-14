@@ -1,0 +1,118 @@
+@media (min-width: 769px) {
+  .services {
+    text-align: center;
+    background-color: #f7f6f6;
+    .services-head {
+      padding: 40px 0 60px;
+
+      p {
+        position: absolute;
+        width: 350px;
+        left: 35%;
+        margin-top: -20px;
+        font-size: 16px;
+        //letter-spacing: 0.4px;
+      }
+      .h4 {
+        font-size: 32px;
+        line-height: 46px;
+        padding: 0 45px;
+        vertical-align: top;
+      }
+      .services-attire {
+        font-size: 64px;
+      }
+    }
+    nav {
+      background-color: #f7f6f6;
+      font-family: GothamProRegular;
+      padding: 50px 0;
+      padding-bottom: 0;
+      width: 100%;
+      margin: 0 auto;
+      .nav-tabs {
+        width: 58%;
+        margin: 0 auto;
+        .nav-item {
+          margin: 0 auto;
+          width: 50%;
+          font-size: 18px;
+          text-decoration: none;
+          color: black;
+          &.active {
+            font-family: GothamProMedium;
+            border: none;
+            border-bottom: 3px solid rgb(236,173,156);
+            line-height: 25px;
+            font-weight: bold;
+            background-color: inherit;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .standard-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 50px 7.5%;
+
+    div.package {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 33%;
+      .package-items {
+        h4 {
+          font-size: 18px;
+        }
+        p {
+          padding: 0 5%;
+          margin-bottom: 35px;
+        }
+
+        &:last-of-type {
+          margin-bottom: 100px;
+        }
+      }
+      .package-result {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #ecad9c;
+        p {
+          margin: 0;
+        }
+      }
+
+      .btn {
+        margin: 25px;
+        padding: 10px 40px;
+        border-radius: .55rem;
+        background-color: #fff;
+        border: 2px solid #ecad9c;
+        color: black;
+        font-family: ProximaNovaSemibold;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+      &.central {
+        height: 100%;
+      }
+      .card-text {
+        font-family: PlayfairDisplayRegular;
+        color: #838383;
+        padding-top: 28px;
+        font-size: 24px;
+        .price {
+          font-family: ProximaNovaLight;
+        }
+      }
+
+
+    }
+  }
+}

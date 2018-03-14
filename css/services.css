@@ -1,0 +1,87 @@
+@media (min-width: 769px) {
+  .services {
+    text-align: center;
+    background-color: #f7f6f6; }
+    .services .services-head {
+      padding: 40px 0 60px; }
+      .services .services-head p {
+        position: absolute;
+        width: 350px;
+        left: 35%;
+        margin-top: -20px;
+        font-size: 16px; }
+      .services .services-head .h4 {
+        font-size: 32px;
+        line-height: 46px;
+        padding: 0 45px;
+        vertical-align: top; }
+      .services .services-head .services-attire {
+        font-size: 64px; }
+    .services nav {
+      background-color: #f7f6f6;
+      font-family: GothamProRegular;
+      padding: 50px 0;
+      padding-bottom: 0;
+      width: 100%;
+      margin: 0 auto; }
+      .services nav .nav-tabs {
+        width: 58%;
+        margin: 0 auto; }
+        .services nav .nav-tabs .nav-item {
+          margin: 0 auto;
+          width: 50%;
+          font-size: 18px;
+          text-decoration: none;
+          color: black; }
+          .services nav .nav-tabs .nav-item.active {
+            font-family: GothamProMedium;
+            border: none;
+            border-bottom: 3px solid #ecad9c;
+            line-height: 25px;
+            font-weight: bold;
+            background-color: inherit; }
+
+  .standard-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 7.5%; }
+    .standard-services div.package {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 33%; }
+      .standard-services div.package .package-items h4 {
+        font-size: 18px; }
+      .standard-services div.package .package-items p {
+        padding: 0 5%;
+        margin-bottom: 35px; }
+      .standard-services div.package .package-items:last-of-type {
+        margin-bottom: 100px; }
+      .standard-services div.package .package-result {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #ecad9c; }
+        .standard-services div.package .package-result p {
+          margin: 0; }
+      .standard-services div.package .btn {
+        margin: 25px;
+        padding: 10px 40px;
+        border-radius: .55rem;
+        background-color: #fff;
+        border: 2px solid #ecad9c;
+        color: black;
+        font-family: ProximaNovaSemibold;
+        font-size: 14px;
+        letter-spacing: 2px; }
+      .standard-services div.package.central {
+        height: 100%; }
+      .standard-services div.package .card-text {
+        font-family: PlayfairDisplayRegular;
+        color: #838383;
+        padding-top: 28px;
+        font-size: 24px; }
+        .standard-services div.package .card-text .price {
+          font-family: ProximaNovaLight; } }
+
+/*# sourceMappingURL=services.css.map */

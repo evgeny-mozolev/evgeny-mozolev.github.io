@@ -7,14 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/navbar.css">
-
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/portfolio-detailed.css">
-    <link rel="stylesheet" href="css/exclusive-offer.css">
-    <link rel="stylesheet" href="css/equipment.css">
-    <link rel="stylesheet" href="css/client-feedback.css">
-
-
+    <link rel="stylesheet" href="css/services.css">
 
     <link rel="stylesheet" href="css/submit-form.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -106,65 +99,82 @@
     </div>
 </nav>
 
-<div class="portfolio portfolio-page portfolio-detailed">
-
-    <div class="portfolio-head">
-        <span class="icon-o-icon portfolio-attire"></span>
-        <span class="h4 portfolio-detailed-names">Максим <span class="h4 decorated-ampersand">&</span> Анна</span>
-        <span class="icon-o-icon2 portfolio-attire"></span>
+<div class="services">
+    <div class="services-head">
+        <span class="icon-o-icon services-attire"></span>
+        <span class="h4 services-detailed-names">Услуги и стоимость</span>
+        <p>Мы подготовили для вас оптимальные пакеты. Если вам покажется этого мало,
+        то можете выбрать дополнительные услуги.</p>
+        <span class="icon-o-icon2 services-attire"></span>
     </div>
 
-    <div class="exclusive-offer">
-        <div class="wedding-img">
-            <img src="./img/main-wedding-teaser.jpg" alt="main-wedding-teaser" id="wedding-img-about">
-        </div>
-    </div>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab"
+            href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Стандартные тарифы</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab"
+            href="#nav-profile" role="tab" aria-controls="nav-profile"
+            aria-selected="false">Я хочу выбрать оборудование</a>
+      </div>
+    </nav>
 
-    <div class="equipment">
-        <span class="h3">оборудование и команда</span>
-        <div class="card-deck">
-            <div class="row">
-                <div class="card col-sm-4">
-                    <img class="card-img-top" src="./img/equip/Phantom4Pro.jpg" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Квадрокоптер</h4>
-                        <p class="card-text">DJI Phantom 4 Pro</p>
-                    </div>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="standard-services">
+            <div class="package">
+                <p class="card-text">пакет «Стандарт»<br>
+                    <span class="price" style="color: #ecad9c">70 000 Р</span>
+                </p>
+                <hr align="center" width="80" color="#ecad9c" style="height: 1px; margin: 0 auto">
+                <button type="button" class="btn">ЗАКАЗАТЬ</button>
+                <div class="package-items">
+                    <h4>За неделю до события</h4>
+                    <p>Знакомство со съёмочной группой, предварительная фотот и видеосъёмка</p>
                 </div>
-                <div class="card col-sm-4">
-                    <img class="card-img-top" src="./img/equip/ZenmuseX5S.jpg" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Камеры</h4>
-                        <p class="card-text">Zenmuse X5S<br class="desktop-version">Zenmuse X5</p>
-                    </div>
+                <div class="package-items">
+                    <h4>За день до события</h4>
+                    <p>Уточнение плана действий в день торжества.</p>
                 </div>
-                <div class="card col-sm-4">
-                    <img class="card-img-top" src="./img/andrei.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Пилот-оператор</h4>
-                        <p class="card-text">Влад Кириленко</p>
-                    </div>
+                <div class="package-items">
+                    <h4>Видеосъёмка</h4>
+                    <p>не менее 8 часов съёмки торжественного события на профессиональном оборудовании</p>
                 </div>
+                <div class="package-items">
+                    <h4>Оборудование</h4>
+                    <p>Квадрокоптер DJI Phantom 4 pro<br> Видеокамера: Canon 5D Mark III<br> Видеокамера: Sony Alpha 7</p>
+                </div>
+                <div class="package-result">
+                    <h5>Результат</h5>
+                    <p>Через 3 недели готовая видео-презентация(7-8 минут) из снятого материала</p>
+                </div>
+
+
+
+
+
+
             </div>
+            <div class="package central"></div>
+            <div class="package"></div>
         </div>
-        <hr align="center" width="100" color="#D5A14F" style="height: 1px; margin: 0 auto"/>
-        <p class="card-text">пакет «Эксклюзив»<br><span class="price">от 50 000 Р</span></p>
+
+
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
 </div>
-<div class="client-feedback">
-    <span class="h3">отзыв молодожёнов</span>
-    <img src="./img/200x100.png" alt="placeholder" class="newlyweds-img-feedback">
-    <p class="feedback-text">Ребята из weddingmovies.ru - вы большие молодчинки. Столько внимания, столько заботы!
-        Мы никогда не сомневались, что свадебное видео получится таким, обратились по рекомендации друзей,
-        а подход к работе удивил. Представлялась картина монотонного позирования весь день, а оказалось всё
-        совсем иначе. Можем смело давать положительные рекоменлации. Спасибо вам</p>
-    <div class="names-n-dates">
-        <span class="h3">Максим и Анна</span><br>
-        <span>15 января 2018</span>
-    </div>
-    <hr align="center" width="40%" color="#eac37f" style="margin: 0 auto"/>
-    <button type="button" class="btn other-projects-button" style="text-transform: uppercase">другие отзывы</button>
-</div>
+
 
 
 <div class="submit-request about-us">
