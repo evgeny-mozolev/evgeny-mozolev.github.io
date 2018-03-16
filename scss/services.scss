@@ -4,17 +4,19 @@
     background-color: #f7f6f6;
     .services-head {
       padding: 40px 0 60px;
-
       p {
         position: absolute;
+        left:0;
+        right:0;
         width: 350px;
-        left: 35%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: -20px;
         font-size: 16px;
         //letter-spacing: 0.4px;
       }
       .h4 {
-        font-size: 32px;
+        font-size: 36px;
         line-height: 46px;
         padding: 0 45px;
         vertical-align: top;
@@ -52,20 +54,67 @@
     }
   }
 
+  // second pane
+  .package-choice {
+    padding-top: 50px;
+    background-color: #fff;
+    h3 {
+      font-family: ProximaNovaLight;
+      letter-spacing: 1px;
+      .grey-h3 {
+        color: #ccc;
+      }
+    }
+    .radio-packages {
+      .golden-boarder {
+        border: 2px solid #d5a14f;
+      }
 
 
+      input {
+        position: relative;
+        left: 50px;
+        top: -15px;
+
+      }
+
+
+
+
+      label {
+        border: 1px solid #d6d6d6;
+        border-radius: 5px;
+        width: 23%;
+        padding: 30px 0;
+        margin: 25px 10px;
+        p {
+          font-family: PlayfairDisplayRegular;
+          color: #838383;
+          font-size: 20px;
+        }
+      }
+
+    }
+  }
+
+  // first pane
   .standard-services {
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 100%;
-    padding: 50px 7.5%;
+    padding: 75px 7.5%;
 
     div.package {
       background-color: #fff;
       border-radius: 10px;
       width: 33%;
+
+      .empty-div {
+        width: 100%;
+        height: 50px;
+      }
       .package-items {
         h4 {
           font-size: 18px;
@@ -74,23 +123,30 @@
           padding: 0 5%;
           margin-bottom: 35px;
         }
-
-        &:last-of-type {
-          margin-bottom: 100px;
-        }
       }
       .package-result {
+        padding: 15px 25px;
+        margin-top: 50px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        background-color: #ecad9c;
+        background-color: #fcf3f0;
+        &.stnd-package {
+          background-color: #eff4f4;
+        }
+        h5 {
+          font-variant: all-small-caps;
+          padding-bottom: 0;
+          font-size: 26px;
+        }
         p {
           margin: 0;
+          padding-bottom: 5px;
         }
       }
-
       .btn {
-        margin: 25px;
-        padding: 10px 40px;
+        margin: 35px;
+        margin-bottom: 50px;
+        padding: 10px 50px;
         border-radius: .55rem;
         background-color: #fff;
         border: 2px solid #ecad9c;
@@ -98,9 +154,26 @@
         font-family: ProximaNovaSemibold;
         font-size: 14px;
         letter-spacing: 2px;
+        &.stnd-package {
+          border: 2px solid #93b6b7;
+        }
+        &.gold {
+          font-family: ProximaNovaRegular;
+          font-size: 16px;
+          background: transparent;
+          background-image: linear-gradient(to bottom, rgb(234, 195, 127), rgb(188, 160, 92));
+          border: 0;
+          padding: 15px 52px;
+          color: white;
+        }
       }
       &.central {
+        z-index: 1;
         height: 100%;
+        box-shadow: 0 0 25px #ccc;
+        .package-result {
+          background-color: #f9f1e5;
+        }
       }
       .card-text {
         font-family: PlayfairDisplayRegular;
@@ -111,8 +184,6 @@
           font-family: ProximaNovaLight;
         }
       }
-
-
     }
   }
 }

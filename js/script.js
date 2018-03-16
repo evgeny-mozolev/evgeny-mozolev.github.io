@@ -14,6 +14,20 @@ $( document ).ready(function() {
         $("body").toggleClass('toggle-body');
     });
 
+    if ($(".radio-packages")[0]){
+      $('.package-option').click(function(){
+          if( $(this).hasClass("golden-boarder") ) {
+              console.log( $(this).hasClass("golden-boarder") );
+              $(this).removeClass("golden-boarder");
+          } else {
+              console.log( $(this).hasClass("no-golden-boarder") );
+              $(this).addClass("golden-boarder");
+          }
+
+      });
+    }
+
+
 
     if ( $(window).width() > 768 ) {
         $('.grid').pinterest_grid({

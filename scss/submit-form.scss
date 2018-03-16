@@ -1,5 +1,4 @@
 @media (max-width: 768px) {
-
   .submit-request {
     padding: 5% 5% 7.5%;
     text-align: center;
@@ -123,6 +122,20 @@
       span.submit-request-lead {
         display: block;
         font-size: 18px;
+      }
+    }
+  }
+  .submit-request.services {
+    .heading{
+      font-family: ProximaNovaRegular;
+      font-size: 36px;
+      font-variant: normal;
+    }
+    .heading-lead {
+      font-family: ProximaNovaLight;
+      font-size: 20px;
+      .chosen-package, .options {
+        color: #D5A14F;
       }
     }
   }

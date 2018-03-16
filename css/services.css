@@ -6,12 +6,15 @@
       padding: 40px 0 60px; }
       .services .services-head p {
         position: absolute;
+        left: 0;
+        right: 0;
         width: 350px;
-        left: 35%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: -20px;
         font-size: 16px; }
       .services .services-head .h4 {
-        font-size: 32px;
+        font-size: 36px;
         line-height: 46px;
         padding: 0 45px;
         vertical-align: top; }
@@ -41,32 +44,68 @@
             font-weight: bold;
             background-color: inherit; }
 
+  .package-choice {
+    padding-top: 50px;
+    background-color: #fff; }
+    .package-choice h3 {
+      font-family: ProximaNovaLight;
+      letter-spacing: 1px; }
+      .package-choice h3 .grey-h3 {
+        color: #ccc; }
+    .package-choice .radio-packages .golden-boarder {
+      border: 2px solid #d5a14f; }
+    .package-choice .radio-packages input {
+      position: relative;
+      left: 50px;
+      top: -15px; }
+    .package-choice .radio-packages label {
+      border: 1px solid #d6d6d6;
+      border-radius: 5px;
+      width: 23%;
+      padding: 30px 0;
+      margin: 25px 10px; }
+      .package-choice .radio-packages label p {
+        font-family: PlayfairDisplayRegular;
+        color: #838383;
+        font-size: 20px; }
+
   .standard-services {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 50px 7.5%; }
+    padding: 75px 7.5%; }
     .standard-services div.package {
       background-color: #fff;
       border-radius: 10px;
       width: 33%; }
+      .standard-services div.package .empty-div {
+        width: 100%;
+        height: 50px; }
       .standard-services div.package .package-items h4 {
         font-size: 18px; }
       .standard-services div.package .package-items p {
         padding: 0 5%;
         margin-bottom: 35px; }
-      .standard-services div.package .package-items:last-of-type {
-        margin-bottom: 100px; }
       .standard-services div.package .package-result {
+        padding: 15px 25px;
+        margin-top: 50px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        background-color: #ecad9c; }
+        background-color: #fcf3f0; }
+        .standard-services div.package .package-result.stnd-package {
+          background-color: #eff4f4; }
+        .standard-services div.package .package-result h5 {
+          font-variant: all-small-caps;
+          padding-bottom: 0;
+          font-size: 26px; }
         .standard-services div.package .package-result p {
-          margin: 0; }
+          margin: 0;
+          padding-bottom: 5px; }
       .standard-services div.package .btn {
-        margin: 25px;
-        padding: 10px 40px;
+        margin: 35px;
+        margin-bottom: 50px;
+        padding: 10px 50px;
         border-radius: .55rem;
         background-color: #fff;
         border: 2px solid #ecad9c;
@@ -74,8 +113,22 @@
         font-family: ProximaNovaSemibold;
         font-size: 14px;
         letter-spacing: 2px; }
+        .standard-services div.package .btn.stnd-package {
+          border: 2px solid #93b6b7; }
+        .standard-services div.package .btn.gold {
+          font-family: ProximaNovaRegular;
+          font-size: 16px;
+          background: transparent;
+          background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+          border: 0;
+          padding: 15px 52px;
+          color: white; }
       .standard-services div.package.central {
-        height: 100%; }
+        z-index: 1;
+        height: 100%;
+        box-shadow: 0 0 25px #ccc; }
+        .standard-services div.package.central .package-result {
+          background-color: #f9f1e5; }
       .standard-services div.package .card-text {
         font-family: PlayfairDisplayRegular;
         color: #838383;
