@@ -66,33 +66,110 @@
       }
     }
     .radio-packages {
-      .golden-boarder {
-        border: 2px solid #d5a14f;
-      }
+      height: 180px;
 
+      .package-name {
+        font-family: PlayfairDisplayRegular;
+        color: #838383;
+        font-size: 20px;
 
-      input {
-        position: relative;
-        left: 50px;
-        top: -15px;
-
+        .package-price {
+          font-family: ProximaNovaLight;
+          color: #d5a14f;
+        }
       }
 
 
 
 
       label {
-        border: 1px solid #d6d6d6;
-        border-radius: 5px;
-        width: 23%;
-        padding: 30px 0;
-        margin: 25px 10px;
-        p {
-          font-family: PlayfairDisplayRegular;
-          color: #838383;
-          font-size: 20px;
+        width: 24%;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 15px 0;
+        margin: 25px 7px;
+
+        &.option-with-golden-boarder {
+          &.exclusive {
+            border: 2px solid #d5a14f;
+            input:checked ~ .checkmark {
+              border: 1px solid #d5a14f;
+            }
+            .checkmark:after {
+              background: #d5a14f;
+            }
+          }
+
+          &.standard {
+            border: 2px solid #ecad9c;
+            input:checked ~ .checkmark {
+              border: 1px solid #ecad9c;
+            }
+            .checkmark:after {
+              background: #ecad9c;
+            }
+          }
+          &.basic {
+            border: 2px solid #93b6b7;
+            input:checked ~ .checkmark {
+              border: 1px solid #93b6b7;
+            }
+            .checkmark:after {
+              background: #93b6b7;
+            }
+          }
         }
+
+        &>input:checked {
+          background-color: red;
+        }
+
+        input {
+          position: absolute;
+          opacity: 0;
+        }
+        .checkmark {
+          position: relative;
+          top: 25px;
+          left: 23px;
+          height: 18px;
+          width: 18px;
+          border-radius: 50%;
+          border: 1px solid #ccc;
+          &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            top: 5px;
+            left: 5px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+
+          }
+        }
+/*
+        input:checked ~ .checkmark {
+            border: 1px solid #d5a14f;
+        }*/
+        input:checked ~ .checkmark:after {
+          display: block;
+        }
+
+
       }
+
+
+
+
+
+      input[type='radio']:checked + label{
+        border: 2px solid #d5a14f;
+      }
+
+
+
+
 
     }
   }

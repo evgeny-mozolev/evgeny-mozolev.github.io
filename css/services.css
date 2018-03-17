@@ -52,22 +52,69 @@
       letter-spacing: 1px; }
       .package-choice h3 .grey-h3 {
         color: #ccc; }
-    .package-choice .radio-packages .golden-boarder {
-      border: 2px solid #d5a14f; }
-    .package-choice .radio-packages input {
-      position: relative;
-      left: 50px;
-      top: -15px; }
-    .package-choice .radio-packages label {
-      border: 1px solid #d6d6d6;
-      border-radius: 5px;
-      width: 23%;
-      padding: 30px 0;
-      margin: 25px 10px; }
-      .package-choice .radio-packages label p {
+    .package-choice .radio-packages {
+      height: 180px; }
+      .package-choice .radio-packages .package-name {
         font-family: PlayfairDisplayRegular;
         color: #838383;
         font-size: 20px; }
+        .package-choice .radio-packages .package-name .package-price {
+          font-family: ProximaNovaLight;
+          color: #d5a14f; }
+      .package-choice .radio-packages label {
+        width: 24%;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 15px 0;
+        margin: 25px 7px;
+        /*
+                input:checked ~ .checkmark {
+                    border: 1px solid #d5a14f;
+                }*/ }
+        .package-choice .radio-packages label.option-with-golden-boarder.exclusive {
+          border: 2px solid #d5a14f; }
+          .package-choice .radio-packages label.option-with-golden-boarder.exclusive input:checked ~ .checkmark {
+            border: 1px solid #d5a14f; }
+          .package-choice .radio-packages label.option-with-golden-boarder.exclusive .checkmark:after {
+            background: #d5a14f; }
+        .package-choice .radio-packages label.option-with-golden-boarder.standard {
+          border: 2px solid #ecad9c; }
+          .package-choice .radio-packages label.option-with-golden-boarder.standard input:checked ~ .checkmark {
+            border: 1px solid #ecad9c; }
+          .package-choice .radio-packages label.option-with-golden-boarder.standard .checkmark:after {
+            background: #ecad9c; }
+        .package-choice .radio-packages label.option-with-golden-boarder.basic {
+          border: 2px solid #93b6b7; }
+          .package-choice .radio-packages label.option-with-golden-boarder.basic input:checked ~ .checkmark {
+            border: 1px solid #93b6b7; }
+          .package-choice .radio-packages label.option-with-golden-boarder.basic .checkmark:after {
+            background: #93b6b7; }
+        .package-choice .radio-packages label > input:checked {
+          background-color: red; }
+        .package-choice .radio-packages label input {
+          position: absolute;
+          opacity: 0; }
+        .package-choice .radio-packages label .checkmark {
+          position: relative;
+          top: 25px;
+          left: 23px;
+          height: 18px;
+          width: 18px;
+          border-radius: 50%;
+          border: 1px solid #ccc; }
+          .package-choice .radio-packages label .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+            top: 5px;
+            left: 5px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%; }
+        .package-choice .radio-packages label input:checked ~ .checkmark:after {
+          display: block; }
+      .package-choice .radio-packages input[type='radio']:checked + label {
+        border: 2px solid #d5a14f; }
 
   .standard-services {
     display: flex;

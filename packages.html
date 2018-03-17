@@ -217,25 +217,26 @@
           <div class="package-choice">
             <h3>1. Выберите пакет <span class="grey-h3">(это необязательно, но желательно)</span></h3>
             <div class="radio-packages">
-
-                <input type="radio" name="optradio" id="r1">
-                <label class="radio-inline package-option" for="r1">
-                    <p class="card-text" style="display: inline-block">пакет «Стандарт»<br>
-                        <span class="price" style="color: #ecad9c">70 000 Р</span>
+                <label onclick="addBoarder();" class="standard">
+                    <input type="radio" name="selector">
+                    <div class="checkmark"></div>
+                    <p class="package-name">пакет «Стандарт»<br>
+                        <span class="package-price" style="color: #D5A14F">70 000 Р</span>
                     </p>
                 </label>
+                <label onclick="addBoarder();" class="exclusive">
+                   <input type="radio" name="selector">
+                   <div class="checkmark"></div>
+                   <p class="package-name">пакет «Эксклюзив»<br>
+                       <span class="package-price" style="color: #D5A14F">127 000 Р</span>
+                   </p>
+               </label>
 
-                <input type="radio" name="optradio" id="r2">
-                <label class="radio-inline package-option" for="r2">
-                    <p class="card-text" style="display: inline-block">пакет «Стандарт»<br>
-                        <span class="price" style="color: #ecad9c">70 000 Р</span>
-                    </p>
-                </label>
-
-                <input type="radio" name="optradio" id="r3">
-                <label class="radio-inline package-option" for="r3">
-                    <p class="card-text" style="display: inline-block">пакет «Стандарт»<br>
-                        <span class="price" style="color: #ecad9c">70 000 Р</span>
+                 <label onclick="addBoarder();" class="basic">
+                    <input type="radio" name="selector">
+                    <div class="checkmark"></div>
+                    <p class="package-name">пакет «Базовый»<br>
+                        <span class="package-price" style="color: #D5A14F">127 000 Р</span>
                     </p>
                 </label>
 
@@ -306,5 +307,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script src="js/script.js"></script>
+<script >
+function addBoarder() {
+    $('.option-with-golden-boarder').removeClass('option-with-golden-boarder');
+    var option = $('input:checked').parent();
+    $(option).addClass('option-with-golden-boarder');
+}
+</script>
 </body>
 </html>
