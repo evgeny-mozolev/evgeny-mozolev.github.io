@@ -48,7 +48,8 @@
     padding-top: 50px;
     background-color: #fff; }
     .package-choice h3 {
-      font-family: ProximaNovaLight;
+      font-family: ProximaNovaRegular;
+      font-size: 32px;
       letter-spacing: 1px; }
       .package-choice h3 .grey-h3 {
         color: #ccc; }
@@ -66,11 +67,7 @@
         border: 2px solid #ccc;
         border-radius: 10px;
         padding: 15px 0;
-        margin: 25px 7px;
-        /*
-                input:checked ~ .checkmark {
-                    border: 1px solid #d5a14f;
-                }*/ }
+        margin: 25px 7px; }
         .package-choice .radio-packages label.option-with-golden-boarder.exclusive {
           border: 2px solid #d5a14f; }
           .package-choice .radio-packages label.option-with-golden-boarder.exclusive input:checked ~ .checkmark {
@@ -89,8 +86,6 @@
             border: 1px solid #93b6b7; }
           .package-choice .radio-packages label.option-with-golden-boarder.basic .checkmark:after {
             background: #93b6b7; }
-        .package-choice .radio-packages label > input:checked {
-          background-color: red; }
         .package-choice .radio-packages label input {
           position: absolute;
           opacity: 0; }
@@ -113,8 +108,54 @@
             border-radius: 50%; }
         .package-choice .radio-packages label input:checked ~ .checkmark:after {
           display: block; }
-      .package-choice .radio-packages input[type='radio']:checked + label {
-        border: 2px solid #d5a14f; }
+
+  .additional-options {
+    padding-top: 50px;
+    background-color: #fff; }
+    .additional-options h3 {
+      font-family: ProximaNovaRegular;
+      font-size: 32px;
+      letter-spacing: 1px; }
+      .additional-options h3 .grey-h3 {
+        color: #ccc; }
+    .additional-options .radios {
+      width: 80%;
+      margin: 25px auto;
+      display: flex; }
+      .additional-options .radios .radios-col {
+        width: 33%; }
+        .additional-options .radios .radios-col #sub-col-1 label {
+          display: block;
+          width: 50%;
+          height: 20px; }
+          .additional-options .radios .radios-col #sub-col-1 label input:checked ~ .checkmark {
+            border: 1px solid #d5a14f; }
+          .additional-options .radios .radios-col #sub-col-1 label .checkmark:after {
+            background: #d5a14f; }
+          .additional-options .radios .radios-col #sub-col-1 label input {
+            position: absolute;
+            display: none;
+            opacity: 0; }
+            .additional-options .radios .radios-col #sub-col-1 label input:checked ~ .checkmark:after {
+              display: block; }
+          .additional-options .radios .radios-col #sub-col-1 label .checkmark {
+            position: relative;
+            top: 20px;
+            left: 8px;
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            border: 1px solid #ccc; }
+            .additional-options .radios .radios-col #sub-col-1 label .checkmark:after {
+              content: "";
+              position: absolute;
+              display: none;
+              top: 5px;
+              left: 5px;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              background: #d5a14f; }
 
   .standard-services {
     display: flex;

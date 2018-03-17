@@ -59,7 +59,8 @@
     padding-top: 50px;
     background-color: #fff;
     h3 {
-      font-family: ProximaNovaLight;
+      font-family: ProximaNovaRegular;
+      font-size: 32px;
       letter-spacing: 1px;
       .grey-h3 {
         color: #ccc;
@@ -67,28 +68,21 @@
     }
     .radio-packages {
       height: 180px;
-
       .package-name {
         font-family: PlayfairDisplayRegular;
         color: #838383;
         font-size: 20px;
-
         .package-price {
           font-family: ProximaNovaLight;
           color: #d5a14f;
         }
       }
-
-
-
-
       label {
         width: 24%;
         border: 2px solid #ccc;
         border-radius: 10px;
         padding: 15px 0;
         margin: 25px 7px;
-
         &.option-with-golden-boarder {
           &.exclusive {
             border: 2px solid #d5a14f;
@@ -120,10 +114,6 @@
           }
         }
 
-        &>input:checked {
-          background-color: red;
-        }
-
         input {
           position: absolute;
           opacity: 0;
@@ -145,34 +135,78 @@
             width: 6px;
             height: 6px;
             border-radius: 50%;
-
           }
         }
-/*
-        input:checked ~ .checkmark {
-            border: 1px solid #d5a14f;
-        }*/
         input:checked ~ .checkmark:after {
           display: block;
         }
-
-
       }
-
-
-
-
-
-      input[type='radio']:checked + label{
-        border: 2px solid #d5a14f;
-      }
-
-
-
-
-
     }
   }
+  .additional-options {
+    padding-top: 50px;
+    background-color: #fff;
+    h3 {
+      font-family: ProximaNovaRegular;
+      font-size: 32px;
+      letter-spacing: 1px;
+      .grey-h3 {
+        color: #ccc;
+      }
+    }
+    .radios {
+      width: 80%;
+      margin: 25px auto;
+      display: flex;
+      .radios-col {
+        width: 33%;
+        #sub-col-1 {
+          label {
+            display: block;
+            width: 50%;
+            height: 20px;
+            input:checked ~ .checkmark {
+              border: 1px solid #d5a14f;
+            }
+            .checkmark:after {
+              background: #d5a14f;
+            }
+            input {
+              position: absolute;
+              display: none;
+              opacity: 0;
+              &:checked ~ .checkmark:after {
+                display: block;
+              }
+            }
+            .checkmark {
+              position: relative;
+              top: 20px;
+              left: 8px;
+              height: 18px;
+              width: 18px;
+              border-radius: 50%;
+              border: 1px solid #ccc;
+              &:after {
+                content: "";
+                position: absolute;
+                display: none;
+                top: 5px;
+                left: 5px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #d5a14f;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
 
   // first pane
   .standard-services {
