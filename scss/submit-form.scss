@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .submit-request {
-    padding: 5% 5% 7.5%;
+    padding: 25px 5% 25px;
     text-align: center;
 
     .heading {
@@ -12,7 +12,7 @@
     }
 
     .submit-request-form {
-      margin: 8% 0 5%;
+      margin: 25px 0 0;
       .submit-request-input {
         padding: 1em;
         border: 1px solid #D5A14F;
@@ -28,14 +28,23 @@
       }
 
       .submit-request-form-button {
-        margin-top: 3%;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+        border: none;
+        color: #fff;
+        font-family: GothamProMedium;
+        font-size: 18px;
+        font-variant: all-small-caps;
+        padding: 10px 25px;
+        margin: 25px 0 25px;
+        }
       }
-    }
 
     .privacy-policy {
       font-family: ProximaNovaLight;
       //font-size: 0.9em;
-      padding: 0 10%;
+      padding: 0 5%;
+      margin: 0;
       a {
         color: #2e333d;
         text-decoration: underline;

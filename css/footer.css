@@ -5,7 +5,8 @@
     text-align: center;
     font-family: ProximaNovaLight; }
     .footer .contacts {
-      padding: 2.5% 0; }
+      padding: 2.5% 0;
+      font-size: 14px; }
       .footer .contacts .company-title {
         font-family: ProximaNovaSemibold; }
       .footer .contacts .address {
@@ -13,8 +14,10 @@
       .footer .contacts .tel {
         font-family: GothamProRegular;
         color: #bca05c; }
-    .footer .author a {
-      color: #bca05c; } }
+    .footer .author {
+      font-size: 14px; }
+      .footer .author a {
+        color: #bca05c; } }
 @media (min-width: 769px) {
   .footer {
     padding: 2vw;
