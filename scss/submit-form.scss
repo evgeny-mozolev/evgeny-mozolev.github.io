@@ -83,15 +83,15 @@
         }
       }
       .submit-request-form-button {
-        border-radius: .55rem;
-        background-image: linear-gradient(to bottom, rgb(234, 195, 127), rgb(188, 160, 92));
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, #eac37f, #bca05c);
         border: none;
         color: #fff;
-        font-family: ProximaNovaRegular;
-        font-size: 1.1vw;
-        letter-spacing: 2px;
-        margin: 2vw;
-        padding: 1vw 3vw;
+        font-family: GothamProMedium;
+        font-size: 18px;
+        font-variant: all-small-caps;
+        padding: 10px 25px;
+        margin: 25px;
       }
     }
     .privacy-policy {
@@ -125,7 +125,8 @@
       }
     }
   }
-  .submit-request.services {
+  .submit-request.services,
+  .submit-request.feedback {
     .heading{
       font-family: ProximaNovaRegular;
       font-size: 32px;
@@ -137,6 +138,16 @@
       .chosen-package, .options {
         color: #D5A14F;
       }
+    }
+  }
+  .submit-request.feedback {
+    .heading {
+      font-family: GothamProBold;
+      font-variant: all-small-caps;
+    }
+    span.submit-request-lead {
+      display: block;
+      font-size: 18px;
     }
   }
 }

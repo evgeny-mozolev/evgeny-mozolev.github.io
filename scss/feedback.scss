@@ -1,0 +1,71 @@
+@media (min-width: 769px) {
+  .feedback-section {
+    width: 100%;
+    background-color: #f7f6f6;
+
+    .feedback-head {
+      padding: 50px 0 25px;
+      text-align: center;
+      .h4 {
+        font-size: 36px;
+        line-height: 62px;
+        padding: 22px;
+        vertical-align: top;
+      }
+      .feedback-attire {
+        font-size: 72px;
+      }
+    }
+    .card-columns {
+      width: 80%;
+      margin: 0 auto;
+        column-count: 2;
+        .card {
+          border: none;
+          margin: 25px;
+          width: 90%;
+          .card-body {
+            .link-section {
+              text-align: center;
+              text-decoration: underline;
+              font-family: ProximaNovaLight;
+              font-size: 20px;
+              margin-bottom: 50px;
+            }
+            .card-text {
+              padding: 25px;
+              font-size: 18px;
+            }
+            .feedback-people {
+              text-align: center;
+              width: 50%;
+              margin: 50px auto 0;
+              h5 {
+                font-size: 22px;
+                font-family: GothamProMedium;
+                letter-spacing: 0.2px;
+              }
+              img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 25px;
+              }
+              .lead {
+                font-family: GothamProRegular;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+    }
+    .load-more-feedback {
+      text-align: center;
+      padding: 25px 0;
+      a {
+        font-family: ProximaNovaLight;
+        color: #D5A14F;
+        font-size: 22px;
+      }
+    }
+  }
+}

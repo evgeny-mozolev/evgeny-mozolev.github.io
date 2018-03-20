@@ -61,15 +61,15 @@
           .submit-request .submit-request-form .submit-request-input.half-width:first-of-type {
             border-right: none; }
       .submit-request .submit-request-form .submit-request-form-button {
-        border-radius: .55rem;
+        border-radius: 10px;
         background-image: linear-gradient(to bottom, #eac37f, #bca05c);
         border: none;
         color: #fff;
-        font-family: ProximaNovaRegular;
-        font-size: 1.1vw;
-        letter-spacing: 2px;
-        margin: 2vw;
-        padding: 1vw 3vw; }
+        font-family: GothamProMedium;
+        font-size: 18px;
+        font-variant: all-small-caps;
+        padding: 10px 25px;
+        margin: 25px; }
     .submit-request .privacy-policy {
       font-family: ProximaNovaLight;
       padding: 0 10%; }
@@ -95,14 +95,25 @@
         display: block;
         font-size: 18px; }
 
-  .submit-request.services .heading {
+  .submit-request.services .heading,
+  .submit-request.feedback .heading {
     font-family: ProximaNovaRegular;
     font-size: 32px;
     font-variant: normal; }
-  .submit-request.services .heading-lead {
+  .submit-request.services .heading-lead,
+  .submit-request.feedback .heading-lead {
     font-family: ProximaNovaLight;
     font-size: 20px; }
-    .submit-request.services .heading-lead .chosen-package, .submit-request.services .heading-lead .options {
-      color: #D5A14F; } }
+    .submit-request.services .heading-lead .chosen-package, .submit-request.services .heading-lead .options,
+    .submit-request.feedback .heading-lead .chosen-package,
+    .submit-request.feedback .heading-lead .options {
+      color: #D5A14F; }
+
+  .submit-request.feedback .heading {
+    font-family: GothamProBold;
+    font-variant: all-small-caps; }
+  .submit-request.feedback span.submit-request-lead {
+    display: block;
+    font-size: 18px; } }
 
 /*# sourceMappingURL=submit-form.css.map */
