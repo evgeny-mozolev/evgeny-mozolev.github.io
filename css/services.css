@@ -112,6 +112,8 @@
   .additional-options {
     padding-top: 50px;
     background-color: #fff; }
+    .additional-options h4 {
+      margin-bottom: 20px; }
     .additional-options h3 {
       font-family: ProximaNovaRegular;
       font-size: 32px;
