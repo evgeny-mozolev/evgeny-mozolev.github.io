@@ -1,3 +1,27 @@
+@media (max-width: 768px) {
+  .feature {
+    background-color: #f7f6f6;
+    font-family: GothamProRegular;
+    padding: 50px 5%;
+
+    span.h3 {
+      font-size: 20px;
+    }
+    .featured-text {
+      padding: 50px 0;
+      .h2 {
+        font-size: 36px;
+        font-family: GothamProLight;
+      }
+    }
+    .two-column-feature-text {
+      width: 100%;
+      font-family: ProximaNovaRegular;
+      font-size: 20px;
+    }
+  }
+}
+
 @media (min-width: 769px) {
   .feature {
     background-color: #f7f6f6;

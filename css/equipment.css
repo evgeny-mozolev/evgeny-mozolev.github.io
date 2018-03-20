@@ -1,3 +1,17 @@
+@media (max-width: 768px) {
+  .equipment {
+    text-align: center;
+    padding: 50px 5%;
+    font-family: GothamProRegular; }
+    .equipment .h3 {
+      font-family: GothamProBold;
+      font-variant: all-small-caps;
+      font-size: 36px; }
+    .equipment .equipment-options-lead {
+      margin: 25px auto;
+      font-size: 18px; }
+      .equipment .equipment-options-lead a {
+        color: #D5A14F; } }
 @media (min-width: 769px) {
   .equipment {
     color: black;

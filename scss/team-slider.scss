@@ -1,3 +1,53 @@
+@media (max-width: 768px) {
+  .team-slider {
+    background-color: #f7f6f6;
+    text-align: center;
+    padding: 25px 5%;
+    .h3 {
+      font-family: GothamProBold;
+      font-variant: all-small-caps;
+      font-size: 36px;
+    }
+    #carouselExampleIndicators {
+      padding: 50px 0;
+      .carousel-control-next, .carousel-control-prev {
+        display: none;
+      }
+      .carousel-indicators li {
+        border-radius: 8px;
+        width: 8px;
+        height: 8px;
+        background-color: #d8d8d8;
+        &.active {
+          background-color: #D5A14F;
+        }
+      }
+
+      .carousel-inner {
+        //height: 400px;
+        .carousel-caption {
+          position: initial;
+          color: black;
+          //width: 90%;
+          margin: 0 auto;
+          h5 {
+            font-size: 24px;
+            font-family: GothamProMedium;
+          }
+          .lead {
+            font-family: GothamProLight;
+            font-size: 18px;
+          }
+          .team-member-description {
+            font-family: ProximaNovaRegular;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 769px) {
   .team-slider {
     color: black;
