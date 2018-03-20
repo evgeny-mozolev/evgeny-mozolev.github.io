@@ -174,6 +174,9 @@
             text-align: left;
             width: 100%;
             height: 35px;
+            display: flex;
+            flex-direction: row;
+            line-height: 25px;
             input:checked ~ .checkmark {
               border: 1px solid #d5a14f;
             }
@@ -214,27 +217,57 @@
         }
         #sub-col-3 {
           label {
-            width: 80%;
-            margin-bottom: 25px;
-
+            height: auto;
+            //width: 80%;
+            margin-bottom: 0;
             .checkmark-box {
+              box-sizing: border-box;
               display: inline-block;
               position: relative;
               top: 0;
               left: 0;
-              margin-right: 4%;
-              height: 18px;
-              width: 18px;
+              //margin-right: 4%;
+              height: 20px;
+              width: 20px;
               background-color: white;
               border: 1px solid #ccc;
               border-radius: 2px;
+              &:after {
+                content: "";
+                position: absolute;
+                display: none;
+              }
+            }
+            .checkmark-box:after {
+              left: 6px;
+              top: 1px;
+              width: 7px;
+              height: 13px;
+              border: solid #d5a14f;
+              border-width: 0 2px 2px 0px;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
+
+            p {
+              margin-left: 5%;
+              line-height: 25px;
+              font-size: 19px;
+              width: 75%;
+
+            }
+            input:checked ~ .checkmark-box {
+              border: 1px solid #d5a14f;
+            }
+            input:checked ~ .checkmark-box:after {
+              display: block;
             }
           }
         }
       }
     }
   }
-
 
 
 
