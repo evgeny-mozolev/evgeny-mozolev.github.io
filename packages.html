@@ -366,18 +366,24 @@
                                 <div class="checkmark-box"></div>
                                 <p>Стедикам Ronin</p>
                             </label>
-
                         </form>
                     </div>
-
-
-
                 </div>
-                <div class="radios-col">3</div>
+                <div class="radios-col">
+                    <div id="sub-col-4">
+                        <form action="">
+                            <h4>Дата события</h4>
+                            <input id="dateInput" type="date">
+                            <label>
+                                <input type="checkbox" name="date_unknown" value="unknown" id="dateUnkInput">
+                                <div class="checkmark-box"></div>
+                                <p>Дата пока неизвестна</p>
+                            </label>
+                        </form>
+                    </div>
+                </div>
             </div>
           </div>
-
-
       </div>
     </div>
 </div>
@@ -444,10 +450,22 @@
 
 <script src="js/script.js"></script>
 <script >
+
+$('#dateUnkInput').on('change', function(){
+$('#dateInput').attr('disabled', this.checked);
+});
+
+
+
 function addBoarder() {
     $('.option-with-golden-boarder').removeClass('option-with-golden-boarder');
     var option = $('input:checked').parent();
     $(option).addClass('option-with-golden-boarder');
+
+
+
+
+
 }
 </script>
 </body>

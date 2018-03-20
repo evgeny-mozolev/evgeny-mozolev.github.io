@@ -147,9 +147,9 @@
     padding-top: 50px;
     background-color: #fff;
 
-    h4 {
-      font-family: ProximaNovaSemibold;
-      font-size: 18px;
+    h3 {
+      font-family: ProximaNovaRegular;
+      font-size: 32px;
       letter-spacing: 1px;
       margin-bottom: 20px;
       .grey-h3 {
@@ -158,16 +158,20 @@
     }
     .radios, .checkbox {
       font-size: 18px;
-      width: 75%;
-      margin: 25px auto;
+      width: 72%;
+      margin: 25px 5% 0 15%;
       display: flex;
       text-align: left;
       .radios-col {
-        width: 32%;
-        &.radios-col-wide {
-          width: 36%;
+        width: 30%;
+        margin:0 auto;
+        &:last-of-type {
+
         }
-        #sub-col-1, #sub-col-2, #sub-col-3 {
+        &.radios-col-wide {
+          width: 35%;
+        }
+        #sub-col-1, #sub-col-2, #sub-col-3,#sub-col-4 {
           margin-bottom: 50px;
           label {
             font-family: ProximaNovaRegular;
@@ -215,7 +219,10 @@
             }
           }
         }
-        #sub-col-3 {
+        #sub-col-2,#sub-col-3 {
+          margin-bottom: 0;
+        }
+        #sub-col-3, #sub-col-4 {
           label {
             height: auto;
             //width: 80%;
@@ -249,19 +256,39 @@
               -ms-transform: rotate(45deg);
               transform: rotate(45deg);
             }
-
             p {
               margin-left: 5%;
               line-height: 25px;
               font-size: 19px;
               width: 75%;
-
             }
             input:checked ~ .checkmark-box {
               border: 1px solid #d5a14f;
             }
             input:checked ~ .checkmark-box:after {
               display: block;
+            }
+          }
+        }
+        #sub-col-4 {
+          input[type=date] {
+            font-family: GothamProRegular;
+            color: #171616;
+            border: none;
+            position: relative;
+            top: -8px;
+            margin-bottom: 10px;
+            &[disabled] {
+              background: none;
+              color: #ccc;
+            }
+            &:after {
+              content: '__________';
+              position: relative;
+              color: #d5a14f;
+              left: -185px;
+              font-size: 19px;
+              top: 2px;
             }
           }
         }
