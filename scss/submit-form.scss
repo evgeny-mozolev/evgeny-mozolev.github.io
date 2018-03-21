@@ -53,7 +53,8 @@
     }
   }
 
-  .submit-request.about-us {
+  .submit-request.about-us,
+  .submit-request.feedback {
     .heading {
       font-size: 24px;
     }
@@ -65,6 +66,17 @@
     }
     .submit-request-form {
       margin-top: 0;
+    }
+  }
+  .submit-request.feedback {
+    .heading {
+      display: block;
+      margin-bottom: 35px;
+    }
+
+    .submit-request-lead {
+      display: none;
+
     }
   }
 }

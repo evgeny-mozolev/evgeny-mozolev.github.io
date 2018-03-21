@@ -39,15 +39,24 @@
         text-decoration: underline;
         text-decoration-color: #2e333d; }
 
-  .submit-request.about-us .heading {
+  .submit-request.about-us .heading,
+  .submit-request.feedback .heading {
     font-size: 24px; }
-  .submit-request.about-us .submit-request-lead {
+  .submit-request.about-us .submit-request-lead,
+  .submit-request.feedback .submit-request-lead {
     font-family: ProximaNovaLight;
     font-size: 20px;
     padding: 10px 10%;
     display: block; }
-  .submit-request.about-us .submit-request-form {
-    margin-top: 0; } }
+  .submit-request.about-us .submit-request-form,
+  .submit-request.feedback .submit-request-form {
+    margin-top: 0; }
+
+  .submit-request.feedback .heading {
+    display: block;
+    margin-bottom: 35px; }
+  .submit-request.feedback .submit-request-lead {
+    display: none; } }
 @media (min-width: 769px) {
   .submit-request {
     padding: 55px;

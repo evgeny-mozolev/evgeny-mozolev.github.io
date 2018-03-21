@@ -1,3 +1,50 @@
+@media (max-width: 768px) {
+  .feedback-section {
+    background-color: #f7f6f6;
+    padding-bottom: 50px; }
+    .feedback-section .feedback-head {
+      display: flex;
+      justify-content: center;
+      padding: 35px 0 35px; }
+      .feedback-section .feedback-head .h4 {
+        font-size: 36px;
+        line-height: 50px;
+        vertical-align: top;
+        padding: 0 20px; }
+      .feedback-section .feedback-head .feedback-attire {
+        font-size: 64px; }
+    .feedback-section .card-columns {
+      width: 87%;
+      margin: 0 auto; }
+      .feedback-section .card-columns .card {
+        border: none;
+        border-radius: 0;
+        margin-bottom: 50px; }
+        .feedback-section .card-columns .card .card-body {
+          margin-bottom: 25px; }
+          .feedback-section .card-columns .card .card-body .link-section {
+            text-align: center;
+            text-decoration: underline;
+            font-family: ProximaNovaLight;
+            font-size: 20px;
+            margin-bottom: 10px; }
+          .feedback-section .card-columns .card .card-body .card-text {
+            padding: 20px;
+            font-size: 18px; }
+          .feedback-section .card-columns .card .card-body .feedback-people {
+            text-align: center;
+            margin: 50px auto 0; }
+            .feedback-section .card-columns .card .card-body .feedback-people h5 {
+              font-size: 22px;
+              font-family: GothamProMedium;
+              letter-spacing: 0.2px; }
+            .feedback-section .card-columns .card .card-body .feedback-people img {
+              display: block;
+              margin: 0 auto;
+              margin-bottom: 25px; }
+            .feedback-section .card-columns .card .card-body .feedback-people .lead {
+              font-family: GothamProRegular;
+              font-size: 15px; } }
 @media (min-width: 769px) {
   .feedback-section {
     width: 100%;

@@ -1,3 +1,65 @@
+@media (max-width: 768px) {
+ .feedback-section {
+   background-color: #f7f6f6;
+   padding-bottom: 50px;
+   .feedback-head {
+     display: flex;
+     justify-content: center;
+     padding: 35px 0 35px;
+     .h4 {
+       font-size: 36px;
+       line-height: 50px;
+       vertical-align: top;
+       padding: 0 20px;
+     }
+     .feedback-attire {
+       font-size: 64px;
+     }
+   }
+   .card-columns {
+     width: 87%;
+     margin: 0 auto;
+     .card {
+       border: none;
+       border-radius: 0;
+       margin-bottom: 50px;
+       .card-body {
+          margin-bottom: 25px;
+         .link-section {
+           text-align: center;
+           text-decoration: underline;
+           font-family: ProximaNovaLight;
+           font-size: 20px;
+           margin-bottom: 10px;
+         }
+         .card-text {
+           padding: 20px;
+           font-size: 18px;
+         }
+         .feedback-people {
+           text-align: center;
+           margin: 50px auto 0;
+           h5 {
+             font-size: 22px;
+             font-family: GothamProMedium;
+             letter-spacing: 0.2px;
+           }
+           img {
+             display: block;
+             margin: 0 auto;
+             margin-bottom: 25px;
+           }
+           .lead {
+             font-family: GothamProRegular;
+             font-size: 15px;
+           }
+         }
+       }
+     }
+   }
+ }
+}
+
 @media (min-width: 769px) {
   .feedback-section {
     width: 100%;
