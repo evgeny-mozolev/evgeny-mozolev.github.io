@@ -3,16 +3,68 @@
     text-align: center;
     padding: 50px 5%;
     font-family: GothamProRegular;
+    margin-bottom: 50px;
     .h3 {
       font-family: GothamProBold;
       font-variant: all-small-caps;
       font-size: 36px;
     }
     .equipment-options-lead {
+      font-family: GothamProLight;
       margin: 25px auto;
       font-size: 18px;
       a {
         color: #D5A14F;
+      }
+    }
+    .card-deck {
+      .row{
+       .card {
+         border: none;
+         width: 99%;
+       }
+      }
+    }
+
+    .equipment-mobile {
+      #equipment-carousel {
+        .carousel-indicators {
+          bottom: -75px;
+          li {
+            border-radius: 8px;
+            margin: 0 6px;
+            width: 8px;
+            height: 8px;
+            background-color: #d8d8d8;
+            &.active {
+              background-color: #D5A14F;
+            }
+          }
+        }
+
+        .carousel-inner {
+          margin
+          .carousel-item,
+          .carousel-item.active,
+          .carousel-item-left,
+          .carousel-item-right
+          {
+            .card-title {
+              font-family: GothamProMedium;
+              font-size: 20px;
+              margin-bottom: 4px;
+            }
+            .card-text {
+              font-family: ProximaNovaRegular;
+              font-size: 19px;
+            }
+
+
+            .card-img-top{
+              width: 75%;
+            }
+          }
+        }
       }
     }
   }

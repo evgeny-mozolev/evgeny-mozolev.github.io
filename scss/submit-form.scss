@@ -4,7 +4,7 @@
     text-align: center;
 
     .heading {
-      font-variant: small-caps;
+      text-transform: uppercase;
       font-family: GothamProMedium;
       color: #171616;
       font-size: 2em;
@@ -50,6 +50,21 @@
         text-decoration: underline;
         text-decoration-color: #2e333d;
       }
+    }
+  }
+
+  .submit-request.about-us {
+    .heading {
+      font-size: 24px;
+    }
+    .submit-request-lead {
+      font-family: ProximaNovaLight;
+      font-size: 20px;
+      padding: 10px 10%;
+      display: block;
+    }
+    .submit-request-form {
+      margin-top: 0;
     }
   }
 }

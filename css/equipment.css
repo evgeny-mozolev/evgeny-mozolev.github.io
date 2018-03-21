@@ -2,16 +2,52 @@
   .equipment {
     text-align: center;
     padding: 50px 5%;
-    font-family: GothamProRegular; }
+    font-family: GothamProRegular;
+    margin-bottom: 50px; }
     .equipment .h3 {
       font-family: GothamProBold;
       font-variant: all-small-caps;
       font-size: 36px; }
     .equipment .equipment-options-lead {
+      font-family: GothamProLight;
       margin: 25px auto;
       font-size: 18px; }
       .equipment .equipment-options-lead a {
-        color: #D5A14F; } }
+        color: #D5A14F; }
+    .equipment .card-deck .row .card {
+      border: none;
+      width: 99%; }
+    .equipment .equipment-mobile #equipment-carousel .carousel-indicators {
+      bottom: -75px; }
+      .equipment .equipment-mobile #equipment-carousel .carousel-indicators li {
+        border-radius: 8px;
+        margin: 0 6px;
+        width: 8px;
+        height: 8px;
+        background-color: #d8d8d8; }
+        .equipment .equipment-mobile #equipment-carousel .carousel-indicators li.active {
+          background-color: #D5A14F; }
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner margin
+    .carousel-item .card-title,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item.active .card-title,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-left .card-title,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-right .card-title {
+      font-family: GothamProMedium;
+      font-size: 20px;
+      margin-bottom: 4px; }
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner margin
+    .carousel-item .card-text,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item.active .card-text,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-left .card-text,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-right .card-text {
+      font-family: ProximaNovaRegular;
+      font-size: 19px; }
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner margin
+    .carousel-item .card-img-top,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item.active .card-img-top,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-left .card-img-top,
+    .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-right .card-img-top {
+      width: 75%; } }
 @media (min-width: 769px) {
   .equipment {
     color: black;

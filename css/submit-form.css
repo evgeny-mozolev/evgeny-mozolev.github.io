@@ -3,7 +3,7 @@
     padding: 25px 5% 25px;
     text-align: center; }
     .submit-request .heading {
-      font-variant: small-caps;
+      text-transform: uppercase;
       font-family: GothamProMedium;
       color: #171616;
       font-size: 2em;
@@ -37,7 +37,17 @@
       .submit-request .privacy-policy a {
         color: #2e333d;
         text-decoration: underline;
-        text-decoration-color: #2e333d; } }
+        text-decoration-color: #2e333d; }
+
+  .submit-request.about-us .heading {
+    font-size: 24px; }
+  .submit-request.about-us .submit-request-lead {
+    font-family: ProximaNovaLight;
+    font-size: 20px;
+    padding: 10px 10%;
+    display: block; }
+  .submit-request.about-us .submit-request-form {
+    margin-top: 0; } }
 @media (min-width: 769px) {
   .submit-request {
     padding: 55px;
