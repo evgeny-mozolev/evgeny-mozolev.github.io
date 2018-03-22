@@ -50,6 +50,11 @@
             font-weight: bold;
             background-color: inherit;
           }
+          &:not(.active):hover {
+            border-top: 1px solid #f7f6f6;
+            border-left: 1px solid #f7f6f6;
+            border-right: 1px solid #f7f6f6;
+          }
         }
       }
     }
@@ -300,6 +305,11 @@
               top: 2px;
             }
           }
+          input[type=date]:focus {
+            border: none;
+            outline: none;
+          }
+
         }
       }
     }

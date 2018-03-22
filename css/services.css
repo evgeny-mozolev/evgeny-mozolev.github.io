@@ -44,6 +44,10 @@
             line-height: 25px;
             font-weight: bold;
             background-color: inherit; }
+          .services nav .nav-tabs .nav-item:not(.active):hover {
+            border-top: 1px solid #f7f6f6;
+            border-left: 1px solid #f7f6f6;
+            border-right: 1px solid #f7f6f6; }
 
   .tab-content {
     width: 90%;
@@ -231,6 +235,9 @@
               left: -185px;
               font-size: 19px;
               top: 2px; }
+          .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:focus, .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:focus {
+            border: none;
+            outline: none; }
     .tab-content .standard-services {
       display: flex;
       align-items: center;

@@ -74,7 +74,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   .contacts-section {
     background-color: #f7f6f6;
     .contacts-head {
@@ -111,10 +111,15 @@
           width: 50%;
           margin-right: 5%;
           text-align: right;
+          & > ymaps {
+            display: block;
+            float: right;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+          }
+          
           img {
             box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
-            height: 380px;
-
+            height: 400px;
           }
         }
         #contacts-map-col2 {
@@ -154,3 +159,4 @@
     }
   }
 }
+
