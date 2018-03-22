@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .portfolio {
     background-color: #f7f6f6;
     padding: 2.5% 10% 5%;
@@ -73,55 +73,47 @@
 }
 
 
-@media (min-width: 769px) {
-  body {
-    background-color: #f7f6f6;
-  }
- .portfolio {
+
+
+
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+
+@media (min-width: 969px) {
+
+  .portfolio {
    background-color: #f7f6f6;
    text-align: center;
-   .grid {
-     position: relative;
-     width: 1000px;
-
-     margin: 0 auto;
-     margin-bottom: 75px;
-
-     .grid-item {
-        position: absolute;
-        margin-left: 25px;
-        margin-bottom: 25px;
-        max-width: 500px;
-     }
-   }
    .portfolio-head {
-     padding: 3.5vw 0;
+     padding: 75px 0;
      text-align: center;
      .h4 {
-       font-size: 2.1vw;
-       font-family: GothamProBold;
+       font-size: 34px;
+       font-family: GothamProMedium;
        vertical-align: top;
+       line-height: 48px;
      }
      .portfolio-attire {
-       font-size: 3.5vw;
+       font-size: 64px;
      }
    }
 
-   .portfolio-teaser {
-     text-align: left;
-     margin: 0;
-     padding: 0 25px;
-     .h3 {
-       color: #D5A14F;
-       font-variant: all-small-caps;
-       font-size: 28px;
-     }
-     p {
-       margin-top: 1vw;
-       font-family: GothamProRegular;
-       font-size: 22px;
-     }
-   }
+
+
+
+
    .portfolio-story {
      background-color: #fff;
      border-radius: 0;
@@ -132,16 +124,16 @@
        padding: 25px 0;
        font-family: GothamProRegular;
        .card-title {
-         font-size: 22px;
+         font-size: 24px;
        }
        .card-text {
          font-family: PlayfairDisplayRegular;
          color: #838383;
          margin-bottom: 50px;
-         font-size: 18px;
+         font-size: 24px;
        }
        .portfolio-link {
-         font-size: 16px;
+         font-size: 18px;
        }
      }
    }
@@ -162,39 +154,66 @@
        letter-spacing: 2px;
      }
    }
+
+// - -
+   .portfolio-masonry {
+     width: 1000px;
+     margin: 0 auto;
+     column-count: 2;
+     column-gap: 50px;
+     .card {
+       margin-bottom: 50px;
+       border: none;
+       border-radius: 0;
+       &.initiator {
+         margin-bottom: 25px;
+       }
+       .card-body {
+         .card-title {
+           font-size: 24px;
+         }
+         .card-text {
+           font-family: PlayfairDisplayRegular;
+           color: #838383;
+           margin-bottom: 50px;
+           font-size: 24px;
+         }
+         .portfolio-link {
+           font-size: 18px;
+         }
+         &.portfolio-teaser {
+           background-color: #f7f6f6;
+           text-align: left;
+           margin: 0;
+           padding: 25px;
+           padding-bottom: 5px;
+           .h3 {
+             font-family: GothamProBold;
+             color: #D5A14F;
+             text-transform: uppercase;
+             font-size: 28px;
+           }
+           p {
+             margin-top: 25px;
+             font-family: GothamProRegular;
+             font-size: 24px;
+             margin-bottom: 0;
+           }
+         }
+       }
+     }
+   }
  }
 
-
+// - - THIS IS FOR PORTFOLIO PAGE - - //
   .portfolio-page {
+    padding-bottom: 50px;
     .portfolio-head {
-      padding: 40px 0 0;
-      .h4 {
-        font-size: 36px;
-        line-height: 62px;
-        padding: 22px;
-      }
-      .portfolio-attire {
-        font-size: 72px;
-      }
+      padding: 50px 0;
     }
-
     .portfolio-teaser {
-      margin: 0 0 25px 25px;
-      span.h3 {
-        font-size: 36px;
-        letter-spacing: 0.5px;
-      }
       p {
-        font-size: 23px;
-      }
-    }
-
-
-    .grid {
-      margin-bottom: 150px;
-      .grid-item {
-        margin: 25px;
-        margin-right: 0;
+        line-height: normal;
       }
 
     }

@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .footer {
     background-color: #f7f6f6;
     padding: 5%;
@@ -6,7 +6,7 @@
     font-family: ProximaNovaLight; }
     .footer .contacts {
       padding: 2.5% 0;
-      font-size: 14px; }
+      font-size: 16px; }
       .footer .contacts .company-title {
         font-family: ProximaNovaSemibold; }
       .footer .contacts .address {
@@ -15,26 +15,27 @@
         font-family: GothamProRegular;
         color: #bca05c; }
     .footer .author {
-      font-size: 14px; }
+      font-size: 16px; }
       .footer .author a {
         color: #bca05c; } }
-@media (min-width: 769px) {
+@media (min-width: 969px) {
   .footer {
-    padding: 2vw;
+    padding: 25px;
     background-color: #f7f6f6;
     overflow: hidden;
-    font-size: 18px; }
+    font-size: 16px;
+    display: flex;
+    flex-direction: row; }
     .footer .social-buttons-pics {
-      float: left;
-      width: 20vw;
-      padding-left: 2vw;
+      width: 20%;
+      padding-left: 25px;
       font-size: 36px; }
       .footer .social-buttons-pics span {
-        padding-left: 0.5vw; }
+        padding-left: 1vw; }
     .footer .contacts {
-      float: left;
-      width: 53vw;
-      text-align: center; }
+      width: 62%;
+      text-align: center;
+      font-size: 16px; }
       .footer .contacts .company-title {
         font-family: ProximaNovaSemibold; }
       .footer .contacts .address {
@@ -43,8 +44,7 @@
         font-family: GothamProRegular;
         color: #bca05c; }
     .footer .author {
-      float: right;
-      width: 20vw; }
+      width: 18%; }
       .footer .author a {
         color: #bca05c; }
 

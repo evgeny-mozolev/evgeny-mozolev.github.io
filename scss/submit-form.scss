@@ -1,8 +1,7 @@
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .submit-request {
     padding: 25px 5% 25px;
     text-align: center;
-
     .heading {
       text-transform: uppercase;
       font-family: GothamProMedium;
@@ -53,13 +52,16 @@
     }
   }
 
+
+
+
+  // - - - - - - -
   .submit-request.about-us,
   .submit-request.feedback {
     .heading {
       font-size: 24px;
     }
     .submit-request-lead {
-      font-family: ProximaNovaLight;
       font-size: 20px;
       padding: 10px 10%;
       display: block;
@@ -73,31 +75,30 @@
       display: block;
       margin-bottom: 35px;
     }
-
     .submit-request-lead {
       display: none;
-
     }
   }
 }
 
-@media (min-width: 769px) {
+
+@media (min-width: 969px) {
   .submit-request {
-    padding: 55px;
+    padding: 50px;
     text-align: center;
     background-color: white;
     .heading {
-      font-variant: small-caps;
-      font-family: GothamProMedium;
+      text-transform: uppercase;
+      font-family: GothamProBold;
       color: #171616;
-      font-size: 2.5vw;
+      font-size: 24px;
     }
     .submit-request-form {
-      width: 50vw;
+      width: 700px;
       margin: 0 auto;
       .submit-request-input {
-        margin-top: 2vw;
-        padding: 1.5vw;
+        margin-top: 25px;
+        padding: 25px;
         display: inline-block;
         border: 1px solid #D5A14F;
         color: #838383;
@@ -132,7 +133,6 @@
     }
     .privacy-policy {
       font-family: ProximaNovaLight;
-      //font-size: 0.9em;
       padding: 0 10%;
       a {
         color: #2e333d;
@@ -141,18 +141,19 @@
       }
     }
   }
+
+
   .submit-request.about-us {
     background-color: #f7f6f6;
     padding: 60px;
     .form-wrapper {
-      padding: 25px;
-      width: 60vw;
+      padding: 50px;
+      width: 800px;
       background-color: #fff;
       margin: 0 auto;
       span.h4.heading {
-        font-family: ProximaNovaRegular;
-        font-variant: all-small-caps;
-        font-size: 32px;
+        text-transform: uppercase;
+        font-size: 24px;
         letter-spacing: 0.1px;
       }
       span.submit-request-lead {
@@ -161,12 +162,14 @@
       }
     }
   }
+
   .submit-request.services,
   .submit-request.feedback {
     .heading{
-      font-family: ProximaNovaRegular;
-      font-size: 32px;
+      font-family: GothamProRegular;
+      font-size: 24px;
       font-variant: normal;
+      text-transform: none;
     }
     .heading-lead {
       font-family: ProximaNovaLight;
@@ -176,14 +179,17 @@
       }
     }
   }
-  .submit-request.feedback {
+  .submit-request.feedback,
+  .submit-request.contacts,
+  .submit-request.about-us
+  {
     .heading {
       font-family: GothamProBold;
-      font-variant: all-small-caps;
+      text-transform: uppercase;
     }
     span.submit-request-lead {
       display: block;
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 }

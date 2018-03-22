@@ -1,9 +1,10 @@
 @media (min-width: 769px) {
   .services {
     text-align: center;
-    background-color: #f7f6f6; }
+    background-color: #fff; }
     .services .services-head {
-      padding: 40px 0 60px; }
+      padding: 40px 0 60px;
+      background-color: #f7f6f6; }
       .services .services-head p {
         position: absolute;
         left: 0;
@@ -44,257 +45,258 @@
             font-weight: bold;
             background-color: inherit; }
 
-  .package-choice {
-    padding-top: 50px;
-    background-color: #fff; }
-    .package-choice h3 {
-      font-family: ProximaNovaRegular;
-      font-size: 32px;
-      letter-spacing: 1px; }
-      .package-choice h3 .grey-h3 {
-        color: #ccc; }
-    .package-choice .radio-packages {
-      height: 180px; }
-      .package-choice .radio-packages .package-name {
-        font-family: PlayfairDisplayRegular;
-        color: #838383;
-        font-size: 20px; }
-        .package-choice .radio-packages .package-name .package-price {
-          font-family: ProximaNovaLight;
-          color: #d5a14f; }
-      .package-choice .radio-packages label {
-        width: 24%;
-        border: 2px solid #ccc;
-        border-radius: 10px;
-        padding: 15px 0;
-        margin: 25px 7px; }
-        .package-choice .radio-packages label.option-with-golden-boarder.exclusive {
-          border: 2px solid #d5a14f; }
-          .package-choice .radio-packages label.option-with-golden-boarder.exclusive input:checked ~ .checkmark {
-            border: 1px solid #d5a14f; }
-          .package-choice .radio-packages label.option-with-golden-boarder.exclusive .checkmark:after {
-            background: #d5a14f; }
-        .package-choice .radio-packages label.option-with-golden-boarder.standard {
-          border: 2px solid #ecad9c; }
-          .package-choice .radio-packages label.option-with-golden-boarder.standard input:checked ~ .checkmark {
-            border: 1px solid #ecad9c; }
-          .package-choice .radio-packages label.option-with-golden-boarder.standard .checkmark:after {
-            background: #ecad9c; }
-        .package-choice .radio-packages label.option-with-golden-boarder.basic {
-          border: 2px solid #93b6b7; }
-          .package-choice .radio-packages label.option-with-golden-boarder.basic input:checked ~ .checkmark {
-            border: 1px solid #93b6b7; }
-          .package-choice .radio-packages label.option-with-golden-boarder.basic .checkmark:after {
-            background: #93b6b7; }
-        .package-choice .radio-packages label input {
-          position: absolute;
-          opacity: 0; }
-        .package-choice .radio-packages label .checkmark {
-          position: relative;
-          top: 25px;
-          left: 23px;
-          height: 18px;
-          width: 18px;
-          border-radius: 50%;
-          border: 1px solid #ccc; }
-          .package-choice .radio-packages label .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
-            top: 5px;
-            left: 5px;
-            width: 6px;
-            height: 6px;
-            border-radius: 50%; }
-        .package-choice .radio-packages label input:checked ~ .checkmark:after {
-          display: block; }
-
-  .additional-options {
-    padding-top: 50px;
-    background-color: #fff; }
-    .additional-options h4 {
-      margin-bottom: 20px; }
-    .additional-options h3 {
-      font-family: ProximaNovaRegular;
-      font-size: 32px;
-      letter-spacing: 1px;
-      margin-bottom: 20px; }
-      .additional-options h3 .grey-h3 {
-        color: #ccc; }
-    .additional-options .radios, .additional-options .checkbox {
-      font-size: 18px;
-      width: 72%;
-      margin: 25px 5% 0 15%;
-      display: flex;
-      text-align: left; }
-      .additional-options .radios .radios-col, .additional-options .checkbox .radios-col {
-        width: 30%;
-        margin: 0 auto; }
-        .additional-options .radios .radios-col.radios-col-wide, .additional-options .checkbox .radios-col.radios-col-wide {
-          width: 35%; }
-        .additional-options .radios .radios-col #sub-col-1, .additional-options .radios .radios-col #sub-col-2, .additional-options .radios .radios-col #sub-col-3, .additional-options .radios .radios-col #sub-col-4, .additional-options .checkbox .radios-col #sub-col-1, .additional-options .checkbox .radios-col #sub-col-2, .additional-options .checkbox .radios-col #sub-col-3, .additional-options .checkbox .radios-col #sub-col-4 {
-          margin-bottom: 50px; }
-          .additional-options .radios .radios-col #sub-col-1 label, .additional-options .radios .radios-col #sub-col-2 label, .additional-options .radios .radios-col #sub-col-3 label, .additional-options .radios .radios-col #sub-col-4 label, .additional-options .checkbox .radios-col #sub-col-1 label, .additional-options .checkbox .radios-col #sub-col-2 label, .additional-options .checkbox .radios-col #sub-col-3 label, .additional-options .checkbox .radios-col #sub-col-4 label {
-            font-family: ProximaNovaRegular;
-            text-align: left;
-            width: 100%;
-            height: 35px;
-            display: flex;
-            flex-direction: row;
-            line-height: 25px; }
-            .additional-options .radios .radios-col #sub-col-1 label input:checked ~ .checkmark, .additional-options .radios .radios-col #sub-col-2 label input:checked ~ .checkmark, .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark, .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark, .additional-options .checkbox .radios-col #sub-col-1 label input:checked ~ .checkmark, .additional-options .checkbox .radios-col #sub-col-2 label input:checked ~ .checkmark, .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark, .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark {
+  .tab-content {
+    width: 90%;
+    margin: 0 auto; }
+    .tab-content .package-choice {
+      padding-top: 50px;
+      background-color: #fff; }
+      .tab-content .package-choice h3 {
+        font-family: GothamProRegular;
+        font-size: 24px;
+        letter-spacing: 1px; }
+        .tab-content .package-choice h3 .grey-h3 {
+          color: #ccc; }
+      .tab-content .package-choice .radio-packages {
+        height: 180px; }
+        .tab-content .package-choice .radio-packages .package-name {
+          font-family: PlayfairDisplayRegular;
+          color: #838383;
+          font-size: 20px; }
+          .tab-content .package-choice .radio-packages .package-name .package-price {
+            font-family: ProximaNovaLight;
+            color: #d5a14f; }
+        .tab-content .package-choice .radio-packages label {
+          width: 24%;
+          border: 2px solid #ccc;
+          border-radius: 10px;
+          padding: 15px 0;
+          margin: 25px 7px; }
+          .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive {
+            border: 2px solid #d5a14f; }
+            .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive input:checked ~ .checkmark {
               border: 1px solid #d5a14f; }
-            .additional-options .radios .radios-col #sub-col-1 label .checkmark:after, .additional-options .radios .radios-col #sub-col-2 label .checkmark:after, .additional-options .radios .radios-col #sub-col-3 label .checkmark:after, .additional-options .radios .radios-col #sub-col-4 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-1 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-2 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-3 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-4 label .checkmark:after {
+            .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive .checkmark:after {
               background: #d5a14f; }
-            .additional-options .radios .radios-col #sub-col-1 label input, .additional-options .radios .radios-col #sub-col-2 label input, .additional-options .radios .radios-col #sub-col-3 label input, .additional-options .radios .radios-col #sub-col-4 label input, .additional-options .checkbox .radios-col #sub-col-1 label input, .additional-options .checkbox .radios-col #sub-col-2 label input, .additional-options .checkbox .radios-col #sub-col-3 label input, .additional-options .checkbox .radios-col #sub-col-4 label input {
-              position: absolute;
-              display: none;
-              opacity: 0; }
-              .additional-options .radios .radios-col #sub-col-1 label input:checked ~ .checkmark:after, .additional-options .radios .radios-col #sub-col-2 label input:checked ~ .checkmark:after, .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark:after, .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark:after, .additional-options .checkbox .radios-col #sub-col-1 label input:checked ~ .checkmark:after, .additional-options .checkbox .radios-col #sub-col-2 label input:checked ~ .checkmark:after, .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark:after, .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark:after {
-                display: block; }
-            .additional-options .radios .radios-col #sub-col-1 label .checkmark, .additional-options .radios .radios-col #sub-col-2 label .checkmark, .additional-options .radios .radios-col #sub-col-3 label .checkmark, .additional-options .radios .radios-col #sub-col-4 label .checkmark, .additional-options .checkbox .radios-col #sub-col-1 label .checkmark, .additional-options .checkbox .radios-col #sub-col-2 label .checkmark, .additional-options .checkbox .radios-col #sub-col-3 label .checkmark, .additional-options .checkbox .radios-col #sub-col-4 label .checkmark {
-              display: inline-block;
-              top: 1px;
-              left: 0px;
-              position: relative;
-              height: 18px;
-              width: 18px;
-              border-radius: 50%;
-              border: 1px solid #ccc;
-              margin-right: 5px; }
-              .additional-options .radios .radios-col #sub-col-1 label .checkmark:after, .additional-options .radios .radios-col #sub-col-2 label .checkmark:after, .additional-options .radios .radios-col #sub-col-3 label .checkmark:after, .additional-options .radios .radios-col #sub-col-4 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-1 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-2 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-3 label .checkmark:after, .additional-options .checkbox .radios-col #sub-col-4 label .checkmark:after {
-                content: "";
-                position: absolute;
-                display: none;
-                top: 5px;
-                left: 5px;
-                width: 6px;
-                height: 6px;
-                border-radius: 50%;
-                background: #d5a14f; }
-        .additional-options .radios .radios-col #sub-col-2, .additional-options .radios .radios-col #sub-col-3, .additional-options .checkbox .radios-col #sub-col-2, .additional-options .checkbox .radios-col #sub-col-3 {
-          margin-bottom: 0; }
-        .additional-options .radios .radios-col #sub-col-3 label, .additional-options .radios .radios-col #sub-col-4 label, .additional-options .checkbox .radios-col #sub-col-3 label, .additional-options .checkbox .radios-col #sub-col-4 label {
-          height: auto;
-          margin-bottom: 0; }
-          .additional-options .radios .radios-col #sub-col-3 label .checkmark-box, .additional-options .radios .radios-col #sub-col-4 label .checkmark-box, .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box, .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box {
-            box-sizing: border-box;
-            display: inline-block;
+          .tab-content .package-choice .radio-packages label.option-with-golden-boarder.standard {
+            border: 2px solid #ecad9c; }
+            .tab-content .package-choice .radio-packages label.option-with-golden-boarder.standard input:checked ~ .checkmark {
+              border: 1px solid #ecad9c; }
+            .tab-content .package-choice .radio-packages label.option-with-golden-boarder.standard .checkmark:after {
+              background: #ecad9c; }
+          .tab-content .package-choice .radio-packages label.option-with-golden-boarder.basic {
+            border: 2px solid #93b6b7; }
+            .tab-content .package-choice .radio-packages label.option-with-golden-boarder.basic input:checked ~ .checkmark {
+              border: 1px solid #93b6b7; }
+            .tab-content .package-choice .radio-packages label.option-with-golden-boarder.basic .checkmark:after {
+              background: #93b6b7; }
+          .tab-content .package-choice .radio-packages label input {
+            position: absolute;
+            opacity: 0; }
+          .tab-content .package-choice .radio-packages label .checkmark {
             position: relative;
-            top: 0;
-            left: 0;
-            height: 20px;
-            width: 20px;
-            background-color: white;
-            border: 1px solid #ccc;
-            border-radius: 2px; }
-            .additional-options .radios .radios-col #sub-col-3 label .checkmark-box:after, .additional-options .radios .radios-col #sub-col-4 label .checkmark-box:after, .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box:after, .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box:after {
+            top: 25px;
+            left: 23px;
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            border: 1px solid #ccc; }
+            .tab-content .package-choice .radio-packages label .checkmark:after {
               content: "";
               position: absolute;
-              display: none; }
-          .additional-options .radios .radios-col #sub-col-3 label .checkmark-box:after, .additional-options .radios .radios-col #sub-col-4 label .checkmark-box:after, .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box:after, .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box:after {
-            left: 6px;
-            top: 1px;
-            width: 7px;
-            height: 13px;
-            border: solid #d5a14f;
-            border-width: 0 2px 2px 0px;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg); }
-          .additional-options .radios .radios-col #sub-col-3 label p, .additional-options .radios .radios-col #sub-col-4 label p, .additional-options .checkbox .radios-col #sub-col-3 label p, .additional-options .checkbox .radios-col #sub-col-4 label p {
-            margin-left: 5%;
-            line-height: 25px;
-            font-size: 19px;
-            width: 75%; }
-          .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box, .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box {
-            border: 1px solid #d5a14f; }
-          .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after, .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after {
+              display: none;
+              top: 5px;
+              left: 5px;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%; }
+          .tab-content .package-choice .radio-packages label input:checked ~ .checkmark:after {
             display: block; }
-        .additional-options .radios .radios-col #sub-col-4 input[type=date], .additional-options .checkbox .radios-col #sub-col-4 input[type=date] {
-          font-family: GothamProRegular;
-          color: #171616;
-          border: none;
-          position: relative;
-          top: -8px;
-          margin-bottom: 10px; }
-          .additional-options .radios .radios-col #sub-col-4 input[type=date][disabled], .additional-options .checkbox .radios-col #sub-col-4 input[type=date][disabled] {
-            background: none;
-            color: #ccc; }
-          .additional-options .radios .radios-col #sub-col-4 input[type=date]:after, .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:after {
-            content: '__________';
+    .tab-content .additional-options {
+      padding-top: 50px;
+      background-color: #fff; }
+      .tab-content .additional-options h4 {
+        margin-bottom: 20px; }
+      .tab-content .additional-options h3 {
+        font-family: ProximaNovaRegular;
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+        .tab-content .additional-options h3 .grey-h3 {
+          color: #ccc; }
+      .tab-content .additional-options .radios, .tab-content .additional-options .checkbox {
+        font-size: 18px;
+        width: 75%;
+        margin: 25px 5% 0 15%;
+        display: flex;
+        text-align: left; }
+        .tab-content .additional-options .radios .radios-col, .tab-content .additional-options .checkbox .radios-col {
+          width: 30%;
+          margin: 0 auto; }
+          .tab-content .additional-options .radios .radios-col.radios-col-wide, .tab-content .additional-options .checkbox .radios-col.radios-col-wide {
+            width: 35%; }
+          .tab-content .additional-options .radios .radios-col #sub-col-1, .tab-content .additional-options .radios .radios-col #sub-col-2, .tab-content .additional-options .radios .radios-col #sub-col-3, .tab-content .additional-options .radios .radios-col #sub-col-4, .tab-content .additional-options .checkbox .radios-col #sub-col-1, .tab-content .additional-options .checkbox .radios-col #sub-col-2, .tab-content .additional-options .checkbox .radios-col #sub-col-3, .tab-content .additional-options .checkbox .radios-col #sub-col-4 {
+            margin-bottom: 50px; }
+            .tab-content .additional-options .radios .radios-col #sub-col-1 label, .tab-content .additional-options .radios .radios-col #sub-col-2 label, .tab-content .additional-options .radios .radios-col #sub-col-3 label, .tab-content .additional-options .radios .radios-col #sub-col-4 label, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label {
+              font-family: ProximaNovaRegular;
+              text-align: left;
+              width: 100%;
+              height: 35px;
+              display: flex;
+              flex-direction: row;
+              line-height: 25px; }
+              .tab-content .additional-options .radios .radios-col #sub-col-1 label input:checked ~ .checkmark, .tab-content .additional-options .radios .radios-col #sub-col-2 label input:checked ~ .checkmark, .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark, .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label input:checked ~ .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label input:checked ~ .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark {
+                border: 1px solid #d5a14f; }
+              .tab-content .additional-options .radios .radios-col #sub-col-1 label .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-2 label .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark:after {
+                background: #d5a14f; }
+              .tab-content .additional-options .radios .radios-col #sub-col-1 label input, .tab-content .additional-options .radios .radios-col #sub-col-2 label input, .tab-content .additional-options .radios .radios-col #sub-col-3 label input, .tab-content .additional-options .radios .radios-col #sub-col-4 label input, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label input, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label input, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input {
+                position: absolute;
+                display: none;
+                opacity: 0; }
+                .tab-content .additional-options .radios .radios-col #sub-col-1 label input:checked ~ .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-2 label input:checked ~ .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label input:checked ~ .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label input:checked ~ .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark:after {
+                  display: block; }
+              .tab-content .additional-options .radios .radios-col #sub-col-1 label .checkmark, .tab-content .additional-options .radios .radios-col #sub-col-2 label .checkmark, .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark, .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark {
+                display: inline-block;
+                top: 1px;
+                left: 0px;
+                position: relative;
+                height: 18px;
+                width: 18px;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                margin-right: 5px; }
+                .tab-content .additional-options .radios .radios-col #sub-col-1 label .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-2 label .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-1 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-2 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark:after {
+                  content: "";
+                  position: absolute;
+                  display: none;
+                  top: 5px;
+                  left: 5px;
+                  width: 6px;
+                  height: 6px;
+                  border-radius: 50%;
+                  background: #d5a14f; }
+          .tab-content .additional-options .radios .radios-col #sub-col-2, .tab-content .additional-options .radios .radios-col #sub-col-3, .tab-content .additional-options .checkbox .radios-col #sub-col-2, .tab-content .additional-options .checkbox .radios-col #sub-col-3 {
+            margin-bottom: 0; }
+          .tab-content .additional-options .radios .radios-col #sub-col-3 label, .tab-content .additional-options .radios .radios-col #sub-col-4 label, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label {
+            height: auto;
+            margin-bottom: 0; }
+            .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark-box, .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark-box, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box {
+              box-sizing: border-box;
+              display: inline-block;
+              position: relative;
+              top: 0;
+              left: 0;
+              height: 20px;
+              width: 20px;
+              background-color: white;
+              border: 1px solid #ccc;
+              border-radius: 2px; }
+              .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark-box:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box:after {
+                content: "";
+                position: absolute;
+                display: none; }
+            .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark-box:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box:after {
+              left: 6px;
+              top: 1px;
+              width: 7px;
+              height: 13px;
+              border: solid #d5a14f;
+              border-width: 0 2px 2px 0px;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg); }
+            .tab-content .additional-options .radios .radios-col #sub-col-3 label p, .tab-content .additional-options .radios .radios-col #sub-col-4 label p, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label p, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label p {
+              margin-left: 5%;
+              line-height: 25px;
+              font-size: 19px;
+              width: 75%; }
+            .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box {
+              border: 1px solid #d5a14f; }
+            .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after {
+              display: block; }
+          .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date], .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date] {
+            font-family: GothamProRegular;
+            color: #171616;
+            border: none;
             position: relative;
-            color: #d5a14f;
-            left: -185px;
-            font-size: 19px;
-            top: 2px; }
-
-  .standard-services {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 75px 7.5%; }
-    .standard-services div.package {
-      background-color: #fff;
-      border-radius: 10px;
-      width: 33%; }
-      .standard-services div.package .empty-div {
-        width: 100%;
-        height: 50px; }
-      .standard-services div.package .package-items h4 {
-        font-size: 18px; }
-      .standard-services div.package .package-items p {
-        padding: 0 5%;
-        margin-bottom: 35px; }
-      .standard-services div.package .package-result {
-        padding: 15px 25px;
-        margin-top: 50px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        background-color: #fcf3f0; }
-        .standard-services div.package .package-result.stnd-package {
-          background-color: #eff4f4; }
-        .standard-services div.package .package-result h5 {
-          font-variant: all-small-caps;
-          padding-bottom: 0;
-          font-size: 26px; }
-        .standard-services div.package .package-result p {
-          margin: 0;
-          padding-bottom: 5px; }
-      .standard-services div.package .btn {
-        margin: 35px;
-        margin-bottom: 50px;
-        padding: 10px 50px;
-        border-radius: .55rem;
+            top: -8px;
+            margin-bottom: 10px; }
+            .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date][disabled], .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date][disabled] {
+              background: none;
+              color: #ccc; }
+            .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:after {
+              content: '__________';
+              position: relative;
+              color: #d5a14f;
+              left: -185px;
+              font-size: 19px;
+              top: 2px; }
+    .tab-content .standard-services {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 75px 7.5%; }
+      .tab-content .standard-services div.package {
         background-color: #fff;
-        border: 2px solid #ecad9c;
-        color: black;
-        font-family: ProximaNovaSemibold;
-        font-size: 14px;
-        letter-spacing: 2px; }
-        .standard-services div.package .btn.stnd-package {
-          border: 2px solid #93b6b7; }
-        .standard-services div.package .btn.gold {
-          font-family: ProximaNovaRegular;
-          font-size: 16px;
-          background: transparent;
-          background-image: linear-gradient(to bottom, #eac37f, #bca05c);
-          border: 0;
-          padding: 15px 52px;
-          color: white; }
-      .standard-services div.package.central {
-        z-index: 1;
-        height: 100%;
-        box-shadow: 0 0 25px #ccc; }
-        .standard-services div.package.central .package-result {
-          background-color: #f9f1e5; }
-      .standard-services div.package .card-text {
-        font-family: PlayfairDisplayRegular;
-        color: #838383;
-        padding-top: 28px;
-        font-size: 24px; }
-        .standard-services div.package .card-text .price {
-          font-family: ProximaNovaLight; } }
+        border-radius: 10px;
+        width: 33%; }
+        .tab-content .standard-services div.package .empty-div {
+          width: 100%;
+          height: 50px; }
+        .tab-content .standard-services div.package .package-items h4 {
+          font-size: 18px; }
+        .tab-content .standard-services div.package .package-items p {
+          padding: 0 5%;
+          margin-bottom: 35px; }
+        .tab-content .standard-services div.package .package-result {
+          padding: 15px 25px;
+          margin-top: 50px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          background-color: #fcf3f0; }
+          .tab-content .standard-services div.package .package-result.stnd-package {
+            background-color: #eff4f4; }
+          .tab-content .standard-services div.package .package-result h5 {
+            font-variant: all-small-caps;
+            padding-bottom: 0;
+            font-size: 26px; }
+          .tab-content .standard-services div.package .package-result p {
+            margin: 0;
+            padding-bottom: 5px; }
+        .tab-content .standard-services div.package .btn {
+          margin: 35px;
+          margin-bottom: 50px;
+          padding: 10px 50px;
+          border-radius: .55rem;
+          background-color: #fff;
+          border: 2px solid #ecad9c;
+          color: black;
+          font-family: ProximaNovaSemibold;
+          font-size: 14px;
+          letter-spacing: 2px; }
+          .tab-content .standard-services div.package .btn.stnd-package {
+            border: 2px solid #93b6b7; }
+          .tab-content .standard-services div.package .btn.gold {
+            font-family: ProximaNovaRegular;
+            font-size: 16px;
+            background: transparent;
+            background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+            border: 0;
+            padding: 15px 52px;
+            color: white; }
+        .tab-content .standard-services div.package.central {
+          z-index: 1;
+          height: 100%;
+          box-shadow: 0 0 25px #ccc; }
+          .tab-content .standard-services div.package.central .package-result {
+            background-color: #f9f1e5; }
+        .tab-content .standard-services div.package .card-text {
+          font-family: PlayfairDisplayRegular;
+          color: #838383;
+          padding-top: 28px;
+          font-size: 24px; }
+          .tab-content .standard-services div.package .card-text .price {
+            font-family: ProximaNovaLight; } }
 
 /*# sourceMappingURL=services.css.map */

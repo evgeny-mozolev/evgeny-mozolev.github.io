@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 986px) {
   nav {
     border-bottom: 1px solid #ccc;
     background-color: #fff !important; }
@@ -171,7 +171,7 @@
 
   .height-50 {
     height: 50px; } }
-@media (min-width: 769px) {
+@media (min-width: 987px) {
   nav {
     background-color: #fff; }
 
@@ -185,8 +185,7 @@
       padding: 0; }
       .nav-container .navbar-brand img {
         width: 95px;
-        height: 64px;
-        max-width: 80px; }
+        height: 64px; }
     .nav-container .navbar-text {
       display: none; }
     .nav-container .toggler-invisible {
@@ -231,7 +230,7 @@
             color: #bca05c;
             background: transparent;
             border-radius: 9px;
-            border-color: #D5A14F;
+            border-color: #D6B46A;
             border-width: 2px;
             padding: 8px 8px;
             font-size: 15px;

@@ -1,14 +1,14 @@
-@media (max-width: 768px) {
-
+@media (max-width: 968px) {
   .footer {
     background-color: #f7f6f6;
     padding: 5%;
     text-align: center;
     font-family: ProximaNovaLight;
 
+
     .contacts {
       padding: 2.5% 0;
-      font-size: 14px;
+      font-size: 16px;
       .company-title {
         font-family: ProximaNovaSemibold;
       }
@@ -22,7 +22,7 @@
     }
 
     .author {
-      font-size: 14px;
+      font-size: 16px;
       a {
         color: #bca05c;
 
@@ -31,25 +31,31 @@
   }
 }
 
-@media (min-width: 769px) {
+
+
+
+
+
+@media (min-width: 969px) {
   .footer {
-    padding: 2vw;
+    padding: 25px;
     background-color: #f7f6f6;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
     .social-buttons-pics {
-      float: left;
-      width: 20vw;
-      padding-left: 2vw;
+      width: 20%;
+      padding-left: 25px;
       font-size: 36px;
       span {
-        padding-left: 0.5vw;
+        padding-left: 1vw;
       }
     }
     .contacts {
-      float: left;
-      width: 53vw;
+      width: 62%;
       text-align: center;
+      font-size: 16px;
       .company-title {
         font-family: ProximaNovaSemibold;
       }
@@ -62,8 +68,8 @@
       }
     }
     .author {
-      float: right;
-      width: 20vw;
+
+      width: 18%;
       a {
         color: #bca05c;
       }

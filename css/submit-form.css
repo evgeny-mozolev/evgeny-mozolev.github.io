@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .submit-request {
     padding: 25px 5% 25px;
     text-align: center; }
@@ -44,7 +44,6 @@
     font-size: 24px; }
   .submit-request.about-us .submit-request-lead,
   .submit-request.feedback .submit-request-lead {
-    font-family: ProximaNovaLight;
     font-size: 20px;
     padding: 10px 10%;
     display: block; }
@@ -57,22 +56,22 @@
     margin-bottom: 35px; }
   .submit-request.feedback .submit-request-lead {
     display: none; } }
-@media (min-width: 769px) {
+@media (min-width: 969px) {
   .submit-request {
-    padding: 55px;
+    padding: 50px;
     text-align: center;
     background-color: white; }
     .submit-request .heading {
-      font-variant: small-caps;
-      font-family: GothamProMedium;
+      text-transform: uppercase;
+      font-family: GothamProBold;
       color: #171616;
-      font-size: 2.5vw; }
+      font-size: 24px; }
     .submit-request .submit-request-form {
-      width: 50vw;
+      width: 700px;
       margin: 0 auto; }
       .submit-request .submit-request-form .submit-request-input {
-        margin-top: 2vw;
-        padding: 1.5vw;
+        margin-top: 25px;
+        padding: 25px;
         display: inline-block;
         border: 1px solid #D5A14F;
         color: #838383;
@@ -110,14 +109,13 @@
     background-color: #f7f6f6;
     padding: 60px; }
     .submit-request.about-us .form-wrapper {
-      padding: 25px;
-      width: 60vw;
+      padding: 50px;
+      width: 800px;
       background-color: #fff;
       margin: 0 auto; }
       .submit-request.about-us .form-wrapper span.h4.heading {
-        font-family: ProximaNovaRegular;
-        font-variant: all-small-caps;
-        font-size: 32px;
+        text-transform: uppercase;
+        font-size: 24px;
         letter-spacing: 0.1px; }
       .submit-request.about-us .form-wrapper span.submit-request-lead {
         display: block;
@@ -125,9 +123,10 @@
 
   .submit-request.services .heading,
   .submit-request.feedback .heading {
-    font-family: ProximaNovaRegular;
-    font-size: 32px;
-    font-variant: normal; }
+    font-family: GothamProRegular;
+    font-size: 24px;
+    font-variant: normal;
+    text-transform: none; }
   .submit-request.services .heading-lead,
   .submit-request.feedback .heading-lead {
     font-family: ProximaNovaLight;
@@ -137,11 +136,15 @@
     .submit-request.feedback .heading-lead .options {
       color: #D5A14F; }
 
-  .submit-request.feedback .heading {
+  .submit-request.feedback .heading,
+  .submit-request.contacts .heading,
+  .submit-request.about-us .heading {
     font-family: GothamProBold;
-    font-variant: all-small-caps; }
-  .submit-request.feedback span.submit-request-lead {
+    text-transform: uppercase; }
+  .submit-request.feedback span.submit-request-lead,
+  .submit-request.contacts span.submit-request-lead,
+  .submit-request.about-us span.submit-request-lead {
     display: block;
-    font-size: 18px; } }
+    font-size: 20px; } }
 
 /*# sourceMappingURL=submit-form.css.map */

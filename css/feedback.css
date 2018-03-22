@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 999px) {
   .feedback-section {
     background-color: #f7f6f6;
     padding-bottom: 50px; }
@@ -15,7 +15,8 @@
         font-size: 64px; }
     .feedback-section .card-columns {
       width: 87%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      column-count: 1; }
       .feedback-section .card-columns .card {
         border: none;
         border-radius: 0;
@@ -45,7 +46,7 @@
             .feedback-section .card-columns .card .card-body .feedback-people .lead {
               font-family: GothamProRegular;
               font-size: 15px; } }
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   .feedback-section {
     width: 100%;
     background-color: #f7f6f6; }
@@ -93,7 +94,7 @@
             font-size: 15px; }
     .feedback-section .load-more-feedback {
       text-align: center;
-      padding: 25px 0; }
+      padding: 25px 0 100px; }
       .feedback-section .load-more-feedback a {
         font-family: ProximaNovaLight;
         color: #D5A14F;
