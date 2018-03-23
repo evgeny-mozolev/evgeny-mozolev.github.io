@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .exclusive-offer {
     padding: 50px 5%;
     text-align: center; }
@@ -20,7 +20,7 @@
         font-family: GothamProBold;
         display: block;
         margin: 0 auto; } }
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .exclusive-offer {
     background-color: #fff;
     padding: 0 50px 50px;

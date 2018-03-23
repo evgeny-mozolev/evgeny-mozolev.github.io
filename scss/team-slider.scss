@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .team-slider {
     background-color: #f7f6f6;
     text-align: center;
@@ -48,29 +48,25 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .team-slider {
     color: black;
     background-color: #f7f6f6;
     text-align: center;
     padding: 50px 0;
     font-family: GothamProLight;
-
       .h3 {
         font-family: GothamProBold;
         font-variant: all-small-caps;
         font-size: 32px;
         letter-spacing: 0.1px;
       }
-
-
     #carouselExampleIndicators {
       padding: 45px 0;
       .carousel-control-next, .carousel-control-prev {
         color: #D5A14F;
         font-size: 42px;
       }
-
       .carousel-indicators li {
         border-radius: 8px;
         width: 8px;
@@ -80,8 +76,6 @@
           background-color: #D5A14F;
           }
       }
-
-
       .carousel-inner {
         height: 400px;
         .carousel-caption {
@@ -102,12 +96,7 @@
             font-size: 17px;
             margin-bottom: 25px;
           }
-
-
         }
-
-
-
       }
     }
   }

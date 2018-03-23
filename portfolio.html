@@ -23,71 +23,62 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-md navbar-light ">
         <div class="nav-container">
             <a class="navbar-brand " href="./index.html">
                 <img src="img/weddingmovies-logo.svg" alt="WeddingMovies logo">
             </a>
-
-                <a class="navbar-text mx-auto" href="./index.html">
-                    <div class="brandname">
-                        <span class="capitalized">W</span>edding<span class="capitalized">M</span>ovies
+            <a class="navbar-text mx-auto" href="./index.html">
+                <div class="brandname">
+                    <span class="capitalized">W</span>edding<span class="capitalized">M</span>ovies
+                </div>
+                <div class="brandname toggler-invisible">
+                    <div style="display: flex; flex-direction: column; line-height: 19px;">
+                        <span class="call">Звоните</span>
+                        <span class="tel">8-800-000-20-45</span>
                     </div>
-                    <div class="brandname toggler-invisible">
-                        <div style="display: flex; flex-direction: column; line-height: 19px;">
-                            <span class="call">Звоните</span>
-                            <span class="tel">8-800-000-20-45</span>
-                        </div>
-                    </div>
-                </a>
-
+                </div>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-e-icon menu-button "></span>
                 <span class="icon-x-icon menu-button toggler-invisible"></span>
             </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mobile-menu">
               <div class="flex-row">
-              <li class="nav-item">
-                  <div class="nav-div" >
-                      <a href="./about.html" class="nav-link">О НАС</a>
-                  </div>
-              </li>
-
-              <li class="nav-item active">
-                  <div class="nav-div" >
-                      <a class="nav-link" href="./portfolio.html">ПОРТФОЛИО</a>
-                  </div>
-              </li>
-
-              <li class="nav-item">
-                  <div class="nav-div" >
-                      <a href="./packages.html" class="nav-link">УСЛУГИ И СТОИМОСТЬ</a>
-                  </div>
-              </li>
-
-              <li class="nav-item">
-                  <div class="nav-div" >
-                      <a class="nav-link" href="./feedback.html">ОТЗЫВЫ</a>
-                  </div>
-              </li>
-
-              <li class="nav-item">
-                  <div class="nav-div" >
-                      <a class="nav-link" href="./contacts.html">КОНТАКТЫ</a>
-                  </div>
-              </li>
+                  <li class="nav-item">
+                      <div class="nav-div" >
+                          <a href="./about.html" class="nav-link">О НАС</a>
+                      </div>
+                  </li>
+                  <li class="nav-item active">
+                      <div class="nav-div" >
+                          <a class="nav-link" href="./portfolio.html">ПОРТФОЛИО</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <div class="nav-div" >
+                          <a href="./packages.html" class="nav-link">УСЛУГИ И СТОИМОСТЬ</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <div class="nav-div" >
+                          <a class="nav-link" href="./feedback.html">ОТЗЫВЫ</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <div class="nav-div" >
+                          <a class="nav-link" href="./contacts.html">КОНТАКТЫ</a>
+                      </div>
+                  </li>
               </div>
-
               <div class="order-button">
                 <li class="nav-item">
                   <button type="button" class="btn submit-request mobile-version">ОТПРАВИТЬ ЗАЯВКУ</button>
                   <button type="button" class="btn submit-request desktop-version">ЗАКАЗАТЬ</button>
                 </li>
               </div>
-
               <div class="social-buttons">
                   <div class="social-button-address">
                       Дмитровское шоссе, дом 7/2, Москва
@@ -99,11 +90,9 @@
                   </div>
               </div>
             </ul>
-
           </div>
         </div>
     </nav>
-
 
     <div class="portfolio portfolio-page">
         <div class="portfolio-head">
@@ -111,7 +100,8 @@
             <span class="h4">Портфолио</span>
             <span class="icon-o-icon2 portfolio-attire"></span>
         </div>
-        <div class="card-columns portfolio-masonry">
+        <!-- desktop portfolio masonry -->
+        <div class="card-columns portfolio-masonry desktop-version">
                 <div class="card">
                     <div class="card-body">
                           <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
@@ -187,11 +177,82 @@
                     </div>
               </div>
         </div>
+        <!-- end of portfolio masonry -->
+        <!-- mobile version slider -->
+        <div class="mobile-version portfolio-slider">
+            <div class="card-body portfolio-teaser">
+                  <span class="h3">Качество гарантируем</span>
+                  <p>Всегда стараемся сделать работу на высшем уровне. Тому пример —&nbsp;наше портфолио.</p>
+                  <p>Рекомендуем посмотреть свадебные истории каждой завершенной работы.</p>
+            </div>
+            <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators" >
+                    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+                    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="card-body">
+                                  <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Анатолий и&nbsp;Станислава</h5>
+                                    <hr align="center" width="100" color="#c5a2fd" style="border: 1px solid #c5a2fd"/>
+                                    <p class="card-text">пакет «Базовый»</p>
+                                    <a href="#" class="portfolio-link" style="color: #8ab7b8; text-decoration: underline">Узнать стоимость</a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Виолетта и&nbsp;Егор</h5>
+                                    <hr align="center" width="100" color="#f58e8e" style="border: 1px solid #f58e8e"/>
+                                    <p class="card-text">пакет «Стандарт»</p>
+                                    <a href="#" class="portfolio-link" style="color: #f58e8e; text-decoration: underline">Узнать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Константин и&nbsp;Маргарита</h5>
+                                    <hr align="center" width="100" color="#d5a14f" style="border: 1px solid #d5a14f"/>
+                                    <p class="card-text">пакет «Эксклюзив»</p>
+                                    <a href="#" class="portfolio-link" style="color: #d5a14f; text-decoration: underline">Узнать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#portfolio-carousel" role="button" data-slide="prev">
+                    <span class="icon-arrow-left-round-icon carousel-arrows" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#portfolio-carousel" role="button" data-slide="next">
+                    <span class="icon-arrow-right-round-icon carousel-arrows" aria-hidden="true"></span>
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="card-body portfolio-teaser">
+                 <span class="h3">Команда</span>
+                <p>Над реализацией каждого из наших видео работает минимум 5 человек: 2 пилота-оператора,
+                ваш персональный менеджер, звукорежиссёр и звукооператор.</p>
+            </div>
+        </div>
     </div>
-
-
-
-
     </div>
 
     <div class="submit-request about-us" style="background: white;">
@@ -238,7 +299,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script >
-    console.log(window.innerWidth);
+    //console.log(window.innerWidth);
     if( window.innerWidth > 768 ) {
         var vidsrc = document.createElement('source');
         vidsrc.type = "video/mp4";
@@ -250,6 +311,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+<script src="js/jquery.touchSwipe.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .equipment {
     text-align: center;
     padding: 50px 5%;
@@ -25,7 +25,6 @@
        }
       }
     }
-
     .equipment-mobile {
       #equipment-carousel {
         .carousel-indicators {
@@ -41,7 +40,6 @@
             }
           }
         }
-
         .carousel-inner {
           margin
           .carousel-item,
@@ -58,8 +56,6 @@
               font-family: ProximaNovaRegular;
               font-size: 19px;
             }
-
-
             .card-img-top{
               width: 75%;
             }
@@ -70,16 +66,7 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .equipment {
     color: black;
     text-align: center;
@@ -133,7 +120,6 @@
       }
     }
   }
-
 
 
 

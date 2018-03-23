@@ -1,4 +1,4 @@
-@media (max-width: 769px) {
+@media (max-width: 991px) {
   .contacts-section {
     background-color: #f7f6f6;
     text-align: center;
@@ -67,14 +67,15 @@
         }
     }
     #contacts-map-col1 {
-      img {
-        width: 100%;
+      overflow: hidden;
+      & > ymaps {
+        display: block;
       }
     }
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   .contacts-section {
     background-color: #f7f6f6;
     .contacts-head {

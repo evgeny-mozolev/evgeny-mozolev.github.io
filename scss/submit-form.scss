@@ -1,4 +1,4 @@
-@media (max-width: 968px) {
+@media (max-width: 991px) {
   .submit-request {
     padding: 25px 5% 25px;
     text-align: center;
@@ -9,7 +9,6 @@
       font-size: 2em;
       line-height: 1.1em;
     }
-
     .submit-request-form {
       margin: 25px 0 0;
       .submit-request-input {
@@ -19,13 +18,11 @@
         width: 90%;
         color: #838383;
         outline: none;
-
         &.your-story {
           resize: none;
           outline: none;
         }
       }
-
       .submit-request-form-button {
         border-radius: 10px;
         background-image: linear-gradient(to bottom, #eac37f, #bca05c);
@@ -38,7 +35,6 @@
         margin: 25px 0 25px;
         }
       }
-
     .privacy-policy {
       font-family: ProximaNovaLight;
       //font-size: 0.9em;
@@ -51,11 +47,6 @@
       }
     }
   }
-
-
-
-
-  // - - - - - - -
   .submit-request.about-us,
   .submit-request.feedback {
     .heading {
@@ -81,8 +72,7 @@
   }
 }
 
-
-@media (min-width: 969px) {
+@media (min-width: 992px) {
   .submit-request {
     padding: 50px;
     text-align: center;
@@ -141,8 +131,6 @@
       }
     }
   }
-
-
   .submit-request.about-us {
     background-color: #f7f6f6;
     padding: 60px;
@@ -162,7 +150,6 @@
       }
     }
   }
-
   .submit-request.services,
   .submit-request.feedback {
     .heading{

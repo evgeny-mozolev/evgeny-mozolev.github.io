@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .team-slider {
     background-color: #f7f6f6;
     text-align: center;
@@ -31,7 +31,7 @@
         .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption .team-member-description {
           font-family: ProximaNovaRegular;
           font-size: 20px; } }
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .team-slider {
     color: black;
     background-color: #f7f6f6;

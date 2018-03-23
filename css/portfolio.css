@@ -1,9 +1,49 @@
-@media (max-width: 968px) {
+@media (max-width: 991px) {
   .portfolio {
     background-color: #f7f6f6;
     padding: 2.5% 10% 5%;
     text-align: center;
     z-index: 1; }
+    .portfolio .portfolio-slider #portfolio-carousel .card {
+      margin-bottom: 50px;
+      border: none;
+      border-radius: 0; }
+      .portfolio .portfolio-slider #portfolio-carousel .card.initiator {
+        margin-bottom: 25px; }
+      .portfolio .portfolio-slider #portfolio-carousel .card .card-body .card-title {
+        font-family: GothamProRegular;
+        font-size: 16px; }
+      .portfolio .portfolio-slider #portfolio-carousel .card .card-body .card-text {
+        font-family: PlayfairDisplayRegular;
+        color: #838383;
+        margin-bottom: 50px;
+        font-size: 16px; }
+      .portfolio .portfolio-slider #portfolio-carousel .card .card-body .portfolio-link {
+        font-size: 16px; }
+      .portfolio .portfolio-slider #portfolio-carousel .card .card-body.portfolio-teaser {
+        background-color: #f7f6f6;
+        text-align: left;
+        margin: 0;
+        padding: 25px;
+        padding-bottom: 5px; }
+        .portfolio .portfolio-slider #portfolio-carousel .card .card-body.portfolio-teaser .h3 {
+          font-family: GothamProBold;
+          color: #D5A14F;
+          text-transform: uppercase;
+          font-size: 28px; }
+        .portfolio .portfolio-slider #portfolio-carousel .card .card-body.portfolio-teaser p {
+          margin-top: 25px;
+          font-family: GothamProRegular;
+          font-size: 24px;
+          margin-bottom: 0; }
+    .portfolio .portfolio-slider #portfolio-carousel .carousel-indicators li {
+      border-radius: 8px;
+      margin: 0 6px;
+      width: 8px;
+      height: 8px;
+      background-color: #d8d8d8; }
+      .portfolio .portfolio-slider #portfolio-carousel .carousel-indicators li.active {
+        background-color: #D5A14F; }
     .portfolio .portfolio-head {
       padding: 5% 0;
       text-align: center; }
@@ -54,7 +94,7 @@
           font-family: PlayfairDisplayRegular;
           color: #838383;
           margin-bottom: 10%; } }
-@media (min-width: 969px) {
+@media (min-width: 992px) {
   .portfolio {
     background-color: #f7f6f6;
     text-align: center; }
@@ -101,38 +141,38 @@
         padding: 20px 20px;
         font-size: 18px;
         letter-spacing: 2px; }
-    .portfolio .portfolio-masonry {
+    .portfolio .card-columns {
       width: 1000px;
       margin: 0 auto;
       column-count: 2;
       column-gap: 50px; }
-      .portfolio .portfolio-masonry .card {
+      .portfolio .card-columns .card {
         margin-bottom: 50px;
         border: none;
         border-radius: 0; }
-        .portfolio .portfolio-masonry .card.initiator {
+        .portfolio .card-columns .card.initiator {
           margin-bottom: 25px; }
-        .portfolio .portfolio-masonry .card .card-body .card-title {
+        .portfolio .card-columns .card .card-body .card-title {
           font-size: 24px; }
-        .portfolio .portfolio-masonry .card .card-body .card-text {
+        .portfolio .card-columns .card .card-body .card-text {
           font-family: PlayfairDisplayRegular;
           color: #838383;
           margin-bottom: 50px;
           font-size: 24px; }
-        .portfolio .portfolio-masonry .card .card-body .portfolio-link {
+        .portfolio .card-columns .card .card-body .portfolio-link {
           font-size: 18px; }
-        .portfolio .portfolio-masonry .card .card-body.portfolio-teaser {
+        .portfolio .card-columns .card .card-body.portfolio-teaser {
           background-color: #f7f6f6;
           text-align: left;
           margin: 0;
           padding: 25px;
           padding-bottom: 5px; }
-          .portfolio .portfolio-masonry .card .card-body.portfolio-teaser .h3 {
+          .portfolio .card-columns .card .card-body.portfolio-teaser .h3 {
             font-family: GothamProBold;
             color: #D5A14F;
             text-transform: uppercase;
             font-size: 28px; }
-          .portfolio .portfolio-masonry .card .card-body.portfolio-teaser p {
+          .portfolio .card-columns .card .card-body.portfolio-teaser p {
             margin-top: 25px;
             font-family: GothamProRegular;
             font-size: 24px;

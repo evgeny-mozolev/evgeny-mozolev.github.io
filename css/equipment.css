@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .equipment {
     text-align: center;
     padding: 50px 5%;
@@ -48,7 +48,7 @@
     .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-left .card-img-top,
     .equipment .equipment-mobile #equipment-carousel .carousel-inner .carousel-item-right .card-img-top {
       width: 75%; } }
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .equipment {
     color: black;
     text-align: center;

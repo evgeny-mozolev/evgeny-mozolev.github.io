@@ -1,4 +1,4 @@
-@media (max-width: 968px) {
+@media (max-width: 991px) {
   .submit-request {
     padding: 25px 5% 25px;
     text-align: center; }
@@ -56,7 +56,7 @@
     margin-bottom: 35px; }
   .submit-request.feedback .submit-request-lead {
     display: none; } }
-@media (min-width: 969px) {
+@media (min-width: 992px) {
   .submit-request {
     padding: 50px;
     text-align: center;

@@ -1,4 +1,4 @@
-@media (max-width: 769px) {
+@media (max-width: 991px) {
   .contacts-section {
     background-color: #f7f6f6;
     text-align: center; }
@@ -55,9 +55,11 @@
         font-size: 16px;
         color: #D5A14F;
         font-family: ProximaNovaLight; }
-    .contacts-map #contacts-map-col1 img {
-      width: 100%; } }
-@media (min-width: 1000px) {
+    .contacts-map #contacts-map-col1 {
+      overflow: hidden; }
+      .contacts-map #contacts-map-col1 > ymaps {
+        display: block; } }
+@media (min-width: 992px) {
   .contacts-section {
     background-color: #f7f6f6; }
     .contacts-section .contacts-head {

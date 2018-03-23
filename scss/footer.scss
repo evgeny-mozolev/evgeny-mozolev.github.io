@@ -1,11 +1,9 @@
-@media (max-width: 968px) {
+@media (max-width: 991px) {
   .footer {
     background-color: #f7f6f6;
     padding: 5%;
     text-align: center;
     font-family: ProximaNovaLight;
-
-
     .contacts {
       padding: 2.5% 0;
       font-size: 16px;
@@ -20,23 +18,16 @@
         color: #bca05c;
       }
     }
-
     .author {
       font-size: 16px;
       a {
         color: #bca05c;
-
       }
     }
   }
 }
 
-
-
-
-
-
-@media (min-width: 969px) {
+@media (min-width: 992px) {
   .footer {
     padding: 25px;
     background-color: #f7f6f6;
@@ -68,7 +59,6 @@
       }
     }
     .author {
-
       width: 18%;
       a {
         color: #bca05c;
