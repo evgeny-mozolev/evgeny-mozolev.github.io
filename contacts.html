@@ -183,11 +183,15 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script >
     console.log(window.innerWidth);
-    if( window.innerWidth > 768 ) {
+    if( window.innerWidth > 991 ) {
         var vidsrc = document.createElement('source');
         vidsrc.type = "video/mp4";
         vidsrc.id = "video-source";
         vidsrc.src = "./video/819981756.mp4";
+
+        $('.carousel').carousel({
+                    interval: false
+                });
     }
     $('#video-jumbotron').append(vidsrc);
 </script>
