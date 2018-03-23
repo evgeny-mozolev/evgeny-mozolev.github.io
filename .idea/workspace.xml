@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb253d95-2e3e-45e6-8ae7-607177db26de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contacts.css" afterPath="$PROJECT_DIR$/css/contacts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contacts.css.map" afterPath="$PROJECT_DIR$/css/contacts.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/equipment.css" afterPath="$PROJECT_DIR$/css/equipment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/equipment.css.map" afterPath="$PROJECT_DIR$/css/equipment.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exclusive-offer.css" afterPath="$PROJECT_DIR$/css/exclusive-offer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exclusive-offer.css.map" afterPath="$PROJECT_DIR$/css/exclusive-offer.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/feature.css" afterPath="$PROJECT_DIR$/css/feature.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css.map" afterPath="$PROJECT_DIR$/css/footer.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jumbotron.css" afterPath="$PROJECT_DIR$/css/jumbotron.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navbar.css" afterPath="$PROJECT_DIR$/css/navbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/portfolio.css" afterPath="$PROJECT_DIR$/css/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/portfolio.css.map" afterPath="$PROJECT_DIR$/css/portfolio.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/submit-form.css" afterPath="$PROJECT_DIR$/css/submit-form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/submit-form.css.map" afterPath="$PROJECT_DIR$/css/submit-form.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/team-slider.css" afterPath="$PROJECT_DIR$/css/team-slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/team-slider.css.map" afterPath="$PROJECT_DIR$/css/team-slider.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feedback.html" afterPath="$PROJECT_DIR$/feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages.html" afterPath="$PROJECT_DIR$/packages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio2.html" afterPath="$PROJECT_DIR$/portfolio2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/client-feedback.scss" afterPath="$PROJECT_DIR$/scss/client-feedback.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/contacts.scss" afterPath="$PROJECT_DIR$/scss/contacts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/equipment.scss" afterPath="$PROJECT_DIR$/scss/equipment.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/exclusive-offer.scss" afterPath="$PROJECT_DIR$/scss/exclusive-offer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/feature.scss" afterPath="$PROJECT_DIR$/scss/feature.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/feedback.scss" afterPath="$PROJECT_DIR$/scss/feedback.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/footer.scss" afterPath="$PROJECT_DIR$/scss/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/jumbotron.scss" afterPath="$PROJECT_DIR$/scss/jumbotron.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/navbar.scss" afterPath="$PROJECT_DIR$/scss/navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/portfolio-detailed.scss" afterPath="$PROJECT_DIR$/scss/portfolio-detailed.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/portfolio.scss" afterPath="$PROJECT_DIR$/scss/portfolio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/services.scss" afterPath="$PROJECT_DIR$/scss/services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/submit-form.scss" afterPath="$PROJECT_DIR$/scss/submit-form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/team-slider.scss" afterPath="$PROJECT_DIR$/scss/team-slider.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -75,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="portfolio2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="746">
@@ -175,12 +136,12 @@
         <option value="$PROJECT_DIR$/scss/portfolio.scss" />
         <option value="$PROJECT_DIR$/scss/equipment.scss" />
         <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/feedback.html" />
         <option value="$PROJECT_DIR$/packages.html" />
         <option value="$PROJECT_DIR$/portfolio2.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -318,12 +279,12 @@
       <workItem from="1521636408473" duration="6322000" />
       <workItem from="1521695907020" duration="20589000" />
       <workItem from="1521724199211" duration="3860000" />
-      <workItem from="1521790073424" duration="7011000" />
+      <workItem from="1521790073424" duration="7185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337438000" />
+    <option name="totallyTimeSpent" value="337612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -703,14 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
@@ -723,6 +676,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
           <caret line="226" column="51" lean-forward="false" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
