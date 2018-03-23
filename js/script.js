@@ -12,6 +12,13 @@ $( document ).ready(function() {
         threshold:0
     });
 
+    if( window.innerWidth < 991 ) {
+        $('.carousel').carousel({
+            interval: false
+        });
+    };
+
+
     $('.navbar-toggler').click(function(){
         $('.menu-button').toggleClass('toggler-invisible');
     });
