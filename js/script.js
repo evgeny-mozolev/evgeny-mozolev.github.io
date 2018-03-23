@@ -14,7 +14,7 @@ $( document ).ready(function() {
 
     if( window.innerWidth < 991 ) {
         $('.carousel').carousel({
-            interval: false
+            'interval': false
         });
     };
 

@@ -102,7 +102,7 @@
 <div class="services">
     <div class="services-head">
         <span class="icon-o-icon services-attire"></span>
-        <span class="h4 services-detailed-names">Услуги и стоимость</span>
+        <span class="h4 services-detailed-names">Услуги <br class="mobile-version">и<br class="mobile-version"> стоимость</span>
         <p>Мы подготовили для вас оптимальные пакеты. Если вам покажется этого мало,
         то можете выбрать дополнительные услуги.</p>
         <span class="icon-o-icon2 services-attire"></span>
@@ -460,7 +460,16 @@ function addBoarder() {
     $('.option-with-golden-boarder').removeClass('option-with-golden-boarder');
     var option = $('input:checked').parent();
     $(option).addClass('option-with-golden-boarder');
-}
+};
+
+if( window.innerWidth < 991 ) {
+    $("#nav-home-tab").text('Тарифы');
+    $("#nav-profile-tab").text('Подобрать свой');
+    $('.package.central').insertBefore( $('.package') );
+
+};
+
+
 </script>
 </body>
 </html>
