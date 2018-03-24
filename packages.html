@@ -465,8 +465,10 @@ function addBoarder() {
 if( window.innerWidth < 991 ) {
     $("#nav-home-tab").text('Тарифы');
     $("#nav-profile-tab").text('Подобрать свой');
-    $('.package.central').insertBefore( $('.package') );
 
+    const package_div = $('.package.central');
+    $('.package.central').remove();
+    package_div.insertBefore( $('.package:first-of-type') );
 };
 
 
