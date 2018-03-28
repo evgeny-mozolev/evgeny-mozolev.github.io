@@ -4,7 +4,7 @@
     text-align: center;
     .heading {
       text-transform: uppercase;
-      font-family: GothamProMedium;
+      font-family: GothamProBold;
       color: #171616;
       font-size: 2em;
       line-height: 1.1em;
@@ -68,6 +68,21 @@
     }
     .submit-request-lead {
       display: none;
+    }
+  }
+  .submit-request.packages {
+    background-color: #fff;
+    padding-top: 50px;
+      .heading {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: GothamProBold;
+        color: #171616;
+      }
+    .heading-lead {
+      font-size: 20px;
+      padding: 10px 10%;
+      display: block;
     }
   }
 }
@@ -153,7 +168,7 @@
   .submit-request.services,
   .submit-request.feedback {
     .heading{
-      font-family: GothamProRegular;
+
       font-size: 24px;
       font-variant: normal;
       text-transform: none;

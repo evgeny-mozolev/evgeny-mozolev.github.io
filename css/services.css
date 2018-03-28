@@ -51,7 +51,7 @@
     .services .tab-content {
       width: 100%; }
       .services .tab-content .package-choice {
-        padding-top: 50px;
+        padding-top: 25px;
         background-color: #fff; }
         .services .tab-content .package-choice h3 {
           font-family: GothamProRegular;
@@ -60,7 +60,10 @@
           .services .tab-content .package-choice h3 .grey-h3 {
             color: #ccc; }
         .services .tab-content .package-choice .radio-packages {
-          height: 180px; }
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          padding: 0 5%; }
           .services .tab-content .package-choice .radio-packages .package-name {
             font-family: PlayfairDisplayRegular;
             color: #838383;
@@ -69,11 +72,10 @@
               font-family: ProximaNovaLight;
               color: #d5a14f; }
           .services .tab-content .package-choice .radio-packages label {
-            width: 24%;
             border: 2px solid #ccc;
             border-radius: 10px;
             padding: 15px 0;
-            margin: 25px 7px; }
+            margin: 15px 0; }
             .services .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive {
               border: 2px solid #d5a14f; }
               .services .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive input:checked ~ .checkmark {
@@ -120,23 +122,20 @@
         .services .tab-content .additional-options h4 {
           margin-bottom: 20px; }
         .services .tab-content .additional-options h3 {
-          font-family: ProximaNovaRegular;
+          font-family: ProximaNovaSemibold;
+          text-transform: uppercase;
           font-size: 24px;
-          letter-spacing: 1px;
           margin-bottom: 20px; }
-          .services .tab-content .additional-options h3 .grey-h3 {
-            color: #ccc; }
         .services .tab-content .additional-options .radios, .services .tab-content .additional-options .checkbox {
           font-size: 18px;
-          width: 75%;
-          margin: 25px 5% 0 15%;
+          margin: 5%;
           display: flex;
-          text-align: left; }
+          text-align: left;
+          flex-direction: column; }
           .services .tab-content .additional-options .radios .radios-col, .services .tab-content .additional-options .checkbox .radios-col {
-            width: 30%;
-            margin: 0 auto; }
+            margin: 0 2%; }
             .services .tab-content .additional-options .radios .radios-col.radios-col-wide, .services .tab-content .additional-options .checkbox .radios-col.radios-col-wide {
-              width: 35%; }
+              margin: 0 2%; }
             .services .tab-content .additional-options .radios .radios-col #sub-col-1, .services .tab-content .additional-options .radios .radios-col #sub-col-2, .services .tab-content .additional-options .radios .radios-col #sub-col-3, .services .tab-content .additional-options .radios .radios-col #sub-col-4, .services .tab-content .additional-options .checkbox .radios-col #sub-col-1, .services .tab-content .additional-options .checkbox .radios-col #sub-col-2, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 {
               margin-bottom: 50px; }
               .services .tab-content .additional-options .radios .radios-col #sub-col-1 label, .services .tab-content .additional-options .radios .radios-col #sub-col-2 label, .services .tab-content .additional-options .radios .radios-col #sub-col-3 label, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-1 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-2 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label {
@@ -177,7 +176,7 @@
                     height: 6px;
                     border-radius: 50%;
                     background: #d5a14f; }
-            .services .tab-content .additional-options .radios .radios-col #sub-col-2, .services .tab-content .additional-options .radios .radios-col #sub-col-3, .services .tab-content .additional-options .checkbox .radios-col #sub-col-2, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 {
+            .services .tab-content .additional-options .radios .radios-col #sub-col-3, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 {
               margin-bottom: 0; }
             .services .tab-content .additional-options .radios .radios-col #sub-col-3 label, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label {
               height: auto;
@@ -216,26 +215,28 @@
                 border: 1px solid #d5a14f; }
               .services .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after {
                 display: block; }
-            .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date], .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date] {
-              font-family: GothamProRegular;
-              color: #171616;
-              border: none;
-              position: relative;
-              top: -8px;
-              margin-bottom: 10px; }
-              .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date][disabled], .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date][disabled] {
-                background: none;
-                color: #ccc; }
-              .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:after, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:after {
-                content: '__________';
+            .services .tab-content .additional-options .radios .radios-col #sub-col-4, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 {
+              padding-top: 25px; }
+              .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date], .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date] {
+                font-family: GothamProRegular;
+                color: #171616;
+                border: none;
                 position: relative;
-                color: #d5a14f;
-                left: -185px;
-                font-size: 19px;
-                top: 2px; }
-            .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:focus, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:focus {
-              border: none;
-              outline: none; }
+                top: -8px;
+                margin-bottom: 10px; }
+                .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date][disabled], .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date][disabled] {
+                  background: none;
+                  color: #ccc; }
+                .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:after, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:after {
+                  content: '__________';
+                  position: relative;
+                  color: #d5a14f;
+                  left: -185px;
+                  font-size: 19px;
+                  top: 2px; }
+              .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:focus, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:focus {
+                border: none;
+                outline: none; }
       .services .tab-content .standard-services {
         display: flex;
         flex-direction: column;
@@ -244,7 +245,7 @@
         width: 100%;
         padding: 25px 15px; }
         .services .tab-content .standard-services div.package {
-          margin-bottom: 25px;
+          margin-bottom: 35px;
           background-color: #fff;
           border-radius: 10px;
           width: 100%; }
@@ -295,7 +296,7 @@
           .services .tab-content .standard-services div.package.central {
             z-index: 1;
             height: 100%;
-            box-shadow: 0 0 25px #ccc; }
+            box-shadow: none !important; }
             .services .tab-content .standard-services div.package.central .package-result {
               background-color: #f9f1e5; }
           .services .tab-content .standard-services div.package .card-text {

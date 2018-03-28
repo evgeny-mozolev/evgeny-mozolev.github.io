@@ -4,7 +4,7 @@
     text-align: center; }
     .submit-request .heading {
       text-transform: uppercase;
-      font-family: GothamProMedium;
+      font-family: GothamProBold;
       color: #171616;
       font-size: 2em;
       line-height: 1.1em; }
@@ -55,7 +55,20 @@
     display: block;
     margin-bottom: 35px; }
   .submit-request.feedback .submit-request-lead {
-    display: none; } }
+    display: none; }
+
+  .submit-request.packages {
+    background-color: #fff;
+    padding-top: 50px; }
+    .submit-request.packages .heading {
+      font-size: 24px;
+      text-transform: uppercase;
+      font-family: GothamProBold;
+      color: #171616; }
+    .submit-request.packages .heading-lead {
+      font-size: 20px;
+      padding: 10px 10%;
+      display: block; } }
 @media (min-width: 992px) {
   .submit-request {
     padding: 50px;
@@ -123,7 +136,6 @@
 
   .submit-request.services .heading,
   .submit-request.feedback .heading {
-    font-family: GothamProRegular;
     font-size: 24px;
     font-variant: normal;
     text-transform: none; }

@@ -215,7 +215,7 @@
       <!-- second pane -->
       <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
           <div class="package-choice">
-            <h3>1. Выберите пакет <span class="grey-h3">(это необязательно, но желательно)</span></h3>
+            <h3 class="desktop-version">1. Выберите пакет <span class="grey-h3">(это необязательно, но желательно)</span></h3>
             <div class="radio-packages">
                 <label onclick="addBoarder();" class="standard">
                     <input type="radio" name="selector">
@@ -388,7 +388,7 @@
     </div>
 </div>
 
-<div class="submit-request services">
+<div class="submit-request services packages">
     <div class="form-wrapper">
         <span class="h4 heading">3. Оставьте ваши контактные данные</span>
         <p class="heading-lead">Выбранный пакет услуг:
@@ -465,10 +465,24 @@ function addBoarder() {
 if( window.innerWidth < 991 ) {
     $("#nav-home-tab").text('Тарифы');
     $("#nav-profile-tab").text('Подобрать свой');
+    $(".h4.heading").text('Решились? — Пишите!');
+    $(".heading-lead").text('выбранный пакет: ');
 
     const package_div = $('.package.central');
     $('.package.central').remove();
     package_div.insertBefore( $('.package:first-of-type') );
+
+    const choose_yours = $('label.exclusive');
+    $('label.exclusive').remove();
+    choose_yours.insertBefore( $('label.standard') );
+
+    const wedding_date = $('#sub-col-4');
+    $('#sub-col-4').remove();
+    wedding_date.insertBefore( $('#sub-col-1') );
+
+
+
+
 };
 
 
