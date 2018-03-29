@@ -142,7 +142,8 @@
         font-size: 18px;
         letter-spacing: 2px; }
     .portfolio .card-columns {
-      width: 1000px;
+      width: 80%;
+      max-width: 1200px;
       margin: 0 auto;
       column-count: 2;
       column-gap: 50px; }

@@ -50,6 +50,8 @@
 
 @media (min-width: 992px) {
   .team-slider {
+    //max-width: 1200px;
+    margin: 0 auto;
     color: black;
     background-color: #f7f6f6;
     text-align: center;
@@ -67,6 +69,15 @@
         color: #D5A14F;
         font-size: 42px;
       }
+      .carousel-control-prev {
+        position: absolute;
+        left: 0;
+      }
+
+
+
+
+
       .carousel-indicators li {
         border-radius: 8px;
         width: 8px;
@@ -78,6 +89,8 @@
       }
       .carousel-inner {
         height: 400px;
+        max-width: 1200px;
+        margin: 0 auto;
         .carousel-caption {
           position: initial;
           color: black;

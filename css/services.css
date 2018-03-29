@@ -326,7 +326,8 @@
         font-size: 36px;
         line-height: 46px;
         padding: 0 45px;
-        vertical-align: top; }
+        vertical-align: top;
+        font-family: GothamProMedium; }
       .services .services-head .services-attire {
         font-size: 64px; }
     .services nav {
@@ -357,12 +358,17 @@
             border-left: 1px solid #f7f6f6;
             border-right: 1px solid #f7f6f6; }
 
+  #nav-home {
+    background: #f7f6f6; }
+
   .tab-content {
-    width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: #fff; }
     .tab-content .package-choice {
+      width: 100%;
+      max-width: 1200px;
       padding-top: 50px;
-      background-color: #fff; }
+      margin: 0 auto; }
       .tab-content .package-choice h3 {
         font-family: GothamProRegular;
         font-size: 24px;
@@ -425,8 +431,10 @@
           .tab-content .package-choice .radio-packages label input:checked ~ .checkmark:after {
             display: block; }
     .tab-content .additional-options {
+      width: 100%;
+      max-width: 1200px;
       padding-top: 50px;
-      background-color: #fff; }
+      margin: 0 auto; }
       .tab-content .additional-options h4 {
         margin-bottom: 20px; }
       .tab-content .additional-options h3 {
@@ -550,8 +558,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin: 0 auto;
       width: 100%;
-      padding: 75px 7.5%; }
+      max-width: 1200px;
+      padding: 75px 2.5%; }
       .tab-content .standard-services div.package {
         background-color: #fff;
         border-radius: 10px;

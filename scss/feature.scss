@@ -24,10 +24,12 @@
 
 @media (min-width: 992px) {
   .feature {
+    max-width: 1200px;
     background-color: #f7f6f6;
     text-align: center;
-    padding: 7.5vh 10vw;
+    padding: 50px 0;
     font-family: GothamProRegular;
+    margin: 0 auto;
 
     .h3 {
       font-size: 20px;
@@ -41,20 +43,18 @@
     }
 
     .two-column-feature-text {
-      width: 72.5vw;
+      width: 92%;
       margin: 0 auto;
       display: flex;
-
-
-
       text-align: left;
       font-family: GothamProLight;
       font-size: 18px;
 
       .column {
         width: 50%;
+        padding-left: 7%;
         .subcolumn {
-          width: 95%;
+          width: 100%;
         }
       }
     }

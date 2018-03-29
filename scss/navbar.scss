@@ -231,7 +231,6 @@
   nav {
     background-color: #fff;
   }
-  
   .nav-container {
     width: 100%;
     display: flex;
@@ -245,23 +244,24 @@
         height: 64px;
       }
     }
+
     .navbar-text {
       display: none;
     }
+
     .toggler-invisible {
       display: none;
     }
+
     .collapse.navbar-collapse {
       width: 48%;
       .navbar-nav {
         width: 100%;
         justify-content: space-between;
         height:100%;
-
         .order-button {
           align-self: center;
         }
-
         li.nav-item {
           &:last-of-type {
             .nav-div {
@@ -288,6 +288,7 @@
             color: #9FA3A7;
             margin: 0 10px;
             padding: 0;
+            font-size: 14px;
 
             &.active {
               color: #D5A14F;
@@ -303,21 +304,6 @@
               left: 10px;
               top: -0.1vw;
             }
-          }
-          button {
-            font-family: ProximaNovaSemibold;
-            color: #bca05c;
-            background: transparent;
-            border-radius: 9px;
-            border-color: #D6B46A ;
-            border-width: 2px;
-
-            padding: 8px 8px;
-            font-size: 15px;
-            letter-spacing: 2px;
-            width: 130px;
-            height: 49px;
-
           }
         }
         div.social-buttons {

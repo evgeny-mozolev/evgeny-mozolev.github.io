@@ -16,10 +16,12 @@
       font-size: 20px; } }
 @media (min-width: 992px) {
   .feature {
+    max-width: 1200px;
     background-color: #f7f6f6;
     text-align: center;
-    padding: 7.5vh 10vw;
-    font-family: GothamProRegular; }
+    padding: 50px 0;
+    font-family: GothamProRegular;
+    margin: 0 auto; }
     .feature .h3 {
       font-size: 20px; }
     .feature .featured-text {
@@ -28,15 +30,16 @@
         font-size: 54px;
         font-family: GothamProLight; }
     .feature .two-column-feature-text {
-      width: 72.5vw;
+      width: 92%;
       margin: 0 auto;
       display: flex;
       text-align: left;
       font-family: GothamProLight;
       font-size: 18px; }
       .feature .two-column-feature-text .column {
-        width: 50%; }
+        width: 50%;
+        padding-left: 7%; }
         .feature .two-column-feature-text .column .subcolumn {
-          width: 95%; } }
+          width: 100%; } }
 
 /*# sourceMappingURL=feature.css.map */

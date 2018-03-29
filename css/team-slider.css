@@ -33,6 +33,7 @@
           font-size: 20px; } }
 @media (min-width: 992px) {
   .team-slider {
+    margin: 0 auto;
     color: black;
     background-color: #f7f6f6;
     text-align: center;
@@ -48,6 +49,9 @@
       .team-slider #carouselExampleIndicators .carousel-control-next, .team-slider #carouselExampleIndicators .carousel-control-prev {
         color: #D5A14F;
         font-size: 42px; }
+      .team-slider #carouselExampleIndicators .carousel-control-prev {
+        position: absolute;
+        left: 0; }
       .team-slider #carouselExampleIndicators .carousel-indicators li {
         border-radius: 8px;
         width: 8px;
@@ -56,7 +60,9 @@
         .team-slider #carouselExampleIndicators .carousel-indicators li.active {
           background-color: #D5A14F; }
       .team-slider #carouselExampleIndicators .carousel-inner {
-        height: 400px; }
+        height: 400px;
+        max-width: 1200px;
+        margin: 0 auto; }
         .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption {
           position: initial;
           color: black;

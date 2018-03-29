@@ -214,7 +214,8 @@
             text-align: center;
             color: #9FA3A7;
             margin: 0 10px;
-            padding: 0; }
+            padding: 0;
+            font-size: 14px; }
             .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-link.active {
               color: #D5A14F; }
             .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item .nav-link:hover {
@@ -225,18 +226,6 @@
               position: relative;
               left: 10px;
               top: -0.1vw; }
-          .nav-container .collapse.navbar-collapse .navbar-nav li.nav-item button {
-            font-family: ProximaNovaSemibold;
-            color: #bca05c;
-            background: transparent;
-            border-radius: 9px;
-            border-color: #D6B46A;
-            border-width: 2px;
-            padding: 8px 8px;
-            font-size: 15px;
-            letter-spacing: 2px;
-            width: 130px;
-            height: 49px; }
         .nav-container .collapse.navbar-collapse .navbar-nav div.social-buttons {
           display: none; }
         .nav-container .collapse.navbar-collapse .navbar-nav div.flex-space-btw-block {

@@ -82,7 +82,8 @@
       .contacts-section .contacts-head .contacts-attire {
         font-size: 64px; }
     .contacts-section .contacts-map {
-      width: 90%;
+      width: 100%;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 50px 0;
       display: flex;

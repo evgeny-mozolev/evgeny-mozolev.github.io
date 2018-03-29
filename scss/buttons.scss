@@ -1,0 +1,28 @@
+@media (max-width: 991px) {
+
+}
+@media (min-width: 992px) {
+
+  button.btn.order-btn {
+    font-family: ProximaNovaSemibold;
+    color: #bca05c;
+    background: white;
+    border-radius: 9px;
+    border-color: #D6B46A;
+    border-width: 2px;
+    padding: 8px 8px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    width: 130px;
+    height: 49px;
+    &:hover {
+      background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+      color: #fff;
+      transition: background-color 1s ease-in-out;
+    }
+  }
+
+
+
+
+}
