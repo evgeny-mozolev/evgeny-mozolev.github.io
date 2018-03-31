@@ -56,18 +56,6 @@
     .portfolio .other-projects {
       margin: 1em auto;
       width: 70%; }
-      .portfolio .other-projects .other-projects-button {
-        font-variant: all-small-caps;
-        font-family: ProximaNovaSemibold;
-        color: #171616;
-        background: transparent;
-        border-radius: 9px;
-        border-color: #D5A14F;
-        width: 99%;
-        margin: 0.11em 0;
-        padding: 0.7em 0;
-        font-size: 1em;
-        letter-spacing: 0.1em; }
     .portfolio .portfolio-teaser {
       text-align: left;
       margin-bottom: 10%; }
@@ -142,17 +130,22 @@
         font-size: 18px;
         letter-spacing: 2px; }
     .portfolio .card-columns {
-      width: 80%;
+      width: 60%;
+      min-width: 982px;
       max-width: 1200px;
       margin: 0 auto;
       column-count: 2;
       column-gap: 50px; }
       .portfolio .card-columns .card {
+        width: 100%;
         margin-bottom: 50px;
         border: none;
-        border-radius: 0; }
+        border-radius: 0;
+        display: flex; }
         .portfolio .card-columns .card.initiator {
           margin-bottom: 25px; }
+        .portfolio .card-columns .card .card-body .card-img-top {
+          box-shadow: none; }
         .portfolio .card-columns .card .card-body .card-title {
           font-size: 24px; }
         .portfolio .card-columns .card .card-body .card-text {
@@ -162,6 +155,18 @@
           font-size: 24px; }
         .portfolio .card-columns .card .card-body .portfolio-link {
           font-size: 18px; }
+          .portfolio .card-columns .card .card-body .portfolio-link.base-link {
+            color: #8ab7b8; }
+            .portfolio .card-columns .card .card-body .portfolio-link.base-link:hover {
+              color: #39BFDE !important; }
+          .portfolio .card-columns .card .card-body .portfolio-link.standard-link {
+            color: #f58e8e; }
+            .portfolio .card-columns .card .card-body .portfolio-link.standard-link :hover {
+              color: #F36645 !important; }
+          .portfolio .card-columns .card .card-body .portfolio-link.exclusive-link {
+            color: #d5a14f; }
+            .portfolio .card-columns .card .card-body .portfolio-link.exclusive-link:hover {
+              color: #F8AB32 !important; }
         .portfolio .card-columns .card .card-body.portfolio-teaser {
           background-color: #f7f6f6;
           text-align: left;

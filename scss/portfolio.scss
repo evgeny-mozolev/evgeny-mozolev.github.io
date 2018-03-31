@@ -90,19 +90,6 @@
     .other-projects {
       margin: 1em auto;
       width: 70%;
-      .other-projects-button {
-        font-variant: all-small-caps;
-        font-family: ProximaNovaSemibold;
-        color: #171616;
-        background: transparent;
-        border-radius: 9px;
-        border-color: #D5A14F;
-        width: 99%;
-        margin: 0.11em 0;
-        padding: 0.7em 0;
-        font-size: 1em;
-        letter-spacing: 0.1em;
-      }
     }
     .portfolio-teaser {
       text-align: left;
@@ -201,20 +188,26 @@
      }
    }
    .card-columns {
-     width: 80%;
+     width: 60%;
+     min-width: 982px;
      max-width: 1200px;
 
      margin: 0 auto;
      column-count: 2;
      column-gap: 50px;
      .card {
+       width:100%;
        margin-bottom: 50px;
        border: none;
        border-radius: 0;
+       display: flex;
        &.initiator {
          margin-bottom: 25px;
        }
        .card-body {
+        .card-img-top {
+           box-shadow: none;
+         }
          .card-title {
            font-size: 24px;
          }
@@ -226,7 +219,26 @@
          }
          .portfolio-link {
            font-size: 18px;
+           &.base-link {
+             color: #8ab7b8;
+             &:hover {
+               color: #39BFDE !important;
+             }
+           }
+           &.standard-link {
+             color: #f58e8e;
+             :hover {
+               color: #F36645 !important;
+             }
+           }
+           &.exclusive-link {
+             color: #d5a14f;
+             &:hover {
+               color: #F8AB32 !important;
+             }
+           }
          }
+
          &.portfolio-teaser {
            background-color: #f7f6f6;
            text-align: left;

@@ -67,13 +67,6 @@
       .jumbotron-fluid .container .how-it-happens {
         text-align: center; }
         .jumbotron-fluid .container .how-it-happens button.btn.how-it-happens {
-          border-radius: 10px;
-          background-image: linear-gradient(to bottom, #eac37f, #bca05c);
-          height: 49px;
-          border: none;
-          color: #fff;
-          font-family: ProximaNovaSemibold;
-          padding: 0 40px;
           letter-spacing: 2px; } }
 @media (min-width: 1480px) {
   .jumbotron-fluid .container {

@@ -18,6 +18,7 @@
         width: 90%;
         color: #838383;
         outline: none;
+
         &.your-story {
           resize: none;
           outline: none;
@@ -106,8 +107,14 @@
         padding: 25px;
         display: inline-block;
         border: 1px solid #D5A14F;
-        color: #838383;
+        color: black;
         outline: none;
+        &[value=""] {
+          color: #838383;
+        }
+        &:focus {
+          color: black;
+        }
         &.your-story {
           resize: none;
           outline: none;
