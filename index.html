@@ -80,7 +80,7 @@
 
               <div class="order-button">
                 <li class="nav-item">
-                  <button type="button" class="btn submit-request mobile-version">ОТПРАВИТЬ ЗАЯВКУ</button>
+                  <button type="button" class="btn how-it-happens mobile-version">ОТПРАВИТЬ ЗАЯВКУ</button>
                   <button type="button" class="btn order-btn desktop-version">ЗАКАЗАТЬ</button>
                 </li>
               </div>
@@ -127,14 +127,17 @@
 
 
         <div class="card-columns portfolio-masonry">
-            <div class="card initiator">
+            <div class="card initiator desktop-version">
                 <div class="card-body portfolio-teaser">
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-body">
-                      <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                      <a class="img-container" href="#">
+                        <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
+                      </a>
+
                       <div class="card-body">
                         <h5 class="card-title">Анатолий и&nbsp;Станислава</h5>
                         <hr align="center" width="100" color="#c5a2fd" style="border: 1px solid #c5a2fd"/>
@@ -146,7 +149,9 @@
 
             <div class="card">
                 <div class="card-body">
-                    <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                    <a class="img-container" href="#">
+                        <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title">Константин и&nbsp;Маргарита</h5>
                         <hr align="center" width="100" color="#d5a14f" style="border: 1px solid #d5a14f"/>
@@ -156,8 +161,8 @@
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body portfolio-teaser">
+            <div class="card" id="happiness">
+                <div class="card-body portfolio-teaser" >
                       <span class="h3">Счастье <br class="desktop-version">в&nbsp;каждом моменте</span>
                       <p>Свадьба, снятая с помощью квадрокоптера,
                       будет иметь фантастические виды и&nbsp;смотреться незабываемо</p>
@@ -166,7 +171,9 @@
 
             <div class="card">
                 <div class="card-body">
-                    <img class="card-img-top" src="img/1.jpg" alt="portfolio-story-img">
+                  <a class="img-container" href="#">
+                    <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
+                  </a>
                     <div class="card-body">
                         <h5 class="card-title">Виолетта и&nbsp;Егор</h5>
                         <hr align="center" width="100" color="#f58e8e" style="border: 1px solid #f58e8e"/>
@@ -236,6 +243,13 @@
         vidsrc.type = "video/mp4";
         vidsrc.id = "video-source";
         vidsrc.src = "./video/819981756.mp4";
+    } else {
+        const happiness = $('#happiness');
+            $('#happiness').remove();
+            happiness.insertBefore( $('.card:first-of-type') );
+
+
+
     }
     $('#video-jumbotron').append(vidsrc);
 </script>

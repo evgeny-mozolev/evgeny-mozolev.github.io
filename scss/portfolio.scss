@@ -1,9 +1,83 @@
 @media (max-width: 991px) {
   .portfolio {
+    background-color: #f7f6f6;
+    padding: 25px 5% 25px;
+    text-align: center;
+    z-index: 1;
+    .card-columns.portfolio-masonry {
+      column-count: 1 !important;
+      column-gap: 50px;
+    }
+    .portfolio-head {
+      padding: 25px 0 0;
+      .h4 {
+        font-family: GothamProBold;
+        font-size: 24px;
+        vertical-align: top;
+      }
+      .portfolio-attire {
+        font-size: 58px;
+        line-height: 36px;
+      }
+    }
+      .card {
+        border: none;
+        margin: 25px 5%;
+        .portfolio-teaser {
+          background-color: #f7f6f6;
+          border-radius: 0;
+          border: none;
+          text-align: left;
+          padding-left: 0;
+          padding-right: 0;
+          .h3 {
+            color: #D5A14F;
+            text-transform: uppercase;
+            font-family: GothamProBold;
+            width: 100%;
+            font-size: 24px;
+          }
+          p {
+            margin: 25px 0 0;
+            font-family: GothamProRegular;
+            font-size: 20px;
+          }
+        }
+        .card-body {
+         .img-container {
+           margin: 25px 0;
+           border-radius: 0;
+           position: relative;
+           display: block;
+          }
+          .img-container:before {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.2;
+          }
+          .img-container:after {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+            background: url(../img/play-button-icon-wh.svg) 50% 40% no-repeat;
+            background-size: 20%;
+            opacity: 0.7;
+          }
+        }
+      }
 
     .portfolio-slider {
       #portfolio-carousel {
-
         .card {
           margin-bottom: 50px;
           border: none;
@@ -12,20 +86,8 @@
             margin-bottom: 25px;
           }
           .card-body {
-            .card-title {
-              font-family: GothamProRegular;
-              font-size: 16px;
-            }
-            .card-text {
-              font-family: PlayfairDisplayRegular;
-              color: #838383;
-              margin-bottom: 50px;
-              font-size: 16px;
-            }
-            .portfolio-link {
-              font-size: 16px;
-            }
             &.portfolio-teaser {
+              color: red;
               background-color: #f7f6f6;
               text-align: left;
               margin: 0;
@@ -44,16 +106,22 @@
                 margin-bottom: 0;
               }
             }
+            .card-title {
+              font-family: GothamProRegular;
+              font-size: 16px;
+            }
+            .card-text {
+              font-family: PlayfairDisplayRegular;
+              color: #838383;
+              margin-bottom: 50px;
+              font-size: 16px;
+            }
+            .portfolio-link {
+              font-size: 16px;
+            }
+
           }
         }
-
-
-
-
-
-
-
-
         .carousel-indicators {
           //bottom: -75px;
           li {
@@ -71,39 +139,15 @@
     }
 
 
-    background-color: #f7f6f6;
-    padding: 2.5% 10% 5%;
-    text-align: center;
-    z-index: 1;
-    .portfolio-head {
-      padding: 5% 0;
-      text-align: center;
-      .h4 {
-        font-size: 6vw;
-        font-family: GothamProBold;
-        vertical-align: top;
-      }
-      .portfolio-attire {
-        font-size: 9vw;
-      }
-    }
+
+
+
+
     .other-projects {
       margin: 1em auto;
       width: 70%;
     }
-    .portfolio-teaser {
-      text-align: left;
-      margin-bottom: 10%;
-      .h3 {
-        color: #D5A14F;
-        font-variant: all-small-caps;
-        font-size: 1.6rem;
-      }
-      p {
-        margin-top: 1.2em;
-        font-family: GothamProRegular;
-      }
-    }
+
 
     .portfolio-story {
       background-color: #fff;
@@ -134,6 +178,9 @@
   .portfolio {
    background-color: #f7f6f6;
    text-align: center;
+
+
+
    .portfolio-head {
      padding: 75px 0;
      text-align: center;

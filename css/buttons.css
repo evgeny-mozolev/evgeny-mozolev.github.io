@@ -1,47 +1,46 @@
-@media (min-width: 992px) {
-  button.btn.order-btn {
-    font-family: ProximaNovaSemibold;
-    color: #bca05c;
-    background: white;
-    border-radius: 9px;
-    border-color: #D6B46A;
-    border-width: 2px;
-    padding: 8px 8px;
-    font-size: 16px;
-    letter-spacing: 2px;
-    width: 130px;
-    height: 49px; }
-    button.btn.order-btn:hover {
-      border: none;
-      background-image: linear-gradient(to bottom, #eac37f, #bca05c);
-      color: #fff; }
-
-  button.btn.all-projects {
-    width: 202px;
-    height: 49px;
-    text-transform: uppercase;
-    font-family: ProximaNovaSemibold;
-    color: #171616;
-    background: transparent;
-    border-radius: 9px;
-    border: 2px solid #D5A14F;
-    font-size: 16px; }
-    button.btn.all-projects:hover {
-      border: none;
-      background-image: linear-gradient(to bottom, #eac37f, #bca05c);
-      color: #fff;
-      transition: background-color 0.1s ease-in-out; }
-
-  .btn.how-it-happens {
-    border-radius: 8px;
-    background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+button.btn.order-btn {
+  font-family: ProximaNovaSemibold;
+  color: #bca05c;
+  background: white;
+  border-radius: 9px;
+  border-color: #D6B46A;
+  border-width: 2px;
+  padding: 8px 8px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 130px;
+  height: 49px; }
+  button.btn.order-btn:hover {
     border: none;
+    background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+    color: #fff; }
+
+button.btn.all-projects {
+  width: 202px;
+  height: 49px;
+  text-transform: uppercase;
+  font-family: ProximaNovaSemibold;
+  color: #171616;
+  background: transparent;
+  border-radius: 9px;
+  border: 2px solid #D5A14F;
+  font-size: 16px; }
+  button.btn.all-projects:hover {
+    border: none;
+    background-image: linear-gradient(to bottom, #eac37f, #bca05c);
     color: #fff;
-    font-family: GothamProRegular;
-    letter-spacing: 1px;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 15px 30px;
-    margin: 25px; } }
+    transition: background-color 0.1s ease-in-out; }
+
+.btn.how-it-happens {
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #eac37f, #bca05c);
+  border: none;
+  color: #fff;
+  font-family: GothamProRegular;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  margin: 25px; }
 
 /*# sourceMappingURL=buttons.css.map */
