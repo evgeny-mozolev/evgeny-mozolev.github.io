@@ -2,38 +2,42 @@
   .team-slider {
     background-color: #f7f6f6;
     text-align: center;
-    padding: 25px 5%; }
+    padding: 25px 0; }
     .team-slider .h3 {
       font-family: GothamProBold;
       font-variant: all-small-caps;
-      font-size: 36px; }
-    .team-slider #carouselExampleIndicators {
-      padding: 50px 0; }
-      .team-slider #carouselExampleIndicators .carousel-control-next, .team-slider #carouselExampleIndicators .carousel-control-prev {
-        display: none; }
-      .team-slider #carouselExampleIndicators .carousel-indicators li {
-        border-radius: 8px;
-        width: 8px;
-        height: 8px;
-        background-color: #d8d8d8; }
-        .team-slider #carouselExampleIndicators .carousel-indicators li.active {
-          background-color: #D5A14F; }
-      .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption {
-        position: initial;
-        color: black;
-        margin: 0 auto; }
-        .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption h5 {
-          font-size: 24px;
-          font-family: GothamProMedium; }
-        .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption .lead {
-          font-family: GothamProLight;
-          font-size: 18px; }
-        .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption .team-member-description {
-          font-family: ProximaNovaRegular;
-          font-size: 20px; } }
+      font-size: 36px;
+      margin-bottom: 25px; }
+    .team-slider .team-carousel {
+      width: 100%; }
+      .team-slider .team-carousel ul.slick-dots li.slick-active button::before {
+        color: #D5A14F; }
+      .team-slider .team-carousel ul.slick-dots li button::before {
+        font-size: 40px;
+        color: #9FA3A7; }
+      .team-slider .team-carousel div.slick-list .img-cover {
+        text-align: center;
+        margin: 40px auto 25px;
+        height: 180px;
+        width: 200px;
+        clip-path: url("#CircleClip"); }
+        .team-slider .team-carousel div.slick-list .img-cover img {
+          display: initial !important; }
+      .team-slider .team-carousel div.slick-list h5 {
+        font-family: GothamProBold;
+        text-shadow: none;
+        font-size: 24px; }
+      .team-slider .team-carousel div.slick-list .lead {
+        font-family: GothamProLight;
+        font-size: 15px; }
+      .team-slider .team-carousel div.slick-list .team-member-description {
+        font-family: ProximaNovaRegular;
+        font-size: 17px;
+        margin-bottom: 25px;
+        padding: 0 15px; } }
 @media (min-width: 992px) {
   .team-slider {
-    margin: 0 auto;
+    max-width: 1200px;
     color: black;
     background-color: #f7f6f6;
     text-align: center;
@@ -41,9 +45,8 @@
     font-family: GothamProLight; }
     .team-slider .h3 {
       font-family: GothamProBold;
-      font-variant: all-small-caps;
-      font-size: 32px;
-      letter-spacing: 0.1px; }
+      text-transform: uppercase;
+      font-size: 24px; }
     .team-slider #carouselExampleIndicators {
       padding: 45px 0; }
       .team-slider #carouselExampleIndicators .carousel-control-next, .team-slider #carouselExampleIndicators .carousel-control-prev {

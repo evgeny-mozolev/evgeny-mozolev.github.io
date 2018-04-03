@@ -3,7 +3,7 @@
     text-align: center;
     padding: 50px 5%;
     font-family: GothamProRegular;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     .h3 {
       font-family: GothamProBold;
       font-variant: all-small-caps;
@@ -25,43 +25,33 @@
        }
       }
     }
+
     .equipment-mobile {
-      #equipment-carousel {
-        .carousel-indicators {
-          bottom: -75px;
-          li {
-            border-radius: 8px;
-            margin: 0 6px;
-            width: 8px;
-            height: 8px;
-            background-color: #d8d8d8;
-            &.active {
-              background-color: #D5A14F;
-            }
-          }
-        }
-        .carousel-inner {
-          margin
-          .carousel-item,
-          .carousel-item.active,
-          .carousel-item-left,
-          .carousel-item-right
-          {
-            .card-title {
-              font-family: GothamProMedium;
-              font-size: 20px;
-              margin-bottom: 4px;
-            }
-            .card-text {
-              font-family: ProximaNovaRegular;
-              font-size: 19px;
-            }
-            .card-img-top{
+        .slick-slide {
+            img {
               width: 75%;
+              margin: 0 auto;
+            }
+        }
+
+        //-- slick dots for team slider
+        ul.slick-dots {
+          bottom: -65px;
+          li {
+            &.slick-active {
+              button::before {
+                color: #D5A14F;
+              }
+            }
+            button::before {
+              font-size: 40px;
+              color: #9FA3A7;
             }
           }
         }
-      }
+        //-- end of slick dots for team slider
+
+
     }
   }
 }

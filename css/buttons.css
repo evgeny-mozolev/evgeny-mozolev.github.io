@@ -17,13 +17,14 @@ button.btn.order-btn {
 
 button.btn.all-projects {
   width: 202px;
-  height: 49px;
+  height: 60px;
+  padding: 0 40px;
   text-transform: uppercase;
   font-family: ProximaNovaSemibold;
   color: #171616;
   background: transparent;
   border-radius: 9px;
-  border: 2px solid #D5A14F;
+  border: 1px solid #D5A14F;
   font-size: 16px; }
   button.btn.all-projects:hover {
     border: none;

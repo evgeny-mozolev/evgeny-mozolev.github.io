@@ -8,8 +8,9 @@
     justify-content: center;
     padding: 25px 0 75px; }
     .contacts-head .h4 {
-      font-size: 20px;
-      line-height: 20px; }
+      font-size: 24px;
+      line-height: 24px;
+      font-family: GothamProMedium; }
     .contacts-head .contacts-attire {
       font-size: 48px; }
     .contacts-head p {
@@ -49,7 +50,7 @@
       font-size: 14px; }
       .contacts-map #contacts-map-col2 .contact-info .tel {
         font-family: GothamProRegular;
-        color: black;
+        color: #007bff;
         margin-bottom: 5px; }
       .contacts-map #contacts-map-col2 .contact-info .email {
         font-size: 16px;
@@ -75,7 +76,7 @@
         margin-top: -20px;
         font-size: 16px; }
       .contacts-section .contacts-head .h4 {
-        font-size: 32px;
+        font-size: 34px;
         line-height: 46px;
         padding: 0 45px;
         vertical-align: top; }
@@ -98,7 +99,7 @@
           box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15); }
         .contacts-section .contacts-map #contacts-map-col1 img {
           box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
-          height: 400px; }
+          width: 550px; }
       .contacts-section .contacts-map #contacts-map-col2 .send-request {
         margin: 50px 0;
         font-family: ProximaNovaSemibold;

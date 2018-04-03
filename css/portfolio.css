@@ -11,14 +11,15 @@
       padding: 25px 0 0; }
       .portfolio .portfolio-head .h4 {
         font-family: GothamProBold;
-        font-size: 24px;
-        vertical-align: top; }
+        font-size: 28px;
+        vertical-align: top;
+        font-variant: normal; }
       .portfolio .portfolio-head .portfolio-attire {
         font-size: 58px;
         line-height: 36px; }
     .portfolio .card {
       border: none;
-      margin: 25px 5%; }
+      margin: 25px 5px; }
       .portfolio .card .portfolio-teaser {
         background-color: #f7f6f6;
         border-radius: 0;
@@ -69,7 +70,6 @@
       .portfolio .portfolio-slider #portfolio-carousel .card.initiator {
         margin-bottom: 25px; }
       .portfolio .portfolio-slider #portfolio-carousel .card .card-body.portfolio-teaser {
-        color: red;
         background-color: #f7f6f6;
         text-align: left;
         margin: 0;
@@ -79,7 +79,8 @@
           font-family: GothamProBold;
           color: #D5A14F;
           text-transform: uppercase;
-          font-size: 28px; }
+          font-size: 28px;
+          padding-bottom: 25px; }
         .portfolio .portfolio-slider #portfolio-carousel .card .card-body.portfolio-teaser p {
           margin-top: 25px;
           font-family: GothamProRegular;
@@ -121,13 +122,28 @@
         .portfolio .portfolio-story .card-body .card-text {
           font-family: PlayfairDisplayRegular;
           color: #838383;
-          margin-bottom: 10%; } }
+          margin-bottom: 10%; }
+
+  .portfolio-page .portfolio-teaser {
+    text-align: left; }
+    .portfolio-page .portfolio-teaser .h3 {
+      display: block;
+      margin-bottom: 25px;
+      font-family: GothamProBold;
+      color: #D5A14F;
+      text-transform: uppercase;
+      font-size: 24px; }
+    .portfolio-page .portfolio-teaser p {
+      margin-top: 25px;
+      font-family: GothamProRegular;
+      font-size: 24px;
+      margin-bottom: 0; } }
 @media (min-width: 992px) {
   .portfolio {
     background-color: #f7f6f6;
     text-align: center; }
     .portfolio .portfolio-head {
-      padding: 75px 0;
+      padding: 50px 0;
       text-align: center; }
       .portfolio .portfolio-head .h4 {
         font-size: 34px;
@@ -184,6 +200,32 @@
         display: flex; }
         .portfolio .card-columns .card.initiator {
           margin-bottom: 25px; }
+        .portfolio .card-columns .card .card-body .img-container {
+          margin: 25px 0;
+          border-radius: 0;
+          position: relative;
+          display: block; }
+        .portfolio .card-columns .card .card-body .img-container:before {
+          content: "";
+          position: absolute;
+          display: block;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #000;
+          opacity: 0.2; }
+        .portfolio .card-columns .card .card-body .img-container:after {
+          content: "";
+          position: absolute;
+          display: block;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/play-button-icon-wh.svg) 50% 42% no-repeat;
+          background-size: 17%;
+          opacity: 0.7; }
         .portfolio .card-columns .card .card-body .card-img-top {
           box-shadow: none; }
         .portfolio .card-columns .card .card-body .card-title {
@@ -228,6 +270,11 @@
     padding-bottom: 50px; }
     .portfolio-page .portfolio-head {
       padding: 50px 0; }
+    .portfolio-page .portfolio-teaser .h3 {
+      font-family: GothamProBold;
+      color: #D5A14F;
+      text-transform: uppercase;
+      font-size: 24px; }
     .portfolio-page .portfolio-teaser p {
       line-height: normal; } }
 

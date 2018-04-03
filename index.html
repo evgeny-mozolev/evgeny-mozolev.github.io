@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/submit-form.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/modal-video.min.css">
 
     <link rel="stylesheet" href="fonts/Gotham.css">
     <link rel="stylesheet" href="fonts/ProximaNova/css/proximanova.css">
@@ -125,7 +126,6 @@
             <span class="icon-o-icon2 portfolio-attire"></span>
         </div>
 
-
         <div class="card-columns portfolio-masonry">
             <div class="card initiator desktop-version">
                 <div class="card-body portfolio-teaser">
@@ -137,7 +137,6 @@
                       <a class="img-container" href="#">
                         <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
                       </a>
-
                       <div class="card-body">
                         <h5 class="card-title">Анатолий и&nbsp;Станислава</h5>
                         <hr align="center" width="100" color="#c5a2fd" style="border: 1px solid #c5a2fd"/>
@@ -235,9 +234,8 @@
     </div>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script >
-    console.log(window.innerWidth);
     if( window.innerWidth > 991 ) {
         var vidsrc = document.createElement('source');
         vidsrc.type = "video/mp4";
@@ -245,13 +243,11 @@
         vidsrc.src = "./video/819981756.mp4";
     } else {
         const happiness = $('#happiness');
-            $('#happiness').remove();
-            happiness.insertBefore( $('.card:first-of-type') );
-
-
-
+        $('#happiness').remove();
+        happiness.insertBefore( $('.card:first-of-type') );
     }
     $('#video-jumbotron').append(vidsrc);
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

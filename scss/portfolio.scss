@@ -12,8 +12,10 @@
       padding: 25px 0 0;
       .h4 {
         font-family: GothamProBold;
-        font-size: 24px;
+        font-size: 28px;
         vertical-align: top;
+        font-variant: normal;
+
       }
       .portfolio-attire {
         font-size: 58px;
@@ -22,7 +24,7 @@
     }
       .card {
         border: none;
-        margin: 25px 5%;
+        margin: 25px 5px;
         .portfolio-teaser {
           background-color: #f7f6f6;
           border-radius: 0;
@@ -87,7 +89,6 @@
           }
           .card-body {
             &.portfolio-teaser {
-              color: red;
               background-color: #f7f6f6;
               text-align: left;
               margin: 0;
@@ -98,6 +99,7 @@
                 color: #D5A14F;
                 text-transform: uppercase;
                 font-size: 28px;
+                padding-bottom: 25px;
               }
               p {
                 margin-top: 25px;
@@ -172,17 +174,39 @@
       }
     }
   }
+  .portfolio-page {
+
+
+
+
+    .portfolio-teaser {
+      text-align: left;
+      .h3 {
+        display: block;
+        margin-bottom: 25px;
+        font-family: GothamProBold;
+        color: #D5A14F;
+        text-transform: uppercase;
+        font-size: 24px;
+      }
+      p {
+        margin-top: 25px;
+        font-family: GothamProRegular;
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
 }
 
 @media (min-width: 992px) {
   .portfolio {
    background-color: #f7f6f6;
    text-align: center;
-
-
-
    .portfolio-head {
-     padding: 75px 0;
+     padding: 50px 0;
      text-align: center;
      .h4 {
        font-size: 34px;
@@ -238,7 +262,6 @@
      width: 60%;
      min-width: 982px;
      max-width: 1200px;
-
      margin: 0 auto;
      column-count: 2;
      column-gap: 50px;
@@ -251,7 +274,39 @@
        &.initiator {
          margin-bottom: 25px;
        }
+
        .card-body {
+
+         .img-container {
+           margin: 25px 0;
+           border-radius: 0;
+           position: relative;
+           display: block;
+         }
+         .img-container:before {
+           content: "";
+           position: absolute;
+           display: block;
+           left: 0;
+           top:0;
+           width: 100%;
+           height: 100%;
+           background-color: #000;
+           opacity: 0.2;
+         }
+         .img-container:after {
+           content: "";
+           position: absolute;
+           display: block;
+           left: 0;
+           top:0;
+           width: 100%;
+           height: 100%;
+           background: url(../img/play-button-icon-wh.svg) 50% 42% no-repeat;
+           background-size: 17%;
+           opacity: 0.7;
+         }
+
         .card-img-top {
            box-shadow: none;
          }
@@ -316,6 +371,13 @@
       padding: 50px 0;
     }
     .portfolio-teaser {
+      .h3 {
+        font-family: GothamProBold;
+        color: #D5A14F;
+        text-transform: uppercase;
+        font-size: 24px;
+
+      }
       p {
         line-height: normal;
       }

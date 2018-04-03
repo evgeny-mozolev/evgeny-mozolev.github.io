@@ -15,8 +15,12 @@
         border: 1px solid #D5A14F;
         margin: 2.5%;
         width: 90%;
-        color: #838383;
+        color: black;
         outline: none; }
+        .submit-request .submit-request-form .submit-request-input[value=""] {
+          color: #838383; }
+        .submit-request .submit-request-form .submit-request-input:focus {
+          color: black; }
         .submit-request .submit-request-form .submit-request-input.your-story {
           resize: none;
           outline: none; }
