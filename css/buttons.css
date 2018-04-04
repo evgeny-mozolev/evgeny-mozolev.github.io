@@ -14,6 +14,13 @@ button.btn.order-btn {
     border: none;
     background-image: linear-gradient(to bottom, #eac37f, #bca05c);
     color: #fff; }
+  button.btn.order-btn.contact-info-button {
+    margin-top: 25px;
+    width: unset;
+    background-color: #f7f6f6; }
+    button.btn.order-btn.contact-info-button:hover {
+      border: 2px solid #D6B46A;
+      width: unset; }
 
 button.btn.all-projects {
   width: 202px;

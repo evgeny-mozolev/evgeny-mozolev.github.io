@@ -17,6 +17,15 @@
       color: #fff;
       //transition: background-color 1s ease-in-out;
     }
+    &.contact-info-button {
+      margin-top: 25px;
+      width: unset;
+      background-color: #f7f6f6;
+      &:hover {
+        border: 2px solid #D6B46A ;
+        width: unset;
+      }
+    }
   }
   button.btn.all-projects {
    width: 202px;

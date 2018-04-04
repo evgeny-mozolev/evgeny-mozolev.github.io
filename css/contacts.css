@@ -92,6 +92,7 @@
       .contacts-section .contacts-map #contacts-map-col1 {
         width: 50%;
         margin-right: 5%;
+        padding-right: 3%;
         text-align: right; }
         .contacts-section .contacts-map #contacts-map-col1 > ymaps {
           display: block;
