@@ -14,4 +14,8 @@ $( document ).ready(function() {
         $("html").toggleClass('toggle-html');
         $("body").toggleClass('toggle-body');
     });
+
+    $(".js-modal-video").modalVideo({
+        channel: 'youtube'
+    });
 });

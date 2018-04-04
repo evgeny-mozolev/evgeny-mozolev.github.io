@@ -49,5 +49,7 @@
     text-transform: uppercase;
     padding: 15px 30px;
     margin: 25px;
-
+    &:hover {
+      background-image: linear-gradient(to bottom,#fbd38e,#caad69);
+    }
   }

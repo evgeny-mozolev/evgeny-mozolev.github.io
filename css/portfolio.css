@@ -204,7 +204,8 @@
           margin: 25px 0;
           border-radius: 0;
           position: relative;
-          display: block; }
+          display: block;
+          cursor: pointer; }
         .portfolio .card-columns .card .card-body .img-container:before {
           content: "";
           position: absolute;

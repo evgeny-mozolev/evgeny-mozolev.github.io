@@ -43,5 +43,7 @@ button.btn.all-projects {
   text-transform: uppercase;
   padding: 15px 30px;
   margin: 25px; }
+  .btn.how-it-happens:hover {
+    background-image: linear-gradient(to bottom, #fbd38e, #caad69); }
 
 /*# sourceMappingURL=buttons.css.map */

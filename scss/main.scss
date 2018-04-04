@@ -1,7 +1,25 @@
+.slick-slider {
+  .slick-active {
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+
+
+@media (max-width: 991px) {
+ .desktop-version {
+   display: none !important;
+ }
+}
+
 @media (min-width: 992px) {
   body {
     background-color: #f7f6f6;
   }
-
-
+  .mobile-version {
+    display: none !important;
+  }
 }

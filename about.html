@@ -159,7 +159,7 @@
     <div class="team-carousel">
       <div>
         <div class="img-cover">
-            <img src="./img/base-photo-sm.jpg" alt="...">
+            <img src="./img/couple.png" alt="...">
         </div>
 
         <h5>Андрей Петров 2</h5>
@@ -277,22 +277,7 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="equipment-mobile mobile-version">
-
         <div class="carousel-item">
             <img class="card-img-top" src="./img/equip/Phantom4Pro.jpg" alt="Card image cap">
             <div class="card-block">
@@ -342,24 +327,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 <div class="submit-request about-us">
     <div class="form-wrapper">
@@ -398,16 +365,17 @@
     <div class="author">
         <span class="ensodesign">Сделано руками <br class="desktop-version"><a href="#">ensodesign.ru</a> в&nbsp;2018&nbsp;году</span>
     </div>
+    <svg width="0" height="0">
+        <defs>
+            <clipPath id="CircleClip">
+                <circle cx="100" cy="90" r="90" />
+            </clipPath>
+        </defs>
+    </svg>
 </div>
 
 
-<svg width="0" height="0">
-    <defs>
-        <clipPath id="CircleClip">
-            <circle cx="100" cy="90" r="90" />
-        </clipPath>
-    </defs>
-</svg>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -416,10 +384,19 @@
 
 
 <script >
-      $('.team-carousel').slick({
-        arrows: false,
-        dots: true
-      });
+      if( window.innerWidth > 991 ) {
+        $('.team-carousel').slick({
+            arrows: true,
+            dots: true
+        });
+      }
+      else {
+        $('.team-carousel').slick({
+            arrows: false,
+            dots: true
+        });
+      }
+
       $('.equipment-mobile').slick({
           arrows: false,
           dots: true

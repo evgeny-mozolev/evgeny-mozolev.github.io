@@ -134,28 +134,32 @@
 
             <div class="card">
                 <div class="card-body">
-                      <a class="img-container" href="#">
+
+                      <div class="img-container js-modal-video" data-video-id="7TUOI23spt0">
                         <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
-                      </a>
+                      </div>
+
                       <div class="card-body">
                         <h5 class="card-title">Анатолий и&nbsp;Станислава</h5>
                         <hr align="center" width="100" color="#c5a2fd" style="border: 1px solid #c5a2fd"/>
                         <p class="card-text">пакет «Базовый»</p>
-                        <a href="#" class="portfolio-link" style="color: #8ab7b8; text-decoration: underline">Узнать стоимость</a>
+                        <a href="#" class="portfolio-link base-link" style="text-decoration: underline">Узнать стоимость</a>
                       </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-body">
-                    <a class="img-container" href="#">
+
+                    <div class="img-container js-modal-video" href="#" data-video-id="EUHcNeg_e9g">
                         <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
-                    </a>
+                    </div>
+
                     <div class="card-body">
                         <h5 class="card-title">Константин и&nbsp;Маргарита</h5>
                         <hr align="center" width="100" color="#d5a14f" style="border: 1px solid #d5a14f"/>
                         <p class="card-text">пакет «Эксклюзив»</p>
-                        <a href="#" class="portfolio-link" style="color: #d5a14f; text-decoration: underline">Узнать стоимость</a>
+                        <a href="#" class="portfolio-link exclusive-link" style="text-decoration: underline">Узнать стоимость</a>
                     </div>
                 </div>
             </div>
@@ -170,14 +174,14 @@
 
             <div class="card">
                 <div class="card-body">
-                  <a class="img-container" href="#">
+                  <div class="img-container js-modal-video" data-video-id="B7bqAsxee4I">
                     <img class="card-img-top" src="img/base-photo-sm.jpg" alt="portfolio-story-img">
-                  </a>
+                  </div>
                     <div class="card-body">
                         <h5 class="card-title">Виолетта и&nbsp;Егор</h5>
                         <hr align="center" width="100" color="#f58e8e" style="border: 1px solid #f58e8e"/>
                         <p class="card-text">пакет «Стандарт»</p>
-                        <a href="#" class="portfolio-link" style="color: #f58e8e; text-decoration: underline">Узнать стоимость</a>
+                        <a href="#" class="portfolio-link standard-link" style="text-decoration: underline">Узнать стоимость</a>
                     </div>
                 </div>
             </div>
@@ -235,7 +239,12 @@
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/modal-video.js"></script>
+<script src="js/jquery-modal-video.js"></script>
+
 <script >
+
+
     if( window.innerWidth > 991 ) {
         var vidsrc = document.createElement('source');
         vidsrc.type = "video/mp4";
@@ -247,6 +256,7 @@
         happiness.insertBefore( $('.card:first-of-type') );
     }
     $('#video-jumbotron').append(vidsrc);
+
 
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

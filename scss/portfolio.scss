@@ -274,14 +274,13 @@
        &.initiator {
          margin-bottom: 25px;
        }
-
        .card-body {
-
          .img-container {
            margin: 25px 0;
            border-radius: 0;
            position: relative;
            display: block;
+           cursor: pointer;
          }
          .img-container:before {
            content: "";

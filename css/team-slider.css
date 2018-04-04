@@ -37,49 +37,59 @@
         padding: 0 15px; } }
 @media (min-width: 992px) {
   .team-slider {
-    max-width: 1200px;
-    color: black;
     background-color: #f7f6f6;
     text-align: center;
     padding: 50px 0;
     font-family: GothamProLight; }
+    .team-slider ul.slick-dots {
+      margin-top: 25px; }
+      .team-slider ul.slick-dots li.slick-active button::before {
+        color: #D5A14F; }
+      .team-slider ul.slick-dots li button::before {
+        font-size: 30px;
+        color: #9FA3A7; }
     .team-slider .h3 {
       font-family: GothamProBold;
       text-transform: uppercase;
       font-size: 24px; }
-    .team-slider #carouselExampleIndicators {
-      padding: 45px 0; }
-      .team-slider #carouselExampleIndicators .carousel-control-next, .team-slider #carouselExampleIndicators .carousel-control-prev {
-        color: #D5A14F;
-        font-size: 42px; }
-      .team-slider #carouselExampleIndicators .carousel-control-prev {
-        position: absolute;
-        left: 0; }
-      .team-slider #carouselExampleIndicators .carousel-indicators li {
-        border-radius: 8px;
-        width: 8px;
-        height: 8px;
-        background-color: #d8d8d8; }
-        .team-slider #carouselExampleIndicators .carousel-indicators li.active {
-          background-color: #D5A14F; }
-      .team-slider #carouselExampleIndicators .carousel-inner {
-        height: 400px;
-        max-width: 1200px;
-        margin: 0 auto; }
-        .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption {
-          position: initial;
-          color: black;
-          width: 70%;
+    .team-slider .team-carousel {
+      width: 100%; }
+      .team-slider .team-carousel button.slick-prev.slick-arrow {
+        left: 5% !important;
+        z-index: 1; }
+        .team-slider .team-carousel button.slick-prev.slick-arrow:before {
+          left: 5% !important;
+          content: ',';
+          font-family: 'weddingmovies';
+          font-size: 45px;
+          color: #D5A14F; }
+      .team-slider .team-carousel button.slick-next.slick-arrow {
+        right: 6% !important; }
+        .team-slider .team-carousel button.slick-next.slick-arrow:before {
+          content: '.';
+          font-family: 'weddingmovies';
+          font-size: 45px;
+          color: #D5A14F; }
+      .team-slider .team-carousel .img-cover {
+        text-align: center;
+        margin: 40px auto 0;
+        height: 180px;
+        width: 200px;
+        clip-path: url("#CircleClip"); }
+        .team-slider .team-carousel .img-cover img {
           margin: 0 auto; }
-          .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption h5 {
-            font-family: GothamProBold;
-            letter-spacing: 0.2px; }
-          .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption .lead {
-            font-family: GothamProLight;
-            font-size: 15px; }
-          .team-slider #carouselExampleIndicators .carousel-inner .carousel-caption .team-member-description {
-            font-family: ProximaNovaRegular;
-            font-size: 17px;
-            margin-bottom: 25px; } }
+      .team-slider .team-carousel div h5 {
+        font-family: GothamProBold;
+        text-shadow: none;
+        font-size: 24px; }
+      .team-slider .team-carousel div .lead {
+        font-family: GothamProRegular;
+        font-size: 16px;
+        margin-bottom: 30px; }
+      .team-slider .team-carousel div .team-member-description {
+        font-family: ProximaNovaRegular;
+        font-size: 16px;
+        width: 850px;
+        margin: 0 auto 25px; } }
 
 /*# sourceMappingURL=team-slider.css.map */

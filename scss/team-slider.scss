@@ -54,72 +54,86 @@
           }
       }
     }
-
-
-
   }
 }
 
+
+
 @media (min-width: 992px) {
   .team-slider {
-    max-width: 1200px;
-    //margin: 0 auto;
-    color: black;
     background-color: #f7f6f6;
     text-align: center;
     padding: 50px 0;
     font-family: GothamProLight;
-      .h3 {
-        font-family: GothamProBold;
-        text-transform: uppercase;
-        font-size: 24px;
-      }
-    #carouselExampleIndicators {
-      padding: 45px 0;
-      .carousel-control-next, .carousel-control-prev {
-        color: #D5A14F;
-        font-size: 42px;
-      }
-      .carousel-control-prev {
-        position: absolute;
-        left: 0;
-      }
 
-
-
-
-
-      .carousel-indicators li {
-        border-radius: 8px;
-        width: 8px;
-        height: 8px;
-        background-color: #d8d8d8;
-          &.active {
-          background-color: #D5A14F;
+    ul.slick-dots {
+      margin-top: 25px;
+      li {
+        &.slick-active {
+          button::before {
+            color: #D5A14F;
           }
+        }
+        button::before {
+          font-size: 30px;
+          color: #9FA3A7;
+        }
       }
-      .carousel-inner {
-        height: 400px;
-        max-width: 1200px;
-        margin: 0 auto;
-        .carousel-caption {
-          position: initial;
-          color: black;
-          width: 70%;
+    }
+    .h3 {
+      font-family: GothamProBold;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+    .team-carousel {
+      width: 100%;
+      button.slick-prev.slick-arrow {
+        left: 5% !important;
+        z-index: 1;
+        &:before {
+          left: 5% !important;
+          content: ',';
+          font-family: 'weddingmovies';
+          font-size: 45px;
+          color: #D5A14F
+        }
+      }
+      button.slick-next.slick-arrow {
+        right: 6% !important;
+        &:before {
+          content: '.';
+          font-family: 'weddingmovies';
+          font-size: 45px;
+          color: #D5A14F;
+        }
+      }
+      .img-cover {
+        text-align: center;
+        margin: 40px auto 0;
+        height: 180px;
+        width: 200px;
+        clip-path: url('#CircleClip');
+        img {
           margin: 0 auto;
-          h5 {
-            font-family: GothamProBold;
-            letter-spacing: 0.2px;
-          }
-          .lead {
-            font-family: GothamProLight;
-            font-size: 15px;
-          }
-          .team-member-description {
-            font-family: ProximaNovaRegular;
-            font-size: 17px;
-            margin-bottom: 25px;
-          }
+        }
+      }
+
+      div {
+        h5 {
+          font-family: GothamProBold;
+          text-shadow: none;
+          font-size: 24px;
+        }
+        .lead {
+          font-family: GothamProRegular;
+          font-size: 16px;
+          margin-bottom: 30px;
+        }
+        .team-member-description {
+          font-family: ProximaNovaRegular;
+          font-size: 16px;
+          width: 850px;
+          margin: 0 auto 25px;
         }
       }
     }

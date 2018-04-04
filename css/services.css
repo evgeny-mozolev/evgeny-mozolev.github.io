@@ -231,7 +231,7 @@
                   content: '__________';
                   position: relative;
                   color: #d5a14f;
-                  left: -185px;
+                  left: -60%;
                   font-size: 19px;
                   top: 2px; }
               .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:focus, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:focus {
@@ -310,6 +310,8 @@
   .services {
     text-align: center;
     background-color: #fff; }
+    .services label {
+      cursor: pointer; }
     .services .services-head {
       padding: 40px 0 60px;
       background-color: #f7f6f6; }
