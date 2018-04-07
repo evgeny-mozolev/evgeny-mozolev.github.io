@@ -180,6 +180,7 @@
               margin-bottom: 0; }
             .services .tab-content .additional-options .radios .radios-col #sub-col-3 label, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label {
               height: auto;
+              font-size: 18px !important;
               margin-bottom: 0; }
               .services .tab-content .additional-options .radios .radios-col #sub-col-3 label .checkmark-box, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label .checkmark-box, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label .checkmark-box, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label .checkmark-box {
                 box-sizing: border-box;
@@ -209,7 +210,7 @@
               .services .tab-content .additional-options .radios .radios-col #sub-col-3 label p, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label p, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label p, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label p {
                 margin-left: 5%;
                 line-height: 25px;
-                font-size: 19px;
+                font-size: 18px;
                 width: 75%; }
               .services .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .services .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box, .services .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box {
                 border: 1px solid #d5a14f; }
@@ -232,7 +233,7 @@
                   position: relative;
                   color: #d5a14f;
                   left: -60%;
-                  font-size: 19px;
+                  font-size: 18px;
                   top: 2px; }
               .services .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:focus, .services .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:focus {
                 border: none;
@@ -313,17 +314,18 @@
     .services label {
       cursor: pointer; }
     .services .services-head {
-      padding: 40px 0 60px;
+      padding: 40px 0 70px;
       background-color: #f7f6f6; }
       .services .services-head p {
         position: absolute;
+        font-family: GothamProRegular;
+        font-size: 18px;
         left: 0;
         right: 0;
-        width: 350px;
+        width: 375px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -20px;
-        font-size: 16px; }
+        margin-top: -20px; }
       .services .services-head .h4 {
         font-size: 34px;
         line-height: 46px;
@@ -340,16 +342,15 @@
       width: 100%;
       margin: 0 auto; }
       .services nav .nav-tabs {
-        width: 58%;
+        width: 65%;
         margin: 0 auto; }
         .services nav .nav-tabs .nav-item {
           margin: 0 auto;
           width: 50%;
-          font-size: 18px;
+          font-size: 22px;
           text-decoration: none;
           color: black; }
           .services nav .nav-tabs .nav-item.active {
-            font-family: GothamProMedium;
             border: none;
             border-bottom: 3px solid #ecad9c;
             line-height: 25px;
@@ -388,24 +389,27 @@
             color: #d5a14f; }
         .tab-content .package-choice .radio-packages label {
           width: 24%;
-          border: 2px solid #ccc;
+          border: 1px solid #ccc;
           border-radius: 10px;
           padding: 15px 0;
           margin: 25px 7px; }
           .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive {
-            border: 2px solid #d5a14f; }
+            border: 2px solid #d5a14f;
+            padding: 13px 0; }
             .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive input:checked ~ .checkmark {
               border: 1px solid #d5a14f; }
             .tab-content .package-choice .radio-packages label.option-with-golden-boarder.exclusive .checkmark:after {
               background: #d5a14f; }
           .tab-content .package-choice .radio-packages label.option-with-golden-boarder.standard {
-            border: 2px solid #ecad9c; }
+            border: 2px solid #ecad9c;
+            padding: 13px 0; }
             .tab-content .package-choice .radio-packages label.option-with-golden-boarder.standard input:checked ~ .checkmark {
               border: 1px solid #ecad9c; }
             .tab-content .package-choice .radio-packages label.option-with-golden-boarder.standard .checkmark:after {
               background: #ecad9c; }
           .tab-content .package-choice .radio-packages label.option-with-golden-boarder.basic {
-            border: 2px solid #93b6b7; }
+            border: 2px solid #93b6b7;
+            padding: 13px 0; }
             .tab-content .package-choice .radio-packages label.option-with-golden-boarder.basic input:checked ~ .checkmark {
               border: 1px solid #93b6b7; }
             .tab-content .package-choice .radio-packages label.option-with-golden-boarder.basic .checkmark:after {
@@ -530,31 +534,32 @@
             .tab-content .additional-options .radios .radios-col #sub-col-3 label p, .tab-content .additional-options .radios .radios-col #sub-col-4 label p, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label p, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label p {
               margin-left: 5%;
               line-height: 25px;
-              font-size: 19px;
+              font-size: 18px;
               width: 75%; }
             .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box {
               border: 1px solid #d5a14f; }
             .tab-content .additional-options .radios .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .tab-content .additional-options .radios .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-3 label input:checked ~ .checkmark-box:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 label input:checked ~ .checkmark-box:after {
               display: block; }
-          .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date], .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date] {
+          .tab-content .additional-options .radios .radios-col #sub-col-4 #dateInput, .tab-content .additional-options .checkbox .radios-col #sub-col-4 #dateInput {
             font-family: GothamProRegular;
-            color: #171616;
+            color: #333333;
             border: none;
+            border-bottom: 1px solid #d5a14f;
             position: relative;
             top: -8px;
-            margin-bottom: 10px; }
-            .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date][disabled], .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date][disabled] {
-              background: none;
+            margin-bottom: 10px;
+            width: 155px; }
+            .tab-content .additional-options .radios .radios-col #sub-col-4 #dateInput[disabled], .tab-content .additional-options .checkbox .radios-col #sub-col-4 #dateInput[disabled] {
+              background: #fdfdfd;
               color: #ccc; }
-            .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:after {
+            .tab-content .additional-options .radios .radios-col #sub-col-4 #dateInput:after, .tab-content .additional-options .checkbox .radios-col #sub-col-4 #dateInput:after {
               content: '__________';
               position: relative;
               color: #d5a14f;
               left: -185px;
               font-size: 19px;
               top: 2px; }
-          .tab-content .additional-options .radios .radios-col #sub-col-4 input[type=date]:focus, .tab-content .additional-options .checkbox .radios-col #sub-col-4 input[type=date]:focus {
-            border: none;
+          .tab-content .additional-options .radios .radios-col #sub-col-4 #dateInput:focus, .tab-content .additional-options .checkbox .radios-col #sub-col-4 #dateInput:focus {
             outline: none; }
     .tab-content .standard-services {
       display: flex;
@@ -575,7 +580,8 @@
           font-size: 18px; }
         .tab-content .standard-services div.package .package-items p {
           padding: 0 5%;
-          margin-bottom: 35px; }
+          margin-bottom: 35px;
+          color: #777777; }
         .tab-content .standard-services div.package .package-result {
           padding: 15px 25px;
           margin-top: 50px;
@@ -602,8 +608,14 @@
           font-family: ProximaNovaSemibold;
           font-size: 14px;
           letter-spacing: 2px; }
+          .tab-content .standard-services div.package .btn:hover {
+            background-color: #ecad9c;
+            color: white; }
           .tab-content .standard-services div.package .btn.stnd-package {
             border: 2px solid #93b6b7; }
+            .tab-content .standard-services div.package .btn.stnd-package:hover {
+              background-color: #93b6b7;
+              color: white; }
           .tab-content .standard-services div.package .btn.gold {
             font-family: ProximaNovaRegular;
             font-size: 16px;
@@ -612,6 +624,14 @@
             border: 0;
             padding: 15px 52px;
             color: white; }
+            .tab-content .standard-services div.package .btn.gold:hover {
+              background-color: #fff;
+              background-image: none;
+              color: black;
+              border: 2px solid #d5a14f;
+              padding: 14.5px 54px;
+              font-family: ProximaNovaSemibold;
+              font-size: 14px; }
         .tab-content .standard-services div.package.central {
           z-index: 1;
           height: 100%;

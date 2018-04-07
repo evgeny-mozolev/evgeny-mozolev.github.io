@@ -88,6 +88,8 @@
     .team-carousel {
       width: 100%;
       button.slick-prev.slick-arrow {
+        width: 50px;
+        height: 50px;
         left: 5% !important;
         z-index: 1;
         &:before {
@@ -99,7 +101,9 @@
         }
       }
       button.slick-next.slick-arrow {
-        right: 6% !important;
+        right: 5% !important;
+        width: 50px;
+        height: 50px;
         &:before {
           content: '.';
           font-family: 'weddingmovies';

@@ -21,9 +21,11 @@
       margin-top: 25px;
       width: unset;
       background-color: #f7f6f6;
+      padding: 8px 20px;
       &:hover {
-        border: 2px solid #D6B46A ;
+        border: none;
         width: unset;
+        padding: 8px 22px;
       }
     }
   }

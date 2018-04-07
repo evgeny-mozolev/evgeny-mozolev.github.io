@@ -17,10 +17,12 @@ button.btn.order-btn {
   button.btn.order-btn.contact-info-button {
     margin-top: 25px;
     width: unset;
-    background-color: #f7f6f6; }
+    background-color: #f7f6f6;
+    padding: 8px 20px; }
     button.btn.order-btn.contact-info-button:hover {
-      border: 2px solid #D6B46A;
-      width: unset; }
+      border: none;
+      width: unset;
+      padding: 8px 22px; }
 
 button.btn.all-projects {
   width: 202px;

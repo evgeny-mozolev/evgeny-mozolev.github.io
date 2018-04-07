@@ -67,16 +67,18 @@
       text-align: center;
       padding: 40px 0 60px; }
       .contacts-section .contacts-head p {
+        font-family: GothamProRegular;
+        font-size: 18px;
         position: absolute;
         left: 0;
         right: 0;
         width: 370px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -20px;
-        font-size: 16px; }
+        margin-top: -20px; }
       .contacts-section .contacts-head .h4 {
         font-size: 34px;
+        font-family: GothamProMedium;
         line-height: 46px;
         padding: 0 45px;
         vertical-align: top; }
@@ -117,14 +119,14 @@
         display: flex;
         flex-direction: column;
         margin: 40px 0;
-        font-size: 22px; }
+        font-size: 20px; }
         .contacts-section .contacts-map #contacts-map-col2 .contact-info .tel {
           font-family: GothamProRegular; }
         .contacts-section .contacts-map #contacts-map-col2 .contact-info .email {
-          font-size: 22px;
+          font-size: 20px;
           color: #D5A14F;
           font-family: ProximaNovaLight; }
       .contacts-section .contacts-map #contacts-map-col2 .address p {
-        font-size: 22px; } }
+        font-size: 20px; } }
 
 /*# sourceMappingURL=contacts.css.map */

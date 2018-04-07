@@ -201,6 +201,7 @@
                 display: flex;
                 flex-direction: row;
                 line-height: 25px;
+
                 input:checked ~ .checkmark {
                   border: 1px solid #d5a14f;
                 }
@@ -245,6 +246,7 @@
             #sub-col-3, #sub-col-4 {
               label {
                 height: auto;
+                font-size: 18px !important;
                 //width: 80%;
                 margin-bottom: 0;
                 .checkmark-box {
@@ -279,7 +281,7 @@
                 p {
                   margin-left: 5%;
                   line-height: 25px;
-                  font-size: 19px;
+                  font-size: 18px;
                   width: 75%;
                 }
                 input:checked ~ .checkmark-box {
@@ -308,7 +310,7 @@
                   position: relative;
                   color: #d5a14f;
                   left: -60%;
-                  font-size: 19px;
+                  font-size: 18px;
                   top: 2px;
                 }
               }
@@ -423,25 +425,22 @@
   .services {
     text-align: center;
     background-color: #fff;
-
     label {
       cursor: pointer;
     }
-
-
-
     .services-head {
-      padding: 40px 0 60px;
+      padding: 40px 0 70px;
       background-color: #f7f6f6;
       p {
         position: absolute;
+        font-family: GothamProRegular;
+        font-size: 18px;
         left: 0;
         right: 0;
-        width: 350px;
+        width: 375px;
         margin-left: auto;
         margin-right: auto;
         margin-top: -20px;
-        font-size: 16px;
         //letter-spacing: 0.4px;
       }
       .h4 {
@@ -463,16 +462,15 @@
       width: 100%;
       margin: 0 auto;
       .nav-tabs {
-        width: 58%;
+        width: 65%;
         margin: 0 auto;
         .nav-item {
           margin: 0 auto;
           width: 50%;
-          font-size: 18px;
+          font-size: 22px;
           text-decoration: none;
           color: black;
           &.active {
-            font-family: GothamProMedium;
             border: none;
             border-bottom: 3px solid rgb(236, 173, 156);
             line-height: 25px;
@@ -527,15 +525,17 @@
         }
         label {
           width: 24%;
-          border: 2px solid #ccc;
+          border: 1px solid #ccc;
           border-radius: 10px;
           padding: 15px 0;
           margin: 25px 7px;
           &.option-with-golden-boarder {
             &.exclusive {
               border: 2px solid #d5a14f;
+              padding: 13px 0;
               input:checked ~ .checkmark {
                 border: 1px solid #d5a14f;
+
               }
               .checkmark:after {
                 background: #d5a14f;
@@ -543,6 +543,7 @@
             }
             &.standard {
               border: 2px solid #ecad9c;
+              padding: 13px 0;
               input:checked ~ .checkmark {
                 border: 1px solid #ecad9c;
               }
@@ -552,6 +553,7 @@
             }
             &.basic {
               border: 2px solid #93b6b7;
+              padding: 13px 0;
               input:checked ~ .checkmark {
                 border: 1px solid #93b6b7;
               }
@@ -711,7 +713,7 @@
               p {
                 margin-left: 5%;
                 line-height: 25px;
-                font-size: 19px;
+                font-size: 18px;
                 width: 75%;
               }
               input:checked ~ .checkmark-box {
@@ -723,15 +725,17 @@
             }
           }
           #sub-col-4 {
-            input[type=date] {
+            #dateInput {
               font-family: GothamProRegular;
-              color: #171616;
+              color: #333333;
               border: none;
+              border-bottom: 1px solid #d5a14f;
               position: relative;
               top: -8px;
               margin-bottom: 10px;
+              width: 155px;
               &[disabled] {
-                background: none;
+                background: #fdfdfd;
                 color: #ccc;
               }
               &:after {
@@ -742,9 +746,10 @@
                 font-size: 19px;
                 top: 2px;
               }
+
             }
-            input[type=date]:focus {
-              border: none;
+            #dateInput:focus {
+
               outline: none;
             }
           }
@@ -778,6 +783,7 @@
           p {
             padding: 0 5%;
             margin-bottom: 35px;
+            color: #777777;
           }
         }
         .package-result {
@@ -810,8 +816,16 @@
           font-family: ProximaNovaSemibold;
           font-size: 14px;
           letter-spacing: 2px;
+            &:hover {
+              background-color: #ecad9c;
+              color: white;
+            }
           &.stnd-package {
             border: 2px solid #93b6b7;
+            &:hover {
+              background-color: #93b6b7;
+              color: white;
+            }
           }
           &.gold {
             font-family: ProximaNovaRegular;
@@ -821,6 +835,15 @@
             border: 0;
             padding: 15px 52px;
             color: white;
+            &:hover {
+              background-color: #fff;
+              background-image: none;
+              color: black;
+              border: 2px solid #d5a14f;
+              padding: 14.5px 54px;
+              font-family: ProximaNovaSemibold;
+              font-size: 14px;
+            }
           }
         }
         &.central {
