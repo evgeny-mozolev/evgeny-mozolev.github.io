@@ -76,13 +76,29 @@
           color: #D5A14F; }
       .team-slider .team-carousel .img-cover {
         text-align: center;
-        margin: 40px auto 0;
-        height: 180px;
-        width: 200px;
-        clip-path: url("#CircleClip");
-        -webkit-clip-path: url("#CircleClip"); }
+        overflow: hidden;
+        margin: 40px auto 25px;
+        height: 160px;
+        width: 160px;
+        position: relative; }
+        .team-slider .team-carousel .img-cover:after {
+          position: absolute;
+          content: "";
+          display: block;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-image: url("../img/circle.png");
+          background-size: 100% 100%;
+          background-position: center; }
         .team-slider .team-carousel .img-cover img {
-          margin: 0 auto; }
+          position: absolute;
+          top: -9999px;
+          bottom: -9999px;
+          left: -9999px;
+          right: -9999px;
+          margin: auto; }
       .team-slider .team-carousel div h5 {
         font-family: GothamProBold;
         text-shadow: none;

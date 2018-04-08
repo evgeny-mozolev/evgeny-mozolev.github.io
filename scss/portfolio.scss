@@ -25,6 +25,9 @@
       .card {
         border: none;
         margin: 25px 5px;
+        &.initiator.desktop-version {
+          display: none;
+        }
         .portfolio-teaser {
           background-color: #f7f6f6;
           border-radius: 0;

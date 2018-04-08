@@ -20,6 +20,8 @@
     .portfolio .card {
       border: none;
       margin: 25px 5px; }
+      .portfolio .card.initiator.desktop-version {
+        display: none; }
       .portfolio .card .portfolio-teaser {
         background-color: #f7f6f6;
         border-radius: 0;

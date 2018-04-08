@@ -57,6 +57,7 @@
         color: #D5A14F;
         font-family: ProximaNovaLight; }
     .contacts-map #contacts-map-col1 {
+      padding-bottom: 50px;
       overflow: hidden; }
       .contacts-map #contacts-map-col1 > ymaps {
         display: block; } }
