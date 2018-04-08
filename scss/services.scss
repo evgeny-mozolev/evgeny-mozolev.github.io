@@ -462,7 +462,7 @@
       width: 100%;
       margin: 0 auto;
       .nav-tabs {
-        width: 65%;
+        width: 79%;
         margin: 0 auto;
         .nav-item {
           margin: 0 auto;
@@ -518,6 +518,7 @@
           font-family: PlayfairDisplayRegular;
           color: #838383;
           font-size: 20px;
+          padding-left: 14%;
           .package-price {
             font-family: ProximaNovaLight;
             color: #d5a14f;
@@ -569,7 +570,7 @@
           .checkmark {
             position: relative;
             top: 25px;
-            left: 23px;
+            left: 10%;
             height: 18px;
             width: 18px;
             border-radius: 50%;

@@ -1,3 +1,10 @@
+@media (max-width: 991px) {
+  button.btn.order-btn {
+    &.contact-info-button {
+      margin-bottom: 50px;
+    }
+  }
+}
 
   button.btn.order-btn {
     font-family: ProximaNovaSemibold;

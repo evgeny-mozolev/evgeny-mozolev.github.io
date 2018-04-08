@@ -7,7 +7,8 @@
       justify-content: center;
       padding: 35px 0 35px; }
       .feedback-section .feedback-head .h4 {
-        font-size: 36px;
+        font-family: GothamProMedium;
+        font-size: 24px;
         line-height: 50px;
         vertical-align: top;
         padding: 0 20px; }

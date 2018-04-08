@@ -9,7 +9,7 @@
     padding: 25px 0 75px; }
     .contacts-head .h4 {
       font-size: 24px;
-      line-height: 24px;
+      line-height: 26px;
       font-family: GothamProMedium; }
     .contacts-head .contacts-attire {
       font-size: 48px; }
@@ -60,6 +60,19 @@
       overflow: hidden; }
       .contacts-map #contacts-map-col1 > ymaps {
         display: block; } }
+@media (min-width: 992px) and (max-width: 1280px) {
+  .contacts-section #contacts-map-col1 {
+    width: 50%;
+    margin-right: 2%;
+    padding-right: 1%;
+    text-align: right; }
+    .contacts-section #contacts-map-col1 > ymaps {
+      display: block;
+      float: right;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15); }
+    .contacts-section #contacts-map-col1 img {
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+      width: 465px; } }
 @media (min-width: 992px) {
   .contacts-section {
     background-color: #f7f6f6; }
@@ -91,18 +104,6 @@
       padding: 50px 0;
       display: flex;
       flex-direction: row; }
-      .contacts-section .contacts-map #contacts-map-col1 {
-        width: 50%;
-        margin-right: 5%;
-        padding-right: 3%;
-        text-align: right; }
-        .contacts-section .contacts-map #contacts-map-col1 > ymaps {
-          display: block;
-          float: right;
-          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15); }
-        .contacts-section .contacts-map #contacts-map-col1 img {
-          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
-          width: 550px; }
       .contacts-section .contacts-map #contacts-map-col2 .send-request {
         margin: 50px 0;
         font-family: ProximaNovaSemibold;
@@ -128,5 +129,18 @@
           font-family: ProximaNovaLight; }
       .contacts-section .contacts-map #contacts-map-col2 .address p {
         font-size: 20px; } }
+@media (min-width: 1280px) {
+  .contacts-section #contacts-map-col1 {
+    width: 50%;
+    margin-right: 2%;
+    padding-right: 3%;
+    text-align: right; }
+    .contacts-section #contacts-map-col1 > ymaps {
+      display: block;
+      float: right;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15); }
+    .contacts-section #contacts-map-col1 img {
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+      width: 500px; } }
 
 /*# sourceMappingURL=contacts.css.map */

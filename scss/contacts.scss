@@ -9,7 +9,7 @@
     padding: 25px 0 75px;
       .h4 {
         font-size:24px;
-        line-height: 24px;
+        line-height: 26px;
         font-family: GothamProMedium;
       }
     .contacts-attire {
@@ -76,6 +76,26 @@
   }
 }
 
+@media (min-width: 992px) and (max-width: 1280px ) {
+  .contacts-section {
+    #contacts-map-col1 {
+      width: 50%;
+      margin-right: 2%;
+      padding-right: 1%;
+      text-align: right;
+      & > ymaps {
+        display: block;
+        float: right;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+      }
+      img {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+        width: 465px;
+      }
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .contacts-section {
     background-color: #f7f6f6;
@@ -113,22 +133,7 @@
       padding: 50px 0;
       display: flex;
       flex-direction: row;
-        #contacts-map-col1 {
-          width: 50%;
-          margin-right: 5%;
-          padding-right: 3%;
-          text-align: right;
-          & > ymaps {
-            display: block;
-            float: right;
-            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
-          }
-          
-          img {
-            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
-            width: 550px;
-          }
-        }
+
         #contacts-map-col2 {
           .send-request {
             margin: 50px 0;
@@ -167,3 +172,22 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .contacts-section {
+    #contacts-map-col1 {
+      width: 50%;
+      margin-right: 2%;
+      padding-right: 3%;
+      text-align: right;
+      & > ymaps {
+        display: block;
+        float: right;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+      }
+      img {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+        width: 500px;
+      }
+    }
+  }
+}

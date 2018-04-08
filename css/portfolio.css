@@ -272,7 +272,8 @@
     .portfolio-page .portfolio-head {
       padding: 50px 0; }
     .portfolio-page .portfolio-masonry .card .card-title {
-      padding-top: 25px; }
+      padding-top: 25px;
+      padding-bottom: 15px; }
     .portfolio-page .portfolio-masonry .card .card-text {
       padding-bottom: 35px; }
     .portfolio-page .portfolio-masonry .card .card-body.portfolio-teaser {

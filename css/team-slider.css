@@ -79,7 +79,8 @@
         margin: 40px auto 0;
         height: 180px;
         width: 200px;
-        clip-path: url("#CircleClip"); }
+        clip-path: url("#CircleClip");
+        -webkit-clip-path: url("#CircleClip"); }
         .team-slider .team-carousel .img-cover img {
           margin: 0 auto; }
       .team-slider .team-carousel div h5 {
